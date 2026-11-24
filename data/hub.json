@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-24T14:56:40Z",
+  "updated": "2026-11-24T15:12:29Z",
   "version": 1,
   "horizon": "2027-12-31",
   "note": "Nội dung đợt 1 do Claude tạo (vai Strategist, Copywriter, Visual, Director). Từ đợt sau: agent tự chạy bằng GitHub Actions + Gemini API free tier."
@@ -17,6 +17,44 @@
    "colors": [
     "Natural wood / White"
    ]
+  },
+  "vanities": {
+   "ZENA": {
+    "name": "Lignarc Zena Bathroom Vanity",
+    "sizes": "36\", 48\", 60\", 72\" (60/72 double sink)",
+    "specs": "herringbone (chevron) grain door panels, stone-look top with backsplash, three center drawers on 60/72",
+    "colors": [
+     "Light Oak",
+     "Dark Oak"
+    ]
+   },
+   "CALIX": {
+    "name": "Lignarc Calix Bathroom Vanity",
+    "sizes": "60\", 72\" (double sink)",
+    "specs": "fluted (reeded) fronts, stone-look top, three center drawers; black pulls (Light Oak) or brushed-gold pulls (Dark Oak)",
+    "colors": [
+     "Light Oak",
+     "Dark Oak"
+    ]
+   },
+   "CALIX-FLOAT": {
+    "name": "Lignarc Calix Floating Vanity",
+    "sizes": "18\", 24\", 30\"",
+    "specs": "wall-mounted, fluted front, white ceramic sink, side towel bar",
+    "colors": [
+     "Light Oak",
+     "Dark Oak",
+     "Black Oak"
+    ]
+   },
+   "PARKWAY": {
+    "name": "Lignarc Caroline Parkway Vanity",
+    "sizes": "36\" W × 22\" D × 35\" H",
+    "specs": "shaker style, four drawers + two-door cabinet, white top with backsplash; faucet, drain and mirror not included",
+    "colors": [
+     "Grey"
+    ]
+   }
   },
   "local": {
    "name": "Xe đẩy 3 tầng khung gỗ — Living Furniture",
@@ -151,6 +189,7 @@
    "aspect": "4:5",
    "title": "One cart. Every room.",
    "ch": "global",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -162,6 +201,7 @@
    "aspect": "4:5",
    "title": "0 tools — fully assembled",
    "ch": "global",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -173,6 +213,7 @@
    "aspect": "4:5",
    "title": "Made for the 12-inch gap",
    "ch": "global",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -184,6 +225,7 @@
    "aspect": "4:5",
    "title": "Hosting season, sorted",
    "ch": "global",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -195,6 +237,7 @@
    "aspect": "2:3",
    "title": "Pinterest — 5 ways to style",
    "ch": "global",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -206,6 +249,7 @@
    "aspect": "4:5",
    "title": "Carousel 1/5",
    "ch": "global",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -217,6 +261,7 @@
    "aspect": "4:5",
    "title": "Carousel 2/5",
    "ch": "global",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -228,6 +273,7 @@
    "aspect": "4:5",
    "title": "Carousel 3/5",
    "ch": "global",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -239,6 +285,7 @@
    "aspect": "4:5",
    "title": "Carousel 4/5",
    "ch": "global",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -250,6 +297,7 @@
    "aspect": "4:5",
    "title": "Carousel 5/5",
    "ch": "global",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -261,6 +309,7 @@
    "aspect": "9:16",
    "title": "Cyber Week story",
    "ch": "global",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -272,6 +321,7 @@
    "aspect": "1:1",
    "title": "Plant stage",
    "ch": "global",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -283,6 +333,7 @@
    "aspect": "2:1",
    "title": "Wayfair — every room",
    "ch": "global",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -294,6 +345,7 @@
    "aspect": "2:1",
    "title": "Wayfair — assembled",
    "ch": "global",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -305,9 +357,166 @@
    "aspect": "9:16",
    "title": "Reel — one cart, every room (11s)",
    "ch": "global",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": "media/v/V01-one-cart-every-room-poster.jpg"
+  },
+  {
+   "id": "B01-zena-herringbone",
+   "path": "media/b/B01-zena-herringbone.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Zena — herringbone",
+   "ch": "global",
+   "sku": "ZENA",
+   "source": "Claude design (mới)",
+   "created": "2026-11-25",
+   "poster": null
+  },
+  {
+   "id": "B02-calix-fluted",
+   "path": "media/b/B02-calix-fluted.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Calix — fluted",
+   "ch": "global",
+   "sku": "CALIX",
+   "source": "Claude design (mới)",
+   "created": "2026-11-25",
+   "poster": null
+  },
+  {
+   "id": "B03-calix-floating",
+   "path": "media/b/B03-calix-floating.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Calix Floating — small bath",
+   "ch": "global",
+   "sku": "CALIX-FLOAT",
+   "source": "Claude design (mới)",
+   "created": "2026-11-25",
+   "poster": null
+  },
+  {
+   "id": "B04-pin-size-guide",
+   "path": "media/b/B04-pin-size-guide.jpg",
+   "kind": "image",
+   "aspect": "2:3",
+   "title": "Pinterest — vanity size guide",
+   "ch": "global",
+   "sku": "ZENA",
+   "source": "Claude design (mới)",
+   "created": "2026-11-25",
+   "poster": null
+  },
+  {
+   "id": "B05-parkway-shaker",
+   "path": "media/b/B05-parkway-shaker.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Caroline Parkway — shaker 36\"",
+   "ch": "global",
+   "sku": "PARKWAY",
+   "source": "Claude design (mới)",
+   "created": "2026-11-25",
+   "poster": null
+  },
+  {
+   "id": "B06-carousel-1",
+   "path": "media/b/B06-carousel-1.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Vanity carousel 1/5",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Claude design (mới)",
+   "created": "2026-11-25",
+   "poster": null
+  },
+  {
+   "id": "B06-carousel-2",
+   "path": "media/b/B06-carousel-2.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Vanity carousel 2/5",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Claude design (mới)",
+   "created": "2026-11-25",
+   "poster": null
+  },
+  {
+   "id": "B06-carousel-3",
+   "path": "media/b/B06-carousel-3.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Vanity carousel 3/5",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Claude design (mới)",
+   "created": "2026-11-25",
+   "poster": null
+  },
+  {
+   "id": "B06-carousel-4",
+   "path": "media/b/B06-carousel-4.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Vanity carousel 4/5",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Claude design (mới)",
+   "created": "2026-11-25",
+   "poster": null
+  },
+  {
+   "id": "B06-carousel-5",
+   "path": "media/b/B06-carousel-5.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Vanity carousel 5/5",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Claude design (mới)",
+   "created": "2026-11-25",
+   "poster": null
+  },
+  {
+   "id": "B07-new-year-story",
+   "path": "media/b/B07-new-year-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "New year bathroom story",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Claude design (mới)",
+   "created": "2026-11-25",
+   "poster": null
+  },
+  {
+   "id": "B08-waymore-lineup",
+   "path": "media/b/B08-waymore-lineup.jpg",
+   "kind": "image",
+   "aspect": "2:1",
+   "title": "Wayfair — bath collection lineup",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Claude design (mới)",
+   "created": "2026-11-25",
+   "poster": null
+  },
+  {
+   "id": "V03-bath-collection",
+   "path": "media/v/V03-bath-collection.mp4",
+   "kind": "video",
+   "aspect": "9:16",
+   "title": "Reel — bath vanity collection (12s)",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Claude design (mới)",
+   "created": "2026-11-25",
+   "poster": "media/v/V03-bath-collection-poster.jpg"
   },
   {
    "id": "L01-nha-nho-gon-bep",
@@ -316,6 +525,7 @@
    "aspect": "4:5",
    "title": "Nhà nhỏ vẫn gọn bếp",
    "ch": "local",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -327,6 +537,7 @@
    "aspect": "1:1",
    "title": "Không cần lắp ráp",
    "ch": "local",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -338,6 +549,7 @@
    "aspect": "1:1",
    "title": "Chọn màu: trắng / xanh rêu",
    "ch": "local",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -349,6 +561,7 @@
    "aspect": "4:5",
    "title": "Tết gọn nhà",
    "ch": "local",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -360,6 +573,7 @@
    "aspect": "4:5",
    "title": "12.12 sale",
    "ch": "local",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -371,6 +585,7 @@
    "aspect": "9:16",
    "title": "Kích thước — story",
    "ch": "local",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -382,6 +597,7 @@
    "aspect": "4:5",
    "title": "Góc làm việc",
    "ch": "local",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": null
@@ -393,6 +609,7 @@
    "aspect": "9:16",
    "title": "Reel — mở hộp là dùng (10s)",
    "ch": "local",
+   "sku": "VESTRA",
    "source": "Claude design (mới)",
    "created": "2026-11-25",
    "poster": "media/v/V02-mo-hop-la-dung-poster.jpg"
@@ -863,6 +1080,368 @@
    "created": "2026-11-25"
   },
   {
+   "id": "B-1127-IG",
+   "ch": "global",
+   "sku": "VANITY",
+   "date": "2026-11-27",
+   "channel": "instagram",
+   "also": [
+    "facebook"
+   ],
+   "format": "Carousel (5)",
+   "theme": "Black Friday — meet the bath collection",
+   "media": [
+    "media/b/B06-carousel-1.jpg",
+    "media/b/B06-carousel-2.jpg",
+    "media/b/B06-carousel-3.jpg",
+    "media/b/B06-carousel-4.jpg",
+    "media/b/B06-carousel-5.jpg"
+   ],
+   "hook": "Which vanity are you?",
+   "caption": "Which vanity are you? 🛁\n\nThe pattern lover → Zena (herringbone doors)\nThe texture lover → Calix (fluted fronts)\nThe small-space solver → Calix Floating (wall-mounted)\nThe classic → Caroline Parkway (shaker, soft grey)\n\nTell us your pick in the comments. Black Friday savings on Amazon & Wayfair for a limited time — link in bio.",
+   "hashtags": "#bathroomvanity #bathroomremodel #bathroomdesign #bathroomrefresh #herringbone #flutedvanity #floatingvanity #shakerstyle #homerenovation #bathroominspo",
+   "alt": "Five slides introducing four Lignarc bathroom vanities.",
+   "cta": "Comment + link in bio",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 86,
+    "notes": "Carousel “which one are you” kéo comment và lưu bài; kể đủ 4 dòng một lần.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "B-1129-PIN",
+   "ch": "global",
+   "sku": "ZENA",
+   "date": "2026-11-29",
+   "channel": "pinterest",
+   "format": "Standard pin 2:3",
+   "theme": "Vanity size guide",
+   "media": [
+    "media/b/B04-pin-size-guide.jpg"
+   ],
+   "hook": "Which vanity width fits your bathroom?",
+   "caption": "Bathroom Vanity Size Guide: 36\", 48\", 60\" or 72\"?",
+   "description": "How to choose a bathroom vanity width: 36 inch for powder rooms and guest baths, 48 inch for more counter and storage, 60 inch double sink for shared bathrooms, 72 inch double sink for the primary bath. Shown: Lignarc Zena herringbone vanity and Calix fluted vanity.",
+   "hashtags": "",
+   "alt": "Size guide pin comparing 36, 48, 60 and 72 inch vanity widths.",
+   "cta": "Link: Amazon store",
+   "board": "Bathroom Remodel Ideas",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 89,
+    "notes": "Pin size guide là dạng tìm kiếm evergreen số 1 của vanity trên Pinterest.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "B-1130-RD",
+   "ch": "global",
+   "sku": "VANITY",
+   "date": "2026-11-30",
+   "channel": "reddit",
+   "format": "Text (value-first)",
+   "theme": "Remodel tip — measure before you buy",
+   "media": [],
+   "status": "approved",
+   "hook": "Before you order a vanity online, measure these 5 things",
+   "caption": "Title: Ordering a bathroom vanity online? Measure these 5 things first (from people who ship them)\n\nDisclosure: I work for a small furniture brand that sells vanities (Lignarc). We see the same returns over and over, so sharing what to check:\n\n1. Width wall-to-wall AND to the door swing — leave ~1–2\" each side.\n2. Where the drain and supply lines come out. Drawers right over the drain are the #1 surprise.\n3. Depth vs. walkway — 21–22\" is standard; tight baths may need ~18\" or a wall-mounted unit.\n4. Backsplash height vs. outlets and the mirror.\n5. Whether the faucet is included (often it is not).\n\nHappy to answer questions. No links unless mods allow.",
+   "hashtags": "",
+   "alt": "",
+   "cta": "No link — answer in comments",
+   "note": "Chỉ đăng ở r/HomeImprovement / r/bathrooms nếu luật cho phép; không link.",
+   "review": {
+    "by": "director",
+    "score": 85,
+    "notes": "Giá trị thật, giảm trả hàng; disclosure rõ.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "B-1202-IG",
+   "ch": "global",
+   "sku": "ZENA",
+   "date": "2026-12-02",
+   "channel": "instagram",
+   "also": [
+    "facebook",
+    "pinterest"
+   ],
+   "format": "Single image 4:5",
+   "theme": "Zena — herringbone",
+   "media": [
+    "media/b/B01-zena-herringbone.jpg"
+   ],
+   "hook": "Herringbone, but make it a vanity.",
+   "caption": "Herringbone, but make it a vanity. ✨\n\nZena pairs chevron-grain doors with a stone-look top — in Light Oak or Dark Oak, from 36\" to 72\" double sink.\n\nSave this for your bathroom refresh. Link in bio.",
+   "hashtags": "#herringbone #bathroomvanity #bathroomdesign #woodvanity #modernbathroom #bathroomrefresh #oakvanity #homedecor",
+   "alt": "Zena vanity in Light Oak and Dark Oak with herringbone doors.",
+   "cta": "Link in bio",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 84,
+    "notes": "Herringbone đang được ưa chuộng trong nội thất US; hình rõ 2 màu.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "B-1205-IG",
+   "ch": "global",
+   "sku": "CALIX",
+   "date": "2026-12-05",
+   "channel": "instagram",
+   "also": [
+    "facebook"
+   ],
+   "format": "Single image 4:5",
+   "theme": "Calix — fluted",
+   "media": [
+    "media/b/B02-calix-fluted.jpg"
+   ],
+   "hook": "Texture you can feel.",
+   "caption": "Texture you can feel. 🌿\n\nCalix brings fluted fronts to the bathroom — soft vertical lines that catch the light. Light Oak with black pulls, or Dark Oak with brushed-gold. 60\" and 72\".\n\nLink in bio.",
+   "hashtags": "#flutedvanity #flutedfurniture #bathroomvanity #japandi #bathroomdesign #modernbathroom #oakvanity",
+   "alt": "Calix fluted vanity in Light Oak and Dark Oak.",
+   "cta": "Link in bio",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 85,
+    "notes": "Fluted là trend mạnh; caption ngắn, đúng vibe.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "B-1207-TT",
+   "ch": "global",
+   "sku": "VANITY",
+   "date": "2026-12-07",
+   "channel": "tiktok",
+   "also": [
+    "instagram-reels",
+    "youtube-shorts"
+   ],
+   "format": "Reel 9:16 (12s)",
+   "theme": "Collection reel",
+   "media": [
+    "media/v/V03-bath-collection.mp4"
+   ],
+   "hook": "4 vanities, 4 bathroom personalities",
+   "caption": "Herringbone, fluted, floating or classic — which one is your bathroom? 🛁 #bathroomvanity #bathroomremodel #homerenovation #bathroomtok",
+   "hashtags": "#bathroomvanity #bathroomremodel #homerenovation #bathroomtok",
+   "alt": "",
+   "cta": "Add trending sound in-app",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 81,
+    "notes": "Ổn; bắt buộc thêm nhạc trending.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "B-1209-IG",
+   "ch": "global",
+   "sku": "CALIX-FLOAT",
+   "date": "2026-12-09",
+   "channel": "instagram",
+   "also": [
+    "facebook",
+    "pinterest"
+   ],
+   "format": "Single image 4:5",
+   "theme": "Small bath — floating",
+   "media": [
+    "media/b/B03-calix-floating.jpg"
+   ],
+   "hook": "Small bath? Float it.",
+   "caption": "Small bath? Float it. 🫧\n\nCalix Floating mounts to the wall, so the floor stays open and the room feels bigger. Built-in towel bar, ceramic sink, 18\" / 24\" / 30\" in Light, Dark or Black Oak.\n\nLink in bio.",
+   "hashtags": "#floatingvanity #smallbathroom #powderroom #smallbathroomideas #bathroomvanity #wallmountedvanity",
+   "alt": "Calix Floating vanity in black oak and light oak.",
+   "cta": "Link in bio",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 86,
+    "notes": "Small bath là nỗi đau lớn nhất — hook mạnh.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "B-1211-WF",
+   "ch": "global",
+   "sku": "VANITY",
+   "date": "2026-12-11",
+   "channel": "wayfair",
+   "format": "Waymore / listing image 2:1",
+   "theme": "Marketplace refresh — vanities",
+   "media": [
+    "media/b/B08-waymore-lineup.jpg"
+   ],
+   "hook": "Upload bath collection lineup to Wayfair",
+   "caption": "Upload B08 vào Wayfair (Waymore / brand content) cho 9 listing vanity. Alt: \"Lignarc bath vanity collection: Zena herringbone, Calix fluted, Calix Floating and Caroline Parkway shaker.\"",
+   "hashtags": "",
+   "alt": "",
+   "cta": "Partner Home",
+   "note": "Việc của Global — Waymore chưa có nội dung vanity.",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 90,
+    "notes": "Wayfair chưa có nội dung vanity mới — ưu tiên.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "B-1214-IG",
+   "ch": "global",
+   "sku": "PARKWAY",
+   "date": "2026-12-14",
+   "channel": "instagram",
+   "also": [
+    "facebook"
+   ],
+   "format": "Single image 4:5",
+   "theme": "Classic shaker",
+   "media": [
+    "media/b/B05-parkway-shaker.jpg"
+   ],
+   "hook": "Classic shaker. 36 inches.",
+   "caption": "Classic shaker. 36 inches. 🤍\n\nCaroline Parkway: four drawers, a two-door cabinet and a stone-look top in soft grey — 36\" W × 22\" D × 35\" H. (Faucet sold separately.)\n\nLink in bio.",
+   "hashtags": "#shakervanity #greyvanity #bathroomvanity #classicbathroom #guestbathroom #bathroomrefresh",
+   "alt": "Caroline Parkway 36 inch grey shaker vanity.",
+   "cta": "Link in bio",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 80,
+    "notes": "Ổn; nói rõ faucet không kèm để tránh trả hàng.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "B-1228-ST",
+   "ch": "global",
+   "sku": "VANITY",
+   "date": "2026-12-28",
+   "channel": "instagram-story",
+   "also": [
+    "facebook-story",
+    "pinterest"
+   ],
+   "format": "Story 9:16",
+   "theme": "New year bathroom",
+   "media": [
+    "media/b/B07-new-year-story.jpg"
+   ],
+   "hook": "New year, new bathroom.",
+   "caption": "Text overlay: “Your 2027 bathroom starts with the vanity.” Link sticker → Amazon store.",
+   "hashtags": "",
+   "alt": "",
+   "cta": "Link sticker",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 82,
+    "notes": "Đúng thời điểm năm mới — mùa remodel bắt đầu.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "B-1216-TT",
+   "ch": "global",
+   "sku": "CALIX-FLOAT",
+   "date": "2026-12-16",
+   "channel": "tiktok",
+   "also": [
+    "instagram-reels"
+   ],
+   "format": "Reel 9:16 — Gemini/Veo",
+   "theme": "Powder room glow-up",
+   "status": "needs-asset",
+   "media": [],
+   "hook": "Powder room glow-up in 8 seconds",
+   "caption": "Tiny powder room, big glow-up ✨ #powderroom #smallbathroom #floatingvanity #bathroomglowup",
+   "hashtags": "#powderroom #smallbathroom #floatingvanity #bathroomglowup",
+   "alt": "",
+   "cta": "Tạo bằng Gemini Studio (GS-23)",
+   "review": {
+    "by": "director",
+    "score": null,
+    "notes": "Chờ asset mới (quay thật hoặc tạo trong Gemini Studio) rồi duyệt.",
+    "verdict": "pending"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "created": "2026-11-25"
+  },
+  {
    "id": "L-1126-FB",
    "ch": "local",
    "date": "2026-11-26",
@@ -1302,6 +1881,71 @@
    "tool": "Gemini app (Pro) — Veo"
   },
   {
+   "id": "GS-21",
+   "ch": "global",
+   "title": "Zena 60 Light Oak — Scandinavian primary bath",
+   "aspect": "4:5",
+   "kind": "image",
+   "prompt": "Place this double vanity in a bright Scandinavian primary bathroom with white zellige tile wall, round brass mirrors and a linen towel. Keep the vanity exactly as in the reference: herringbone (chevron) grain door panels, light oak finish, three center drawers, black bar pulls, white stone-look top with two undermount sinks and backsplash. Unbranded props only, photorealistic interior photography, soft daylight, no text.",
+   "refs": [
+    "media/ref/zena60-light.jpg"
+   ],
+   "status": "todo",
+   "tool": "Gemini app (Pro) — Nano Banana Pro"
+  },
+  {
+   "id": "GS-22",
+   "ch": "global",
+   "title": "Calix 60 Dark Oak — warm spa bath",
+   "aspect": "4:5",
+   "kind": "image",
+   "prompt": "Place this vanity in a warm spa-like bathroom with limewash walls, travertine floor and a eucalyptus bundle. Keep the vanity exactly as in the reference: fluted (reeded) door fronts, dark oak finish, three smooth center drawers, brushed-gold pulls, white stone-look top with two sinks. Unbranded props, photorealistic, golden-hour light, no text.",
+   "refs": [
+    "media/ref/calix60-dark.jpg"
+   ],
+   "status": "todo",
+   "tool": "Gemini app (Pro) — Nano Banana Pro"
+  },
+  {
+   "id": "GS-23",
+   "ch": "global",
+   "title": "Video — Calix Floating powder room",
+   "aspect": "9:16",
+   "kind": "video",
+   "prompt": "8-second vertical video, slow push-in on this wall-mounted vanity in a small powder room with dark green tile and a round mirror; a hand hangs a hand towel on the side towel bar. Keep the vanity identical to the reference: black fluted oak front, gold pulls, white ceramic sink, side towel bar. No text, no cuts, no logos.",
+   "refs": [
+    "media/ref/float24-black.jpg"
+   ],
+   "status": "todo",
+   "tool": "Gemini app (Pro) — Veo"
+  },
+  {
+   "id": "GS-24",
+   "ch": "global",
+   "title": "Caroline Parkway — farmhouse guest bath",
+   "aspect": "4:5",
+   "kind": "image",
+   "prompt": "Place this 36-inch shaker vanity in a modern farmhouse guest bathroom with white shiplap walls and black hex floor tile. Keep it identical to the reference: soft grey shaker cabinet, four drawers on the left, two-door cabinet, chrome pulls, white top with backsplash. Unbranded props, photorealistic, no text.",
+   "refs": [
+    "media/ref/parkway36-grey.jpg"
+   ],
+   "status": "todo",
+   "tool": "Gemini app (Pro) — Nano Banana Pro"
+  },
+  {
+   "id": "GS-25",
+   "ch": "global",
+   "title": "Pinterest — Calix 30 Light Oak small bath",
+   "aspect": "2:3",
+   "kind": "image",
+   "prompt": "Vertical photo of this floating vanity in a small Japandi bathroom with microcement walls, a pebble mat and a wooden stool. Keep the vanity exactly as in the reference: light oak fluted front, black pulls, white ceramic sink, side wooden towel bar. Photorealistic, no text, unbranded props.",
+   "refs": [
+    "media/ref/float30-light.jpg"
+   ],
+   "status": "todo",
+   "tool": "Gemini app (Pro) — Nano Banana Pro"
+  },
+  {
    "id": "GS-11",
    "ch": "local",
    "title": "Bếp chung cư Sài Gòn",
@@ -1567,6 +2211,83 @@
    "verified": false
   },
   {
+   "id": "rd-homeimprovement",
+   "ch": "global",
+   "platform": "Reddit",
+   "name": "r/HomeImprovement",
+   "url": "https://www.reddit.com/r/HomeImprovement/",
+   "angle": "Vanity: mẹo đo, chọn size, lắp đặt (value-first)",
+   "promo": "Cấm quảng cáo — chỉ tư vấn, ghi rõ là brand",
+   "fit": 5,
+   "verified": false
+  },
+  {
+   "id": "rd-bathrooms",
+   "ch": "global",
+   "platform": "Reddit",
+   "name": "r/bathrooms + r/BathroomRemodel",
+   "url": "https://www.reddit.com/r/bathrooms/",
+   "angle": "Before/after, chọn vanity cho bath nhỏ",
+   "promo": "Đọc luật sub",
+   "fit": 4,
+   "verified": false
+  },
+  {
+   "id": "rd-interiordesign",
+   "ch": "global",
+   "platform": "Reddit",
+   "name": "r/InteriorDesign",
+   "url": "https://www.reddit.com/r/InteriorDesign/",
+   "angle": "Herringbone vs fluted, phối màu gỗ",
+   "promo": "Rất chặt — không quảng cáo",
+   "fit": 3,
+   "verified": false
+  },
+  {
+   "id": "houzz",
+   "ch": "global",
+   "platform": "Houzz",
+   "name": "Houzz — trang brand + Ideabooks/Discussions",
+   "url": "https://www.houzz.com/",
+   "angle": "Ảnh lifestyle vanity, trả lời câu hỏi remodel",
+   "promo": "Tài khoản brand",
+   "fit": 4,
+   "verified": false
+  },
+  {
+   "id": "pin-vanity",
+   "ch": "global",
+   "platform": "Pinterest",
+   "name": "Keyword: bathroom vanity ideas / small bathroom ideas / double vanity / floating vanity",
+   "url": "https://www.pinterest.com/search/pins/?q=bathroom%20vanity%20ideas",
+   "angle": "Pin 2:3 size guide, before/after",
+   "promo": "—",
+   "fit": 5,
+   "verified": true
+  },
+  {
+   "id": "tt-vanity",
+   "ch": "global",
+   "platform": "TikTok/IG",
+   "name": "#bathroomremodel #bathroomrenovation #powderroom #smallbathroom #bathroomtok",
+   "url": "https://www.tiktok.com/tag/bathroomremodel",
+   "angle": "Reel collection, glow-up",
+   "promo": "Tài khoản brand",
+   "fit": 5,
+   "verified": true
+  },
+  {
+   "id": "fb-remodel",
+   "ch": "global",
+   "platform": "Facebook Groups",
+   "name": "Tìm: “bathroom remodel ideas”, “DIY bathroom renovation”, “small bathroom ideas”",
+   "url": "https://www.facebook.com/groups/search/groups/?q=bathroom%20remodel%20ideas",
+   "angle": "Mẹo đo trước khi mua, disclosure",
+   "promo": "Tuỳ group",
+   "fit": 4,
+   "verified": false
+  },
+  {
    "id": "fb-nghiennha",
    "ch": "local",
    "platform": "Facebook Group",
@@ -1693,8 +2414,8 @@
    "date": "2026-11-25",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Thanksgiving — Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Thanksgiving — Bathroom refresh · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -1736,7 +2457,7 @@
    "channel": "tiktok",
    "format": "Reel 9:16 (11s)",
    "theme": "One cart, every room",
-   "sku": "VESTRA",
+   "sku": "CALIX-FLOAT",
    "event": "Black Friday",
    "post": "G-1127-TT"
   },
@@ -1780,7 +2501,7 @@
    "channel": "reddit",
    "format": "Text + 1 image (value-first)",
    "theme": "Small-space tip",
-   "sku": "VESTRA",
+   "sku": "CALIX",
    "event": null,
    "post": "G-1129-RD"
   },
@@ -1798,11 +2519,12 @@
    "id": "S-G-2026-11-30",
    "ch": "global",
    "date": "2026-11-30",
-   "channel": "instagram",
-   "format": "Single image / carousel",
-   "theme": "Cyber Monday — Styling 3 ways",
-   "sku": "VESTRA",
-   "event": "Cyber Monday"
+   "channel": "reddit",
+   "format": "Text (value-first)",
+   "theme": "Remodel tip — measure before you buy",
+   "sku": "PARKWAY",
+   "event": "Cyber Monday",
+   "post": "B-1130-RD"
   },
   {
    "id": "S-L-2026-11-30",
@@ -1843,7 +2565,7 @@
    "channel": "pinterest",
    "format": "Standard pin 2:3",
    "theme": "Hot cocoa bar",
-   "sku": "VANITY",
+   "sku": "CALIX",
    "event": null,
    "post": "G-1202-PIN"
   },
@@ -1886,7 +2608,7 @@
    "channel": "tiktok",
    "format": "Reel 9:16 — quay thật",
    "theme": "Unboxing satisfaction",
-   "sku": "VESTRA",
+   "sku": "PARKWAY",
    "event": null,
    "post": "G-1204-TT"
   },
@@ -1905,11 +2627,12 @@
    "id": "S-G-2026-12-05",
    "ch": "global",
    "date": "2026-12-05",
-   "channel": "pinterest",
-   "format": "Pins x2",
-   "theme": "Kitchen pantry overflow",
+   "channel": "instagram",
+   "format": "Single image 4:5",
+   "theme": "Calix — fluted",
    "sku": "VESTRA",
-   "event": null
+   "event": null,
+   "post": "B-1205-IG"
   },
   {
    "id": "S-L-2026-12-05",
@@ -1928,7 +2651,7 @@
    "channel": "instagram",
    "format": "Single image 1:1",
    "theme": "Plant corner",
-   "sku": "VESTRA",
+   "sku": "CALIX-FLOAT",
    "event": null,
    "post": "G-1206-IG"
   },
@@ -1947,11 +2670,12 @@
    "id": "S-G-2026-12-07",
    "ch": "global",
    "date": "2026-12-07",
-   "channel": "instagram",
-   "format": "Single image / carousel",
-   "theme": "Unboxing — arrives assembled",
-   "sku": "VESTRA",
-   "event": null
+   "channel": "tiktok",
+   "format": "Reel 9:16 (12s)",
+   "theme": "Collection reel",
+   "sku": "ZENA",
+   "event": null,
+   "post": "B-1207-TT"
   },
   {
    "id": "S-L-2026-12-07",
@@ -1988,11 +2712,12 @@
    "id": "S-G-2026-12-09",
    "ch": "global",
    "date": "2026-12-09",
-   "channel": "tiktok",
-   "format": "Reel 9:16",
-   "theme": "Coffee bar",
-   "sku": "VESTRA",
-   "event": null
+   "channel": "instagram",
+   "format": "Single image 4:5",
+   "theme": "Small bath — floating",
+   "sku": "CALIX-FLOAT",
+   "event": null,
+   "post": "B-1209-IG"
   },
   {
    "id": "S-L-2026-12-09",
@@ -2030,11 +2755,12 @@
    "id": "S-G-2026-12-11",
    "ch": "global",
    "date": "2026-12-11",
-   "channel": "instagram",
-   "format": "Carousel",
-   "theme": "Home office station",
-   "sku": "VESTRA",
-   "event": null
+   "channel": "wayfair",
+   "format": "Waymore / listing image 2:1",
+   "theme": "Marketplace refresh — vanities",
+   "sku": "ZENA",
+   "event": null,
+   "post": "B-1211-WF"
   },
   {
    "id": "S-L-2026-12-11",
@@ -2074,8 +2800,8 @@
    "date": "2026-12-13",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Bathroom caddy",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -2093,10 +2819,11 @@
    "ch": "global",
    "date": "2026-12-14",
    "channel": "instagram",
-   "format": "Single image / carousel",
-   "theme": "Product truth (wood, trays, casters)",
-   "sku": "VESTRA",
-   "event": null
+   "format": "Single image 4:5",
+   "theme": "Classic shaker",
+   "sku": "CALIX",
+   "event": null,
+   "post": "B-1214-IG"
   },
   {
    "id": "S-L-2026-12-14",
@@ -2134,10 +2861,11 @@
    "ch": "global",
    "date": "2026-12-16",
    "channel": "tiktok",
-   "format": "Reel 9:16",
-   "theme": "Hosting / bar cart",
-   "sku": "VESTRA",
-   "event": null
+   "format": "Reel 9:16 — Gemini/Veo",
+   "theme": "Powder room glow-up",
+   "sku": "PARKWAY",
+   "event": null,
+   "post": "B-1216-TT"
   },
   {
    "id": "S-L-2026-12-16",
@@ -2176,7 +2904,7 @@
    "channel": "instagram-story",
    "format": "Story 9:16",
    "theme": "Last-minute gift",
-   "sku": "VESTRA",
+   "sku": "CALIX",
    "event": null,
    "post": "G-1218-ST"
   },
@@ -2216,8 +2944,8 @@
    "date": "2026-12-20",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Christmas — Kitchen pantry overflow",
-   "sku": "VESTRA",
+   "theme": "Christmas — Double-sink couple routine · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -2237,8 +2965,8 @@
    "date": "2026-12-21",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Christmas — Customer Q&A (dimensions)",
-   "sku": "VESTRA",
+   "theme": "Christmas — Double-sink couple routine · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -2277,8 +3005,8 @@
    "date": "2026-12-23",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Christmas — UGC / creator repost",
-   "sku": "VESTRA",
+   "theme": "Christmas — Powder room makeover · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -2317,8 +3045,8 @@
    "date": "2026-12-25",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Christmas — Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Christmas — Remodel tips (value) · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": "Christmas"
   },
   {
@@ -2357,8 +3085,8 @@
    "date": "2026-12-27",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "New Year — Get Organized Month — Plant cart",
-   "sku": "VESTRA",
+   "theme": "New Year — Get Organized Month — Style match: herringbone vs fluted · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -2375,11 +3103,12 @@
    "id": "S-G-2026-12-28",
    "ch": "global",
    "date": "2026-12-28",
-   "channel": "instagram",
-   "format": "Single image / carousel",
-   "theme": "New Year — Get Organized Month — Bathroom caddy",
-   "sku": "VESTRA",
-   "event": null
+   "channel": "instagram-story",
+   "format": "Story 9:16",
+   "theme": "New year bathroom",
+   "sku": "PARKWAY",
+   "event": null,
+   "post": "B-1228-ST"
   },
   {
    "id": "S-L-2026-12-28",
@@ -2417,8 +3146,8 @@
    "date": "2026-12-30",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "New Year — Get Organized Month — Styling 3 ways",
-   "sku": "VESTRA",
+   "theme": "New Year — Get Organized Month — Bathroom refresh · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -2457,8 +3186,8 @@
    "date": "2027-01-01",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "New Year — Get Organized Month — Renter-friendly",
-   "sku": "VESTRA",
+   "theme": "New Year — Get Organized Month — Small bathroom ideas · Parkway",
+   "sku": "PARKWAY",
    "event": "New Year — Get Organized Month"
   },
   {
@@ -2497,8 +3226,8 @@
    "date": "2027-01-03",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Nursery / baby care cart",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -2517,8 +3246,8 @@
    "date": "2027-01-04",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Kitchen pantry overflow",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -2557,8 +3286,8 @@
    "date": "2027-01-06",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Unboxing — arrives assembled",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -2597,8 +3326,8 @@
    "date": "2027-01-08",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Coffee bar",
-   "sku": "VESTRA",
+   "theme": "Double-sink couple routine · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -2637,8 +3366,8 @@
    "date": "2027-01-10",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Home office station",
-   "sku": "VESTRA",
+   "theme": "Powder room makeover · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -2657,8 +3386,8 @@
    "date": "2027-01-11",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Plant cart",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -2697,8 +3426,8 @@
    "date": "2027-01-13",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Product truth (wood, trays, casters)",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -2737,8 +3466,8 @@
    "date": "2027-01-15",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Hosting / bar cart",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -2777,8 +3506,8 @@
    "date": "2027-01-17",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Craft & hobby cart",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -2797,8 +3526,8 @@
    "date": "2027-01-18",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Nursery / baby care cart",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -2837,8 +3566,8 @@
    "date": "2027-01-20",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Customer Q&A (dimensions)",
-   "sku": "VESTRA",
+   "theme": "Small bathroom ideas · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -2877,8 +3606,8 @@
    "date": "2027-01-22",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "UGC / creator repost",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -2917,8 +3646,8 @@
    "date": "2027-01-24",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -2937,8 +3666,8 @@
    "date": "2027-01-25",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Home office station",
-   "sku": "VESTRA",
+   "theme": "Double-sink couple routine · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -2977,8 +3706,8 @@
    "date": "2027-01-27",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Bathroom caddy",
-   "sku": "VESTRA",
+   "theme": "Powder room makeover · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -3017,8 +3746,8 @@
    "date": "2027-01-29",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Styling 3 ways",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -3057,8 +3786,8 @@
    "date": "2027-01-31",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Renter-friendly",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -3077,8 +3806,8 @@
    "date": "2027-02-01",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Craft & hobby cart",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -3117,8 +3846,8 @@
    "date": "2027-02-03",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Kitchen pantry overflow",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -3157,8 +3886,8 @@
    "date": "2027-02-05",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Unboxing — arrives assembled",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -3197,8 +3926,8 @@
    "date": "2027-02-07",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Valentine's Day — Coffee bar",
-   "sku": "VESTRA",
+   "theme": "Valentine's Day — Small bathroom ideas · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -3217,8 +3946,8 @@
    "date": "2027-02-08",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Valentine's Day — Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Valentine's Day — Size & fit guide · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -3257,8 +3986,8 @@
    "date": "2027-02-10",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Valentine's Day — Plant cart",
-   "sku": "VESTRA",
+   "theme": "Valentine's Day — Material close-up · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -3297,8 +4026,8 @@
    "date": "2027-02-12",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Valentine's Day — Product truth (wood, trays, casters)",
-   "sku": "VESTRA",
+   "theme": "Valentine's Day — Double-sink couple routine · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -3337,8 +4066,8 @@
    "date": "2027-02-14",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Valentine's Day — Hosting / bar cart",
-   "sku": "VESTRA",
+   "theme": "Valentine's Day — Powder room makeover · Zena",
+   "sku": "ZENA",
    "event": "Valentine's Day"
   },
   {
@@ -3357,8 +4086,8 @@
    "date": "2027-02-15",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Renter-friendly",
-   "sku": "VESTRA",
+   "theme": "Powder room makeover · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -3397,8 +4126,8 @@
    "date": "2027-02-17",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Nursery / baby care cart",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -3437,8 +4166,8 @@
    "date": "2027-02-19",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Customer Q&A (dimensions)",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -3477,8 +4206,8 @@
    "date": "2027-02-21",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "UGC / creator repost",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -3497,8 +4226,8 @@
    "date": "2027-02-22",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Coffee bar",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -3537,8 +4266,8 @@
    "date": "2027-02-24",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Home office station",
-   "sku": "VESTRA",
+   "theme": "Small bathroom ideas · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -3577,8 +4306,8 @@
    "date": "2027-02-26",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Bathroom caddy",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -3617,8 +4346,8 @@
    "date": "2027-02-28",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Styling 3 ways",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -3637,8 +4366,8 @@
    "date": "2027-03-01",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Hosting / bar cart",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -3677,8 +4406,8 @@
    "date": "2027-03-03",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Bathroom vanity (Zena / Calix) — cần asset",
-   "sku": "VANITY",
+   "theme": "Double-sink couple routine · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -3717,8 +4446,8 @@
    "date": "2027-03-05",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Kitchen pantry overflow",
-   "sku": "VESTRA",
+   "theme": "Powder room makeover · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -3757,8 +4486,8 @@
    "date": "2027-03-07",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Unboxing — arrives assembled",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -3777,8 +4506,8 @@
    "date": "2027-03-08",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "UGC / creator repost",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -3817,8 +4546,8 @@
    "date": "2027-03-10",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -3857,8 +4586,8 @@
    "date": "2027-03-12",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Plant cart",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -3897,8 +4626,8 @@
    "date": "2027-03-14",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Spring cleaning — Product truth (wood, trays, casters)",
-   "sku": "VESTRA",
+   "theme": "Spring cleaning — Small bathroom ideas · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -3917,8 +4646,8 @@
    "date": "2027-03-15",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Spring cleaning — Styling 3 ways",
-   "sku": "VESTRA",
+   "theme": "Spring cleaning — Small bathroom ideas · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -3957,8 +4686,8 @@
    "date": "2027-03-17",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Spring cleaning — Renter-friendly",
-   "sku": "VESTRA",
+   "theme": "Spring cleaning — Size & fit guide · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -3997,8 +4726,8 @@
    "date": "2027-03-19",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Spring cleaning — Nursery / baby care cart",
-   "sku": "VESTRA",
+   "theme": "Spring cleaning — Material close-up · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -4037,8 +4766,8 @@
    "date": "2027-03-21",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Customer Q&A (dimensions)",
-   "sku": "VESTRA",
+   "theme": "Double-sink couple routine · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -4057,8 +4786,8 @@
    "date": "2027-03-22",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Unboxing — arrives assembled",
-   "sku": "VESTRA",
+   "theme": "Powder room makeover · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -4097,8 +4826,8 @@
    "date": "2027-03-24",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Coffee bar",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -4137,8 +4866,8 @@
    "date": "2027-03-26",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Home office station",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -4177,8 +4906,8 @@
    "date": "2027-03-28",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Bathroom caddy",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -4197,8 +4926,8 @@
    "date": "2027-03-29",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Product truth (wood, trays, casters)",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -4237,8 +4966,8 @@
    "date": "2027-03-31",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Hosting / bar cart",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -4277,8 +5006,8 @@
    "date": "2027-04-02",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Craft & hobby cart",
-   "sku": "VESTRA",
+   "theme": "Small bathroom ideas · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -4317,8 +5046,8 @@
    "date": "2027-04-04",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Kitchen pantry overflow",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -4337,8 +5066,8 @@
    "date": "2027-04-05",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Customer Q&A (dimensions)",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -4377,8 +5106,8 @@
    "date": "2027-04-07",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "UGC / creator repost",
-   "sku": "VESTRA",
+   "theme": "Double-sink couple routine · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -4417,8 +5146,8 @@
    "date": "2027-04-09",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Powder room makeover · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -4457,8 +5186,8 @@
    "date": "2027-04-11",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Plant cart",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -4477,8 +5206,8 @@
    "date": "2027-04-12",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Bathroom caddy",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -4517,8 +5246,8 @@
    "date": "2027-04-14",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Styling 3 ways",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -4557,8 +5286,8 @@
    "date": "2027-04-16",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Earth Day — Renter-friendly",
-   "sku": "VESTRA",
+   "theme": "Earth Day — Spa bathroom at home · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -4597,8 +5326,8 @@
    "date": "2027-04-18",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Earth Day — Nursery / baby care cart",
-   "sku": "VESTRA",
+   "theme": "Earth Day — Bathroom refresh · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -4617,8 +5346,8 @@
    "date": "2027-04-19",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Earth Day — Kitchen pantry overflow",
-   "sku": "VESTRA",
+   "theme": "Earth Day — Small bathroom ideas · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -4657,8 +5386,8 @@
    "date": "2027-04-21",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Earth Day — Unboxing — arrives assembled",
-   "sku": "VESTRA",
+   "theme": "Earth Day — Size & fit guide · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -4697,8 +5426,8 @@
    "date": "2027-04-23",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Coffee bar",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -4737,8 +5466,8 @@
    "date": "2027-04-25",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Home office station",
-   "sku": "VESTRA",
+   "theme": "Double-sink couple routine · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -4757,8 +5486,8 @@
    "date": "2027-04-26",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Plant cart",
-   "sku": "VESTRA",
+   "theme": "Double-sink couple routine · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -4797,8 +5526,8 @@
    "date": "2027-04-28",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Product truth (wood, trays, casters)",
-   "sku": "VESTRA",
+   "theme": "Powder room makeover · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -4837,8 +5566,8 @@
    "date": "2027-04-30",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Hosting / bar cart",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -4877,8 +5606,8 @@
    "date": "2027-05-02",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Mother's Day — Craft & hobby cart",
-   "sku": "VESTRA",
+   "theme": "Mother's Day — Style match: herringbone vs fluted · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -4897,8 +5626,8 @@
    "date": "2027-05-03",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Mother's Day — Nursery / baby care cart",
-   "sku": "VESTRA",
+   "theme": "Mother's Day — Spa bathroom at home · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -4937,8 +5666,8 @@
    "date": "2027-05-05",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Mother's Day — Customer Q&A (dimensions)",
-   "sku": "VESTRA",
+   "theme": "Mother's Day — Bathroom refresh · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -4977,8 +5706,8 @@
    "date": "2027-05-07",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Mother's Day — UGC / creator repost",
-   "sku": "VESTRA",
+   "theme": "Mother's Day — Small bathroom ideas · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -5017,8 +5746,8 @@
    "date": "2027-05-09",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Mother's Day — Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Mother's Day — Size & fit guide · Zena",
+   "sku": "ZENA",
    "event": "Mother's Day"
   },
   {
@@ -5037,8 +5766,8 @@
    "date": "2027-05-10",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Home office station",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -5077,8 +5806,8 @@
    "date": "2027-05-12",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Bathroom caddy",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -5117,8 +5846,8 @@
    "date": "2027-05-14",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Styling 3 ways",
-   "sku": "VESTRA",
+   "theme": "Double-sink couple routine · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -5157,8 +5886,8 @@
    "date": "2027-05-16",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Renter-friendly",
-   "sku": "VESTRA",
+   "theme": "Powder room makeover · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -5177,8 +5906,8 @@
    "date": "2027-05-17",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Craft & hobby cart",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -5217,8 +5946,8 @@
    "date": "2027-05-19",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Kitchen pantry overflow",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -5257,8 +5986,8 @@
    "date": "2027-05-21",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Unboxing — arrives assembled",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -5297,8 +6026,8 @@
    "date": "2027-05-23",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Coffee bar",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -5317,8 +6046,8 @@
    "date": "2027-05-24",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Memorial Day — Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Memorial Day — Bathroom refresh · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -5357,8 +6086,8 @@
    "date": "2027-05-26",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Memorial Day — Plant cart",
-   "sku": "VESTRA",
+   "theme": "Memorial Day — Small bathroom ideas · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -5397,8 +6126,8 @@
    "date": "2027-05-28",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Memorial Day — Product truth (wood, trays, casters)",
-   "sku": "VESTRA",
+   "theme": "Memorial Day — Size & fit guide · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -5437,8 +6166,8 @@
    "date": "2027-05-30",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Memorial Day — Hosting / bar cart",
-   "sku": "VESTRA",
+   "theme": "Memorial Day — Material close-up · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -5457,8 +6186,8 @@
    "date": "2027-05-31",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Memorial Day — Renter-friendly",
-   "sku": "VESTRA",
+   "theme": "Memorial Day — Double-sink couple routine · Calix",
+   "sku": "CALIX",
    "event": "Memorial Day"
   },
   {
@@ -5497,8 +6226,8 @@
    "date": "2027-06-02",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Bathroom vanity (Zena / Calix) — cần asset",
-   "sku": "VANITY",
+   "theme": "Powder room makeover · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -5537,8 +6266,8 @@
    "date": "2027-06-04",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Customer Q&A (dimensions)",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -5577,8 +6306,8 @@
    "date": "2027-06-06",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "UGC / creator repost",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -5597,8 +6326,8 @@
    "date": "2027-06-07",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Coffee bar",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -5637,8 +6366,8 @@
    "date": "2027-06-09",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Home office station",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -5677,8 +6406,8 @@
    "date": "2027-06-11",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Bathroom caddy",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -5717,8 +6446,8 @@
    "date": "2027-06-13",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Father's Day — Styling 3 ways",
-   "sku": "VESTRA",
+   "theme": "Father's Day — Small bathroom ideas · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -5737,8 +6466,8 @@
    "date": "2027-06-14",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Father's Day — Hosting / bar cart",
-   "sku": "VESTRA",
+   "theme": "Father's Day — Size & fit guide · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -5777,8 +6506,8 @@
    "date": "2027-06-16",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Father's Day — Craft & hobby cart",
-   "sku": "VESTRA",
+   "theme": "Father's Day — Material close-up · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -5817,8 +6546,8 @@
    "date": "2027-06-18",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Father's Day — Kitchen pantry overflow",
-   "sku": "VESTRA",
+   "theme": "Father's Day — Double-sink couple routine · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -5857,8 +6586,8 @@
    "date": "2027-06-20",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Father's Day — Unboxing — arrives assembled",
-   "sku": "VESTRA",
+   "theme": "Father's Day — Powder room makeover · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": "Father's Day"
   },
   {
@@ -5877,8 +6606,8 @@
    "date": "2027-06-21",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "UGC / creator repost",
-   "sku": "VESTRA",
+   "theme": "Powder room makeover · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -5917,8 +6646,8 @@
    "date": "2027-06-23",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -5957,8 +6686,8 @@
    "date": "2027-06-25",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Plant cart",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -5997,8 +6726,8 @@
    "date": "2027-06-27",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "July 4th — Product truth (wood, trays, casters)",
-   "sku": "VESTRA",
+   "theme": "July 4th — Spa bathroom at home · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -6017,8 +6746,8 @@
    "date": "2027-06-28",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "July 4th — Styling 3 ways",
-   "sku": "VESTRA",
+   "theme": "July 4th — Bathroom refresh · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -6057,8 +6786,8 @@
    "date": "2027-06-30",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "July 4th — Renter-friendly",
-   "sku": "VESTRA",
+   "theme": "July 4th — Small bathroom ideas · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -6097,8 +6826,8 @@
    "date": "2027-07-02",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "July 4th — Nursery / baby care cart",
-   "sku": "VESTRA",
+   "theme": "July 4th — Size & fit guide · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -6137,8 +6866,8 @@
    "date": "2027-07-04",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "July 4th — Customer Q&A (dimensions)",
-   "sku": "VESTRA",
+   "theme": "July 4th — Material close-up · Zena",
+   "sku": "ZENA",
    "event": "July 4th"
   },
   {
@@ -6157,8 +6886,8 @@
    "date": "2027-07-05",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Unboxing — arrives assembled",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -6197,8 +6926,8 @@
    "date": "2027-07-07",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Prime Day (ước tính, chờ Amazon công bố) — Coffee bar",
-   "sku": "VESTRA",
+   "theme": "Prime Day (ước tính, chờ Amazon công bố) — Double-sink couple routine · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -6237,8 +6966,8 @@
    "date": "2027-07-09",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Prime Day (ước tính, chờ Amazon công bố) — Home office station",
-   "sku": "VESTRA",
+   "theme": "Prime Day (ước tính, chờ Amazon công bố) — Powder room makeover · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -6277,8 +7006,8 @@
    "date": "2027-07-11",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Prime Day (ước tính, chờ Amazon công bố) — Bathroom caddy",
-   "sku": "VESTRA",
+   "theme": "Prime Day (ước tính, chờ Amazon công bố) — Remodel tips (value) · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -6297,8 +7026,8 @@
    "date": "2027-07-12",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Prime Day (ước tính, chờ Amazon công bố) — Product truth (wood, trays, casters)",
-   "sku": "VESTRA",
+   "theme": "Prime Day (ước tính, chờ Amazon công bố) — Style match: herringbone vs fluted · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -6337,8 +7066,8 @@
    "date": "2027-07-14",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Hosting / bar cart",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -6377,8 +7106,8 @@
    "date": "2027-07-16",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Craft & hobby cart",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -6417,8 +7146,8 @@
    "date": "2027-07-18",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Kitchen pantry overflow",
-   "sku": "VESTRA",
+   "theme": "Small bathroom ideas · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -6437,8 +7166,8 @@
    "date": "2027-07-19",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Customer Q&A (dimensions)",
-   "sku": "VESTRA",
+   "theme": "Small bathroom ideas · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -6477,8 +7206,8 @@
    "date": "2027-07-21",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "UGC / creator repost",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -6517,8 +7246,8 @@
    "date": "2027-07-23",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -6557,8 +7286,8 @@
    "date": "2027-07-25",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Back to college / dorm — Plant cart",
-   "sku": "VESTRA",
+   "theme": "Back to college / dorm — Double-sink couple routine · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -6577,8 +7306,8 @@
    "date": "2027-07-26",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Back to college / dorm — Bathroom caddy",
-   "sku": "VESTRA",
+   "theme": "Back to college / dorm — Powder room makeover · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -6617,8 +7346,8 @@
    "date": "2027-07-28",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Back to college / dorm — Styling 3 ways",
-   "sku": "VESTRA",
+   "theme": "Back to college / dorm — Remodel tips (value) · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -6657,8 +7386,8 @@
    "date": "2027-07-30",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Back to college / dorm — Renter-friendly",
-   "sku": "VESTRA",
+   "theme": "Back to college / dorm — Style match: herringbone vs fluted · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -6697,8 +7426,8 @@
    "date": "2027-08-01",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Back to college / dorm — Nursery / baby care cart",
-   "sku": "VESTRA",
+   "theme": "Back to college / dorm — Spa bathroom at home · Zena",
+   "sku": "ZENA",
    "event": "Back to college / dorm"
   },
   {
@@ -6717,8 +7446,8 @@
    "date": "2027-08-02",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Kitchen pantry overflow",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -6757,8 +7486,8 @@
    "date": "2027-08-04",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Unboxing — arrives assembled",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -6797,8 +7526,8 @@
    "date": "2027-08-06",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Coffee bar",
-   "sku": "VESTRA",
+   "theme": "Small bathroom ideas · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -6837,8 +7566,8 @@
    "date": "2027-08-08",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Home office station",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -6857,8 +7586,8 @@
    "date": "2027-08-09",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Plant cart",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -6897,8 +7626,8 @@
    "date": "2027-08-11",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Product truth (wood, trays, casters)",
-   "sku": "VESTRA",
+   "theme": "Double-sink couple routine · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -6937,8 +7666,8 @@
    "date": "2027-08-13",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Hosting / bar cart",
-   "sku": "VESTRA",
+   "theme": "Powder room makeover · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -6977,8 +7706,8 @@
    "date": "2027-08-15",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Craft & hobby cart",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -6997,8 +7726,8 @@
    "date": "2027-08-16",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Nursery / baby care cart",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -7037,8 +7766,8 @@
    "date": "2027-08-18",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Customer Q&A (dimensions)",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -7077,8 +7806,8 @@
    "date": "2027-08-20",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "UGC / creator repost",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -7117,8 +7846,8 @@
    "date": "2027-08-22",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -7137,8 +7866,8 @@
    "date": "2027-08-23",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Home office station",
-   "sku": "VESTRA",
+   "theme": "Small bathroom ideas · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -7177,8 +7906,8 @@
    "date": "2027-08-25",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Bathroom caddy",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -7217,8 +7946,8 @@
    "date": "2027-08-27",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Styling 3 ways",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -7257,8 +7986,8 @@
    "date": "2027-08-29",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Renter-friendly",
-   "sku": "VESTRA",
+   "theme": "Double-sink couple routine · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -7277,8 +8006,8 @@
    "date": "2027-08-30",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Labor Day — Craft & hobby cart",
-   "sku": "VESTRA",
+   "theme": "Labor Day — Double-sink couple routine · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -7317,8 +8046,8 @@
    "date": "2027-09-01",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Bathroom vanity (Zena / Calix) — cần asset",
-   "sku": "VANITY",
+   "theme": "Labor Day — Powder room makeover · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -7357,8 +8086,8 @@
    "date": "2027-09-03",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Labor Day — Unboxing — arrives assembled",
-   "sku": "VESTRA",
+   "theme": "Labor Day — Remodel tips (value) · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -7397,8 +8126,8 @@
    "date": "2027-09-05",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Labor Day — Coffee bar",
-   "sku": "VESTRA",
+   "theme": "Labor Day — Style match: herringbone vs fluted · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -7417,8 +8146,8 @@
    "date": "2027-09-06",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Labor Day — Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Labor Day — Spa bathroom at home · Parkway",
+   "sku": "PARKWAY",
    "event": "Labor Day"
   },
   {
@@ -7457,8 +8186,8 @@
    "date": "2027-09-08",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Plant cart",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -7497,8 +8226,8 @@
    "date": "2027-09-10",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Product truth (wood, trays, casters)",
-   "sku": "VESTRA",
+   "theme": "Small bathroom ideas · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -7537,8 +8266,8 @@
    "date": "2027-09-12",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Hosting / bar cart",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -7557,8 +8286,8 @@
    "date": "2027-09-13",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Renter-friendly",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -7597,8 +8326,8 @@
    "date": "2027-09-15",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Nursery / baby care cart",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -7637,8 +8366,8 @@
    "date": "2027-09-17",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Customer Q&A (dimensions)",
-   "sku": "VESTRA",
+   "theme": "Double-sink couple routine · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -7677,8 +8406,8 @@
    "date": "2027-09-19",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "UGC / creator repost",
-   "sku": "VESTRA",
+   "theme": "Powder room makeover · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -7697,8 +8426,8 @@
    "date": "2027-09-20",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Coffee bar",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -7737,8 +8466,8 @@
    "date": "2027-09-22",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Home office station",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -7777,8 +8506,8 @@
    "date": "2027-09-24",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Bathroom caddy",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -7817,8 +8546,8 @@
    "date": "2027-09-26",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Styling 3 ways",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -7837,8 +8566,8 @@
    "date": "2027-09-27",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Hosting / bar cart",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -7877,8 +8606,8 @@
    "date": "2027-09-29",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Craft & hobby cart",
-   "sku": "VESTRA",
+   "theme": "Small bathroom ideas · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -7917,8 +8646,8 @@
    "date": "2027-10-01",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Kitchen pantry overflow",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -7957,8 +8686,8 @@
    "date": "2027-10-03",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Unboxing — arrives assembled",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -7977,8 +8706,8 @@
    "date": "2027-10-04",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "UGC / creator repost",
-   "sku": "VESTRA",
+   "theme": "Double-sink couple routine · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -8017,8 +8746,8 @@
    "date": "2027-10-06",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Powder room makeover · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -8057,8 +8786,8 @@
    "date": "2027-10-08",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Plant cart",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -8097,8 +8826,8 @@
    "date": "2027-10-10",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Product truth (wood, trays, casters)",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -8117,8 +8846,8 @@
    "date": "2027-10-11",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Styling 3 ways",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -8157,8 +8886,8 @@
    "date": "2027-10-13",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Renter-friendly",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -8197,8 +8926,8 @@
    "date": "2027-10-15",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Nursery / baby care cart",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -8237,8 +8966,8 @@
    "date": "2027-10-17",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Customer Q&A (dimensions)",
-   "sku": "VESTRA",
+   "theme": "Small bathroom ideas · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -8257,8 +8986,8 @@
    "date": "2027-10-18",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Unboxing — arrives assembled",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -8297,8 +9026,8 @@
    "date": "2027-10-20",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Coffee bar",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -8337,8 +9066,8 @@
    "date": "2027-10-22",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Home office station",
-   "sku": "VESTRA",
+   "theme": "Double-sink couple routine · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -8377,8 +9106,8 @@
    "date": "2027-10-24",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Halloween — Bathroom caddy",
-   "sku": "VESTRA",
+   "theme": "Halloween — Powder room makeover · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -8397,8 +9126,8 @@
    "date": "2027-10-25",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Halloween — Product truth (wood, trays, casters)",
-   "sku": "VESTRA",
+   "theme": "Halloween — Powder room makeover · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -8437,8 +9166,8 @@
    "date": "2027-10-27",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Halloween — Hosting / bar cart",
-   "sku": "VESTRA",
+   "theme": "Halloween — Remodel tips (value) · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -8477,8 +9206,8 @@
    "date": "2027-10-29",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Halloween — Craft & hobby cart",
-   "sku": "VESTRA",
+   "theme": "Halloween — Style match: herringbone vs fluted · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -8517,8 +9246,8 @@
    "date": "2027-10-31",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Halloween — Kitchen pantry overflow",
-   "sku": "VESTRA",
+   "theme": "Halloween — Spa bathroom at home · Calix",
+   "sku": "CALIX",
    "event": "Halloween"
   },
   {
@@ -8537,8 +9266,8 @@
    "date": "2027-11-01",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Customer Q&A (dimensions)",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -8577,8 +9306,8 @@
    "date": "2027-11-03",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "UGC / creator repost",
-   "sku": "VESTRA",
+   "theme": "Small bathroom ideas · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -8617,8 +9346,8 @@
    "date": "2027-11-05",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -8657,8 +9386,8 @@
    "date": "2027-11-07",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Plant cart",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -8677,8 +9406,8 @@
    "date": "2027-11-08",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Bathroom caddy",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -8717,8 +9446,8 @@
    "date": "2027-11-10",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Styling 3 ways",
-   "sku": "VESTRA",
+   "theme": "Double-sink couple routine · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -8757,8 +9486,8 @@
    "date": "2027-11-12",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Renter-friendly",
-   "sku": "VESTRA",
+   "theme": "Powder room makeover · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -8797,8 +9526,8 @@
    "date": "2027-11-14",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Nursery / baby care cart",
-   "sku": "VESTRA",
+   "theme": "Remodel tips (value) · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -8817,8 +9546,8 @@
    "date": "2027-11-15",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Kitchen pantry overflow",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -8857,8 +9586,8 @@
    "date": "2027-11-17",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Unboxing — arrives assembled",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -8897,8 +9626,8 @@
    "date": "2027-11-19",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Thanksgiving — Coffee bar",
-   "sku": "VESTRA",
+   "theme": "Thanksgiving — Bathroom refresh · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -8937,8 +9666,8 @@
    "date": "2027-11-21",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Thanksgiving — Home office station",
-   "sku": "VESTRA",
+   "theme": "Thanksgiving — Small bathroom ideas · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -8957,8 +9686,8 @@
    "date": "2027-11-22",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Thanksgiving — Plant cart",
-   "sku": "VESTRA",
+   "theme": "Thanksgiving — Small bathroom ideas · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -8997,8 +9726,8 @@
    "date": "2027-11-24",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Thanksgiving — Product truth (wood, trays, casters)",
-   "sku": "VESTRA",
+   "theme": "Thanksgiving — Size & fit guide · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -9037,8 +9766,8 @@
    "date": "2027-11-26",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Black Friday — Hosting / bar cart",
-   "sku": "VESTRA",
+   "theme": "Black Friday — Material close-up · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": "Black Friday"
   },
   {
@@ -9077,8 +9806,8 @@
    "date": "2027-11-28",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Cyber Monday — Craft & hobby cart",
-   "sku": "VESTRA",
+   "theme": "Cyber Monday — Double-sink couple routine · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -9097,8 +9826,8 @@
    "date": "2027-11-29",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Cyber Monday — Nursery / baby care cart",
-   "sku": "VESTRA",
+   "theme": "Cyber Monday — Powder room makeover · Parkway",
+   "sku": "PARKWAY",
    "event": "Cyber Monday"
   },
   {
@@ -9137,8 +9866,8 @@
    "date": "2027-12-01",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Bathroom vanity (Zena / Calix) — cần asset",
-   "sku": "VANITY",
+   "theme": "Remodel tips (value) · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -9177,8 +9906,8 @@
    "date": "2027-12-03",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "UGC / creator repost",
-   "sku": "VESTRA",
+   "theme": "Style match: herringbone vs fluted · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -9217,8 +9946,8 @@
    "date": "2027-12-05",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -9237,8 +9966,8 @@
    "date": "2027-12-06",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Home office station",
-   "sku": "VESTRA",
+   "theme": "Spa bathroom at home · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -9277,8 +10006,8 @@
    "date": "2027-12-08",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Bathroom caddy",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -9317,8 +10046,8 @@
    "date": "2027-12-10",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Styling 3 ways",
-   "sku": "VESTRA",
+   "theme": "Small bathroom ideas · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -9357,8 +10086,8 @@
    "date": "2027-12-12",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Renter-friendly",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -9377,8 +10106,8 @@
    "date": "2027-12-13",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Craft & hobby cart",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -9417,8 +10146,8 @@
    "date": "2027-12-15",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Kitchen pantry overflow",
-   "sku": "VESTRA",
+   "theme": "Double-sink couple routine · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -9457,8 +10186,8 @@
    "date": "2027-12-17",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Unboxing — arrives assembled",
-   "sku": "VESTRA",
+   "theme": "Powder room makeover · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -9497,8 +10226,8 @@
    "date": "2027-12-19",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Christmas — Coffee bar",
-   "sku": "VESTRA",
+   "theme": "Christmas — Remodel tips (value) · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -9517,8 +10246,8 @@
    "date": "2027-12-20",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Christmas — Small-space hack",
-   "sku": "VESTRA",
+   "theme": "Christmas — Remodel tips (value) · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -9557,8 +10286,8 @@
    "date": "2027-12-22",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Christmas — Plant cart",
-   "sku": "VESTRA",
+   "theme": "Christmas — Style match: herringbone vs fluted · Zena",
+   "sku": "ZENA",
    "event": null
   },
   {
@@ -9597,8 +10326,8 @@
    "date": "2027-12-24",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Christmas — Product truth (wood, trays, casters)",
-   "sku": "VESTRA",
+   "theme": "Christmas — Spa bathroom at home · Calix-Float",
+   "sku": "CALIX-FLOAT",
    "event": null
   },
   {
@@ -9637,8 +10366,8 @@
    "date": "2027-12-26",
    "channel": "facebook-group",
    "format": "Value post (seeding)",
-   "theme": "Hosting / bar cart",
-   "sku": "VESTRA",
+   "theme": "Bathroom refresh · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -9657,8 +10386,8 @@
    "date": "2027-12-27",
    "channel": "instagram",
    "format": "Single image / carousel",
-   "theme": "Renter-friendly",
-   "sku": "VESTRA",
+   "theme": "Small bathroom ideas · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {
@@ -9697,8 +10426,8 @@
    "date": "2027-12-29",
    "channel": "tiktok",
    "format": "Reel 9:16",
-   "theme": "Nursery / baby care cart",
-   "sku": "VESTRA",
+   "theme": "Size & fit guide · Calix",
+   "sku": "CALIX",
    "event": null
   },
   {
@@ -9737,8 +10466,8 @@
    "date": "2027-12-31",
    "channel": "instagram",
    "format": "Carousel",
-   "theme": "Customer Q&A (dimensions)",
-   "sku": "VESTRA",
+   "theme": "Material close-up · Parkway",
+   "sku": "PARKWAY",
    "event": null
   },
   {

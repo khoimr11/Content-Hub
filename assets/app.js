@@ -36,9 +36,10 @@ const dLong = s => { const [y, m, d] = s.split('-'); return `${+d}/${+m}/${y}`; 
 const DOW = ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'];
 const CH_LABEL = { instagram: 'Instagram', 'instagram-reels': 'IG Reels', 'instagram-story': 'IG Story', facebook: 'Facebook', 'facebook-story': 'FB Story', 'facebook-reels': 'FB Reels', 'facebook-group': 'FB Group', tiktok: 'TikTok', pinterest: 'Pinterest', reddit: 'Reddit', threads: 'Threads', 'youtube-shorts': 'YT Shorts', wayfair: 'Wayfair', amazon: 'Amazon', 'shopee-video': 'Shopee Video', 'shopee-feed': 'Shopee Feed', zalo: 'Zalo' };
 const chl = c => CH_LABEL[c] || c;
+const SKUN = { VESTRA: 'Vestra', ZENA: 'Zena', CALIX: 'Calix', 'CALIX-FLOAT': 'Calix Floating', PARKWAY: 'Caroline Parkway', VANITY: 'Bath vanities' };
 
 /* ---------------- state ---------------- */
-const S = { tab: store.get('ch-tab') || 'coo', ch: store.get('ch-ch') || 'all', postFilter: 'ready', calMonth: todayISO().slice(0, 7), user: store.get('ch-user') || '', keys: {}, G: null, L: null, hub: null, st: { posts: {}, studio: {}, uploads: [], approvals: {} }, sha: null, open: {} };
+const S = { tab: store.get('ch-tab') || 'coo', ch: store.get('ch-ch') || 'all', postFilter: 'ready', sku: 'all', calMonth: todayISO().slice(0, 7), user: store.get('ch-user') || '', keys: {}, G: null, L: null, hub: null, st: { posts: {}, studio: {}, uploads: [], approvals: {} }, sha: null, open: {} };
 const TABS = [['coo', 'Tổng quan', '◎'], ['posts', 'Bài đăng', '▤'], ['cal', 'Lịch', '▦'], ['studio', 'Studio', '◐'], ['seed', 'Seeding', '⌖'], ['lib', 'Thư viện', '▣'], ['agents', 'Agents', '✦']];
 
 /* ---------------- crypto: open the two dashboards ---------------- */
@@ -127,9 +128,11 @@ function postStatus(p) {
   return 'ready';
 }
 const postMedia = p => { const st = S.st.posts[p.id]; return (st && st.asset ? [st.asset] : []).concat(p.media || []); };
+const skuOf = t => /vestra|cart|rolling/i.test(t) ? 'VESTRA' : /float/i.test(t) ? 'CALIX-FLOAT' : /calix|kathryn/i.test(t) ? 'CALIX' : /zena|vivian/i.test(t) ? 'ZENA' : /parkway|caroline/i.test(t) ? 'PARKWAY' : 'VANITY';
+const skuMatch = (ps, sku) => !sku || ps === sku || (ps === 'VANITY' && sku !== 'VESTRA');
 function postedIn(days, ch, sku) {
   const from = addDays(todayISO(), -days + 1);
-  return (S.hub.posts || []).filter(p => (!ch || p.ch === ch) && (!sku || p.sku === sku) && S.st.posts[p.id] && S.st.posts[p.id].status === 'posted' && (S.st.posts[p.id].at || '').slice(0, 10) >= from).length;
+  return (S.hub.posts || []).filter(p => (!ch || p.ch === ch) && skuMatch(p.sku, sku) && S.st.posts[p.id] && S.st.posts[p.id].status === 'posted' && (S.st.posts[p.id].at || '').slice(0, 10) >= from).length;
 }
 
 /* ---------------- COO engine ---------------- */
@@ -165,7 +168,7 @@ function cooGlobal() {
   for (const part of parts) {
     const k = keyOf(part), p = P[part] || {};
     const f = fam[k] = fam[k] || { key: k, name: p.col ? `${p.col}${p.type && !/cart/i.test(p.type) ? ' ' + p.type : ''}` : (p.name || part), parts: [], onHand: 0, sold30: 0, oldestLeft: null, remainOld: 0, proj: 0 };
-    if (/vestra|cart|rolling/i.test((p.name || '') + (p.col || '') + (p.type || ''))) f.sku = 'VESTRA'; else f.sku = f.sku || 'VANITY';
+    f.sku = skuOf((p.name || '') + ' ' + (p.col || '') + ' ' + (p.type || '') + ' ' + (p.fam || ''));
     f.parts.push(part); f.onHand += (inv[part] || {}).onHand || 0; f.sold30 += sold30[part] || 0;
     for (const ly of layers[part] || []) if (ly.left > 0 && ly.recv) { const left = diffDays(today, addDays(ly.recv, CFG.CG_FREE_DAYS)); if (f.oldestLeft == null || left < f.oldestLeft) f.oldestLeft = left; f.remainOld += ly.left; }
   }
@@ -242,7 +245,7 @@ function viewCOO() {
 
   const pri = G ? `<div class="card glass"><div class="card-head"><div><h3>COO · SKU ưu tiên (Global)</h3><p class="sub">Điểm = ngày free CastleGate + hàng dự kiến tồn khi hết free + số ngày tồn + KPI doanh thu tháng. Chỉ tiêu bài/tuần tăng theo điểm.</p></div></div>
     <div class="tbl"><table><thead><tr><th>Điểm</th><th>Dòng sản phẩm</th><th class="r">Tồn</th><th class="r">Bán 30d</th><th>Lý do</th><th class="r">Chỉ tiêu/tuần</th><th class="r">Đã đăng 7d</th></tr></thead><tbody>
-    ${G.rows.map(r => `<tr><td><span class="score ${r.score >= 60 ? 'hi' : r.score >= 30 ? 'md' : 'lo'}">${r.score}</span></td><td><b>${esc(r.name)}</b><div class="sub">${esc(r.parts.slice(0, 4).join(', '))}${r.parts.length > 4 ? '…' : ''}${r.sku === 'VANITY' ? ' · <b>chưa có asset trong hub</b>' : ''}</div></td><td class="r">${n0(r.onHand)}</td><td class="r">${n0(r.sold30)}</td><td class="sub">${esc(r.why.join(' · ') || '—')}</td><td class="r"><b>${r.quota}</b></td><td class="r">${r.posted7 >= r.quota ? pill(r.posted7, 'good') : pill(r.posted7 + '/' + r.quota, 'crit')}</td></tr>`).join('')}
+    ${G.rows.map(r => `<tr><td><span class="score ${r.score >= 60 ? 'hi' : r.score >= 30 ? 'md' : 'lo'}">${r.score}</span></td><td><b>${esc(r.name)}</b><div class="sub">${esc(r.parts.slice(0, 4).join(', '))}${r.parts.length > 4 ? '…' : ''}</div></td><td class="r">${n0(r.onHand)}</td><td class="r">${n0(r.sold30)}</td><td class="sub">${esc(r.why.join(' · ') || '—')}</td><td class="r"><b>${r.quota}</b></td><td class="r">${r.posted7 >= r.quota ? pill(r.posted7, 'good') : pill(r.posted7 + '/' + r.quota, 'crit')}</td></tr>`).join('')}
     </tbody></table></div>
     ${G.kpi.goal ? `<p class="sub">KPI doanh thu tháng ${G.kpi.ym.slice(5)}: ${usd(G.kpi.mtd)} / ${usd(G.kpi.goal)} · dự phóng ${usd(G.kpi.proj)} (ước tính nhanh theo giá bán, xem số chuẩn trên Dashboard Global).</p>` : ''}</div>` : '';
   const loc = L ? `<div class="card glass"><div class="card-head"><div><h3>COO · Kệ 3 tầng Local</h3><p class="sub">Kế hoạch ${n0(L.plan)} kệ tháng ${L.ym.slice(5)} · kho Suối Nghệ ~${vnd(L.whDay)}/ngày → hàng nằm kho là tốn tiền mỗi ngày.</p></div><span class="score ${L.score >= 60 ? 'hi' : L.score >= 30 ? 'md' : 'lo'}">${L.score}</span></div>
@@ -270,7 +273,7 @@ function postCard(p) {
     <div class="body">
       <div class="meta">${stPill}<span>${DOW[new Date(p.date + 'T00:00:00Z').getUTCDay()]} ${dLong(p.date)}</span>·<b>${esc(chl(p.channel))}</b>${(p.also || []).length ? `<span class="muted">+ ${p.also.map(chl).join(', ')}</span>` : ''}</div>
       <h4>${esc(p.hook || p.theme)}</h4>
-      <div class="meta"><span>${esc(p.format)}</span>·<span>${esc(p.theme)}</span></div>
+      <div class="meta">${pill(esc(SKUN[p.sku] || p.sku))}<span>${esc(p.format)}</span>·<span>${esc(p.theme)}</span></div>
       ${p.title ? `<div class="cap"><b>Tiêu đề:</b> ${esc(p.title)}</div>` : ''}
       <div class="cap">${esc(p.caption)}${p.description ? '\n\n' + esc(p.description) : ''}${p.hashtags ? '\n\n' + esc(p.hashtags) : ''}</div>
       ${p.note ? `<div class="sub">⚑ ${esc(p.note)}</div>` : ''}
@@ -293,11 +296,14 @@ function viewPosts() {
   const F = [['ready', 'Sẵn sàng'], ['today', 'Hôm nay'], ['need', 'Chờ asset'], ['review', 'Chờ duyệt'], ['posted', 'Đã đăng'], ['all', 'Tất cả']];
   let list = S.hub.posts.filter(chOK);
   const f = S.postFilter;
+  const SK = [['all', 'Mọi sản phẩm'], ['VESTRA', 'Vestra / kệ 3 tầng'], ['ZENA', 'Zena'], ['CALIX', 'Calix'], ['CALIX-FLOAT', 'Calix Floating'], ['PARKWAY', 'Caroline Parkway']];
+  if (S.sku !== 'all') list = list.filter(p => p.sku === S.sku || (p.sku === 'VANITY' && S.sku !== 'VESTRA'));
   list = list.filter(p => { const s = postStatus(p); return f === 'all' || (f === 'today' ? p.date === t && s !== 'posted' : s === f); });
   list.sort((a, b) => f === 'posted' ? (S.st.posts[b.id].at || '').localeCompare(S.st.posts[a.id].at || '') : a.date.localeCompare(b.date));
   const cnt = k => S.hub.posts.filter(chOK).filter(p => { const s = postStatus(p); return k === 'all' || (k === 'today' ? p.date === t && s !== 'posted' : s === k); }).length;
   return `<div class="page-head"><div><h1>Bài đăng</h1><p class="sub">Global đăng bằng tiếng Anh, Local bằng tiếng Việt. Đăng xong bấm <b>Đã đăng</b> (dán link bài) — hub cập nhật cho cả team.</p></div></div>
   <div class="toolbar">${F.map(([k, l]) => `<button class="chip" data-pf="${k}" aria-pressed="${f === k}">${l} · ${cnt(k)}</button>`).join('')}</div>
+  <div class="toolbar">${SK.map(([k, l]) => `<button class="chip" data-sk="${k}" aria-pressed="${S.sku === k}">${l}</button>`).join('')}</div>
   ${list.length ? `<div class="posts">${list.map(postCard).join('')}</div>` : '<div class="empty glass card">Không có bài trong mục này.</div>'}`;
 }
 
@@ -347,7 +353,7 @@ function viewSeed() {
 function viewLib() {
   const items = S.hub.media.filter(chOK).concat((S.st.uploads || []).map(u => ({ id: u.path.split('/').pop(), path: u.path, kind: u.kind, title: 'Tải lên · ' + (u.by || ''), ch: u.ch || 'all', source: 'Upload', created: (u.at || '').slice(0, 10) })));
   const used = {}; for (const p of S.hub.posts) for (const x of p.media || []) used[x] = (used[x] || 0) + 1;
-  return `<div class="page-head"><div><h1>Thư viện asset</h1><p class="sub">Toàn bộ là thiết kế mới cho hub (không dùng lại ảnh listing cũ). Số lần dùng giúp tránh lặp hình — asset dùng ≥ 3 lần sẽ được agent hạn chế.</p></div></div>
+  return `<div class="page-head"><div><h1>Thư viện asset</h1><p class="sub">Toàn bộ là thiết kế mới cho hub, dựng từ ảnh sản phẩm tách nền (không dùng lại nguyên ảnh listing cũ). Số lần dùng giúp tránh lặp hình — asset dùng ≥ 3 lần sẽ được agent hạn chế.</p></div></div>
   <div class="lib">${items.map(i => `<div class="it">${i.kind === 'video' ? `<video src="${esc(mediaURL(i.path))}" muted playsinline preload="metadata" poster="${esc(i.poster || '')}"></video>` : `<img src="${esc(mediaURL(i.path))}" loading="lazy" alt="">`}<div><b>${esc(i.title)}</b><br><span class="muted">${esc(i.aspect || '')} · dùng ${used[i.path] || 0} lần</span> · <a href="${esc(mediaURL(i.path))}" download>tải</a></div></div>`).join('')}</div>`;
 }
 
@@ -414,6 +420,7 @@ function render() {
 document.addEventListener('click', async e => {
   const tb = e.target.closest('[data-tab]'); if (tb) { S.tab = tb.dataset.tab; store.set('ch-tab', S.tab); render(); scrollTo({ top: 0, behavior: 'smooth' }); return; }
   const cs = e.target.closest('#chSeg button'); if (cs) { S.ch = cs.dataset.ch; store.set('ch-ch', S.ch); render(); return; }
+  const sk = e.target.closest('[data-sk]'); if (sk) { S.sku = sk.dataset.sk; render(); return; }
   const pf = e.target.closest('[data-pf]'); if (pf) { S.postFilter = pf.dataset.pf; render(); return; }
   const cm = e.target.closest('[data-cal]'); if (cm) { S.calMonth = cm.dataset.cal; render(); return; }
   const sl = e.target.closest('[data-slide]'); if (sl) { const id = sl.closest('.post').dataset.id; S.open[id] = +sl.dataset.slide; render(); return; }

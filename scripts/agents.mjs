@@ -36,14 +36,17 @@ async function ask(system, user, tries = 4) {
   throw new Error('Gemini quota/timeout');
 }
 const A = id => hub.agents.find(a => a.id === id);
-const prod = ch => ch === 'global' ? hub.products.global_ : hub.products.local;
+const prod = (ch, sku) => { if (ch === 'local') return hub.products.local; const V = hub.products.vanities || {};
+  if (sku && sku !== 'VESTRA') { const v = V[sku]; if (v) return { ...v, specs: v.sizes + '; ' + v.specs, amazon: 'Amazon & Wayfair (search "Lignarc")' };
+    return { name: 'Lignarc bathroom vanities (Zena, Calix, Calix Floating, Caroline Parkway)', specs: Object.values(V).map(v => v.name + ': ' + v.sizes + ', ' + v.specs).join(' | '), colors: ['Light Oak', 'Dark Oak', 'Black Oak', 'Grey'], amazon: 'Amazon & Wayfair' } }
+  return hub.products.global_; };
 const BAN = /\b(marshall|smeg|ikea|target|walmart|best[- ]selling|#1|number one|cheapest|guarantee[ds]?|lowest price)\b|rẻ nhất|tốt nhất thị trường|số 1/i;
 
 function usage() { const u = {}; for (const p of hub.posts) for (const m of p.media || []) u[m] = (u[m] || 0) + 1; return u; }
-function pickMedia(ch, format) {
+function pickMedia(ch, format, sku) {
   const u = usage(), want = /9:16|reel|video|tiktok/i.test(format) ? 'video' : 'image';
   const asp = /2:3|pin/i.test(format) ? '2:3' : /2:1|waymore/i.test(format) ? '2:1' : null;
-  const pool = hub.media.filter(m => m.ch === ch && m.kind === want && (!asp || m.aspect === asp) && !/carousel-[2-5]/.test(m.path))
+  const pool = hub.media.filter(m => m.ch === ch && (ch === 'local' || m.sku === sku || (sku !== 'VESTRA' && m.sku === 'VANITY') || (sku === 'VANITY' && m.sku !== 'VESTRA')) && m.kind === want && (!asp || m.aspect === asp) && !/carousel-[2-5]/.test(m.path))
     .concat((state.uploads || []).filter(x => x.ch === ch && x.kind === want).map(x => ({ path: x.path })))
     .map(m => ({ ...m, n: u[m.path] || 0 })).sort((a, b) => a.n - b.n);
   return pool.length && pool[0].n < 3 ? pool[0].path : null;
@@ -51,10 +54,10 @@ function pickMedia(ch, format) {
 const recent = ch => hub.posts.filter(p => p.ch === ch).slice(-25).map(p => `- ${p.hook}`).join('\n');
 
 async function writePost(slot, notes = '') {
-  const P = prod(slot.ch), lang = slot.ch === 'global' ? 'English (US audience)' : 'Vietnamese (Vietnam Shopee shoppers)';
+  const P = prod(slot.ch, slot.sku), lang = slot.ch === 'global' ? 'English (US audience)' : 'Vietnamese (Vietnam Shopee shoppers)';
   const trends = (hub.meta.trends || {})[slot.ch] || [];
   const sys = [A('strategist').prompt, A('copy').prompt, A('trend').prompt].join('\n\n') + `\nWrite ONLY in ${lang}. Product facts you may use (never invent others): ${P.name}; ${P.specs}; colours: ${P.colors.join(', ')}. ` +
-    (slot.ch === 'global' ? `Brand: Lignarc — warm, calm, design-led; sold on Amazon (${P.amazon}) and Wayfair. Amazon Posts no longer exists.` : `Thương hiệu: Living Furniture — gần gũi, thực tế; bán trên Shopee (${P.shopee}).`) +
+    (slot.ch === 'global' ? `Brand: Lignarc — warm, calm, design-led; sold on Amazon (${P.amazon}) and Wayfair. Product line for this slot: ${slot.sku}. Amazon Posts no longer exists.` : `Thương hiệu: Living Furniture — gần gũi, thực tế; bán trên Shopee (${P.shopee}).`) +
     ' Never mention other brands, never promise a price or % discount, never claim best/#1, never write fake testimonials. Seeding posts must disclose the brand.';
   const user = `Slot: ${slot.date} · channel ${slot.channel} · format ${slot.format} · theme "${slot.theme}"${slot.event ? ' · event ' + slot.event : ''}.
 Trends to consider: ${trends.join(' | ') || 'n/a'}
@@ -89,12 +92,12 @@ async function review(slot, post) {
       let post = await writePost(slot); await sleep(4000);
       let rv = await review(slot, post); await sleep(4000);
       if (rv.score < 80 && rv.score >= 60) { post = await writePost(slot, rv.notes + ' ' + rv.issues.join('; ')); await sleep(4000); rv = await review(slot, post); await sleep(4000); }
-      const media = slot.sku === 'VANITY' ? null : pickMedia(slot.ch, slot.format);
+      const media = pickMedia(slot.ch, slot.format, slot.sku);
       const id = `${slot.ch === 'global' ? 'G' : 'L'}-${slot.date.slice(5).replace('-', '')}-${slot.channel.slice(0, 2).toUpperCase()}${Math.random().toString(36).slice(2, 4)}`;
       let status = rv.issues.length ? 'review' : rv.score >= 80 ? 'approved' : 'review';
       if (!media && status === 'approved') status = 'needs-asset';
       if (!media && post.image_prompt) hub.studio.push({ id: 'GS-' + id, ch: slot.ch, title: post.hook, aspect: /9:16/.test(slot.format) ? '9:16' : /2:3/.test(slot.format) ? '2:3' : '4:5', kind: /video|reel|9:16/i.test(slot.format) ? 'video' : 'image',
-        prompt: post.image_prompt, refs: [slot.ch === 'local' ? 'media/ref/vestra-green-angle.jpg' : 'media/ref/vestra-white-angle.jpg'], status: 'todo', tool: 'Gemini app (Pro)' });
+        prompt: post.image_prompt, refs: [slot.ch === 'local' ? 'media/ref/vestra-green-angle.jpg' : ({ ZENA: 'media/ref/zena60-light.jpg', CALIX: 'media/ref/calix60-dark.jpg', 'CALIX-FLOAT': 'media/ref/float24-black.jpg', PARKWAY: 'media/ref/parkway36-grey.jpg' }[slot.sku] || 'media/ref/vestra-white-angle.jpg')], status: 'todo', tool: 'Gemini app (Pro)' });
       hub.posts.push({ id, ch: slot.ch, date: slot.date, channel: slot.channel, also: Object.keys(post.variants || {}), format: slot.format, theme: slot.theme, sku: slot.sku, media: media ? [media] : [],
         hook: post.hook, title: post.title || undefined, caption: post.caption, description: post.description || undefined, hashtags: post.hashtags || '', alt: post.alt || '', cta: post.cta || '', brief: post.brief || '', variants: post.variants || undefined,
         status, review: { by: 'director', score: rv.score, notes: rv.notes, verdict: rv.verdict }, guardian: { pass_: !rv.issues.length, issues: rv.issues }, by: `Gemini ${MODEL} (agents)`, created: vnToday });
