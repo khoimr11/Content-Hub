@@ -1,0 +1,31 @@
+name: Content agents (Gemini free tier)
+on:
+  schedule:
+    - cron: '13 23 * * *'   # 06:13 giờ VN mỗi ngày
+  workflow_dispatch:
+    inputs:
+      max_posts: { description: 'Số bài tối đa mỗi lần chạy', default: '8' }
+permissions:
+  contents: write
+concurrency: { group: agents, cancel-in-progress: false }
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - name: Agents fill the next 14 days
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MAX_POSTS: ${{ github.event.inputs.max_posts || '8' }}
+        run: node scripts/agents.mjs
+      - name: Commit
+        run: |
+          git config user.name "content-agents"
+          git config user.email "content-agents@users.noreply.github.com"
+          git add data/hub.json
+          git diff --cached --quiet && exit 0
+          git commit -m "agents: lấp lịch 14 ngày tới"
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 5; done
