@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-25T02:36:01Z",
+  "updated": "2026-11-25T02:39:11Z",
   "version": 1,
   "horizon": "2027-12-31",
   "note": "Nội dung đợt 1 do Claude tạo (vai Strategist, Copywriter, Visual, Director). Từ đợt sau: agent tự chạy bằng GitHub Actions + Gemini API free tier."
@@ -229,6 +229,149 @@
    "source": "Gemini + Claude edit",
    "created": "2026-11-25",
    "poster": "media/v/R04-vestra-coffee-veo-poster.jpg"
+  },
+  {
+   "id": "AMZ-tile-office",
+   "path": "media/amz/AMZ-tile-office.jpg",
+   "kind": "image",
+   "aspect": "Amazon",
+   "title": "Amazon pack · tile-office",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "AMZ-tile-nursery",
+   "path": "media/amz/AMZ-tile-nursery.jpg",
+   "kind": "image",
+   "aspect": "Amazon",
+   "title": "Amazon pack · tile-nursery",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "AMZ-tile-hosting",
+   "path": "media/amz/AMZ-tile-hosting.jpg",
+   "kind": "image",
+   "aspect": "Amazon",
+   "title": "Amazon pack · tile-hosting",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "AMZ-tile-coffee",
+   "path": "media/amz/AMZ-tile-coffee.jpg",
+   "kind": "image",
+   "aspect": "Amazon",
+   "title": "Amazon pack · tile-coffee",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "AMZ-store-hero-vestra",
+   "path": "media/amz/AMZ-store-hero-vestra.jpg",
+   "kind": "image",
+   "aspect": "Amazon",
+   "title": "Amazon pack · store-hero-vestra",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "AMZ-gallery-office",
+   "path": "media/amz/AMZ-gallery-office.jpg",
+   "kind": "image",
+   "aspect": "Amazon",
+   "title": "Amazon pack · gallery-office",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "AMZ-gallery-nursery",
+   "path": "media/amz/AMZ-gallery-nursery.jpg",
+   "kind": "image",
+   "aspect": "Amazon",
+   "title": "Amazon pack · gallery-nursery",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "AMZ-gallery-hosting",
+   "path": "media/amz/AMZ-gallery-hosting.jpg",
+   "kind": "image",
+   "aspect": "Amazon",
+   "title": "Amazon pack · gallery-hosting",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "AMZ-gallery-coffee",
+   "path": "media/amz/AMZ-gallery-coffee.jpg",
+   "kind": "image",
+   "aspect": "Amazon",
+   "title": "Amazon pack · gallery-coffee",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "AMZ-aplus-4-office",
+   "path": "media/amz/AMZ-aplus-4-office.jpg",
+   "kind": "image",
+   "aspect": "Amazon",
+   "title": "Amazon pack · aplus-4-office",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "AMZ-aplus-3-nursery",
+   "path": "media/amz/AMZ-aplus-3-nursery.jpg",
+   "kind": "image",
+   "aspect": "Amazon",
+   "title": "Amazon pack · aplus-3-nursery",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "AMZ-aplus-2-hosting",
+   "path": "media/amz/AMZ-aplus-2-hosting.jpg",
+   "kind": "image",
+   "aspect": "Amazon",
+   "title": "Amazon pack · aplus-2-hosting",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "AMZ-aplus-1-coffee",
+   "path": "media/amz/AMZ-aplus-1-coffee.jpg",
+   "kind": "image",
+   "aspect": "Amazon",
+   "title": "Amazon pack · aplus-1-coffee",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
   },
   {
    "id": "X-V04-story",
@@ -2118,6 +2261,171 @@
     "by": "director",
     "score": 92,
     "notes": "Video chân thực, có chuyển động tay + hơi nước — dạng ASMR morning routine rất dễ viral.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "A-1126-STORE",
+   "ch": "global",
+   "sku": "VESTRA",
+   "date": "2026-11-26",
+   "channel": "amazon",
+   "format": "Brand Store — trang Vestra",
+   "theme": "Brand Store refresh (thay Posts)",
+   "media": [
+    "media/amz/AMZ-store-hero-vestra.jpg",
+    "media/amz/AMZ-tile-coffee.jpg",
+    "media/amz/AMZ-tile-hosting.jpg",
+    "media/amz/AMZ-tile-nursery.jpg",
+    "media/amz/AMZ-tile-office.jpg"
+   ],
+   "hook": "Brand Store: “One cart. Every room.”",
+   "caption": "Seller Central → Stores → Lignarc → thêm trang/section “Vestra”:\n1) Hero 3000×1200: AMZ-store-hero-vestra (alt: “Vestra 3-tier rolling cart as a coffee bar in a small kitchen”).\n2) 4 ô ảnh 1500×1500 có nút Shop → ASIN B0HJQQ3MY4: Coffee bar · Holiday hosting · Nursery caddy · Home office.\n3) Thêm video R04 ở section dưới hero.\n4) Submit for review (thường 24–72h).",
+   "hashtags": "",
+   "alt": "",
+   "cta": "Seller Central → Stores",
+   "note": "Amazon Posts đã bị Amazon ngừng; Amazon chỉ định Brand Store và Amazon Live làm kênh thay thế.",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 90,
+    "notes": "Brand Store là kênh Amazon chính thức thay Posts; ảnh lifestyle mới nâng tỉ lệ chuyển đổi.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "A-1127-APLUS",
+   "ch": "global",
+   "sku": "VESTRA",
+   "date": "2026-11-27",
+   "channel": "amazon",
+   "format": "A+ Premium — 4 module 1464×600",
+   "theme": "A+ refresh lifestyle",
+   "media": [
+    "media/amz/AMZ-aplus-1-coffee.jpg",
+    "media/amz/AMZ-aplus-2-hosting.jpg",
+    "media/amz/AMZ-aplus-3-nursery.jpg",
+    "media/amz/AMZ-aplus-4-office.jpg"
+   ],
+   "hook": "Thay 4 module A+ bằng ảnh lifestyle mới",
+   "caption": "A+ Content Manager → bản A+ của Vestra → Edit → thay ảnh module Full Image (1464×600):\n• Fits the 12-inch gap\n• Roll it to the party\n• Everything within reach\n• Arrives fully assembled\nAlt text dùng đúng tiêu đề module. Submit.",
+   "hashtags": "",
+   "alt": "",
+   "cta": "A+ Content Manager",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 89,
+    "notes": "A+ đang dùng ảnh cũ — thay lifestyle tăng CVR.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "A-1128-GALLERY",
+   "ch": "global",
+   "sku": "VESTRA",
+   "date": "2026-11-28",
+   "channel": "amazon",
+   "also": [
+    "wayfair"
+   ],
+   "format": "Ảnh listing 2000×2000",
+   "theme": "Gallery lifestyle images",
+   "media": [
+    "media/amz/AMZ-gallery-coffee.jpg",
+    "media/amz/AMZ-gallery-hosting.jpg",
+    "media/amz/AMZ-gallery-nursery.jpg",
+    "media/amz/AMZ-gallery-office.jpg"
+   ],
+   "hook": "Thêm 4 ảnh lifestyle vào gallery listing",
+   "caption": "Manage All Inventory → Vestra → Edit → Images: thêm 4 ảnh vào vị trí 4–7 (giữ ảnh chính nền trắng). Làm tương tự trên Wayfair (Partner Home → Product media).",
+   "hashtags": "",
+   "alt": "",
+   "cta": "Manage Inventory",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 88,
+    "notes": "Gallery thiếu ảnh dùng thực tế — ưu tiên.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "A-1129-VIDEO",
+   "ch": "global",
+   "sku": "VESTRA",
+   "date": "2026-11-29",
+   "channel": "amazon",
+   "format": "Video listing",
+   "theme": "Listing video",
+   "media": [
+    "media/v/R04-vestra-coffee-veo.mp4"
+   ],
+   "hook": "Upload video coffee morning lên listing",
+   "caption": "Seller Central → Catalog → Upload & Manage Videos → Upload: R04-vestra-coffee-veo.mp4\nTitle: “Vestra Rolling Cart — Small-Kitchen Coffee Bar” (≤60 ký tự) · ASIN B0HJQQ3MY4 · Type: Product overview · Language: English.",
+   "hashtags": "",
+   "alt": "",
+   "cta": "Upload & Manage Videos",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 91,
+    "notes": "Video listing tăng CVR; video có chuyển động thật.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "A-1203-LIVE",
+   "ch": "global",
+   "sku": "VESTRA",
+   "date": "2026-12-03",
+   "channel": "amazon",
+   "format": "Amazon Live — kịch bản 15 phút",
+   "theme": "Holiday hosting live",
+   "media": [
+    "media/x/X-V02-story.jpg"
+   ],
+   "hook": "Live: “Build a hot cocoa bar in 5 minutes”",
+   "caption": "Kịch bản Amazon Live (app Amazon Live Creator, nếu tài khoản đủ điều kiện):\n0:00 Hook — “Your holiday guests are coming. Let’s build a cocoa bar that rolls.”\n1:00 Lấy xe ra khỏi hộp — nhấn mạnh arrives assembled\n3:00 Xếp 3 tầng: cocoa / mugs / blankets\n7:00 Đẩy qua lại, khoá bánh, đo 11.9\" deep\n10:00 Q&A — kích thước, tải trọng ~11 lb/tầng\n13:00 CTA — gắn sản phẩm, ưu đãi đang có (nếu có)\n15:00 Kết.",
+   "hashtags": "",
+   "alt": "",
+   "cta": "Amazon Live Creator",
+   "note": "Kiểm tra điều kiện tài khoản cho Amazon Live trước.",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 82,
+    "notes": "Tuỳ điều kiện tài khoản; chi phí 0.",
     "verdict": "approve"
    },
    "guardian": {

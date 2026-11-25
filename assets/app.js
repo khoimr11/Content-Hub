@@ -351,7 +351,7 @@ function viewSeed() {
 }
 
 function viewLib() {
-  const items = S.hub.media.filter(chOK).concat((S.st.uploads || []).map(u => ({ id: u.path.split('/').pop(), path: u.path, kind: u.kind, title: 'Tải lên · ' + (u.by || ''), ch: u.ch || 'all', source: 'Upload', created: (u.at || '').slice(0, 10) })));
+  const items = S.hub.media.filter(chOK).filter(i => !i.raw).concat((S.st.uploads || []).map(u => ({ id: u.path.split('/').pop(), path: u.path, kind: u.kind, title: 'Tải lên · ' + (u.by || ''), ch: u.ch || 'all', source: 'Upload', created: (u.at || '').slice(0, 10) })));
   const used = {}; for (const p of S.hub.posts) for (const x of p.media || []) used[x] = (used[x] || 0) + 1;
   return `<div class="page-head"><div><h1>Thư viện asset</h1><p class="sub">Toàn bộ là thiết kế mới cho hub, dựng từ ảnh sản phẩm tách nền (không dùng lại nguyên ảnh listing cũ). Số lần dùng giúp tránh lặp hình — asset dùng ≥ 3 lần sẽ được agent hạn chế.</p></div></div>
   <div class="lib">${items.map(i => `<div class="it">${i.kind === 'video' ? `<video src="${esc(mediaURL(i.path))}" muted playsinline preload="metadata" poster="${esc(i.poster || '')}"></video>` : `<img src="${esc(mediaURL(i.path))}" loading="lazy" alt="">`}<div><b>${esc(i.title)}</b><br><span class="muted">${esc(i.aspect || '')} · dùng ${used[i.path] || 0} lần</span> · <a href="${esc(mediaURL(i.path))}" download>tải</a></div></div>`).join('')}</div>`;
