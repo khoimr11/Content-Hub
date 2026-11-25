@@ -277,11 +277,13 @@ function postCard(p) {
       ${p.title ? `<div class="cap"><b>Tiêu đề:</b> ${esc(p.title)}</div>` : ''}
       <div class="cap">${esc(p.caption)}${p.description ? '\n\n' + esc(p.description) : ''}${p.hashtags ? '\n\n' + esc(p.hashtags) : ''}</div>
       ${p.note ? `<div class="sub">⚑ ${esc(p.note)}</div>` : ''}
+      ${p.link ? `<div class="sub">🔗 <a href="${esc(p.link)}" target="_blank" rel="noopener">${esc(p.link_label || 'Link sản phẩm')}</a>${p.link_where ? ' · ' + esc(p.link_where) : ''}</div>` : ''}
       ${rev.score ? `<div class="rev"><span class="score ${rev.score >= 85 ? 'lo' : 'md'}" style="width:36px;height:36px">${rev.score}</span><div><b>Director</b> · ${esc(rev.notes)}</div></div>` : ''}
       ${ap ? `<div class="sub">Quản lý ${ap.verdict === 'approve' ? 'đã duyệt' : 'đã loại'} · ${esc(ap.by || '')}</div>` : ''}
       ${st === 'posted' ? `<div class="done-mark">✓ Đã đăng ${sp.at ? dLong(sp.at.slice(0, 10)) : ''} ${sp.by ? '· ' + esc(sp.by) : ''}${sp.url ? ` · <a href="${esc(sp.url)}" target="_blank" rel="noopener">xem bài</a>` : ''}</div>` : ''}
       <div class="actions">
         <button class="btn sm" data-act="copy" data-id="${esc(p.id)}">Copy caption</button>
+        ${p.link ? `<button class="btn sm" data-act="copylink" data-id="${esc(p.id)}">Copy link</button>` : ''}
         ${p.variants ? Object.keys(p.variants).map(k => `<button class="btn sm" data-act="copyv" data-k="${esc(k)}" data-id="${esc(p.id)}">Copy ${esc(chl(k))}</button>`).join('') : ''}
         ${md.length ? `<button class="btn sm" data-act="dl" data-id="${esc(p.id)}">Tải ${md.length > 1 ? md.length + ' file' : 'file'}</button>` : ''}
         ${st === 'need' ? `<button class="btn sm soft" data-act="asset" data-id="${esc(p.id)}">Tải asset lên</button>` : ''}
@@ -435,6 +437,7 @@ document.addEventListener('click', async e => {
   const a = e.target.closest('[data-act]'); if (!a) return;
   const id = a.dataset.id, p = S.hub.posts.find(x => x.id === id);
   switch (a.dataset.act) {
+    case 'copylink': copy(p.link); break;
     case 'copy': copy([p.title ? p.title : '', p.caption, p.description || '', p.hashtags || ''].filter(Boolean).join('\n\n')); break;
     case 'copyv': copy(p.variants[a.dataset.k]); break;
     case 'dl': for (const x of postMedia(p)) { const l = document.createElement('a'); l.href = mediaURL(x); l.download = x.split('/').pop(); document.body.appendChild(l); l.click(); l.remove(); await new Promise(r => setTimeout(r, 250)); } break;

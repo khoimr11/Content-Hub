@@ -42,9 +42,22 @@ async function ask1(MODEL, system, user, tries) {
   throw new Error('Gemini quota/timeout');
 }
 const A = id => hub.agents.find(a => a.id === id);
+const WF = 'https://www.wayfair.com/home-improvement/pdp/';
+const LINKS = { VESTRA: ['https://www.amazon.com/dp/B0HJQQ3MY4', 'Vestra 3-Tier Cart · Amazon'], ZENA: [WF + 'ebern-designs-zena-60-bathroom-vanity-with-statuario-countertop-w119459242.html?piid=939554784', 'Zena 60" Walnut · Wayfair'],
+  CALIX: [WF + 'ebern-designs-calix-72-double-bathroom-vanity-with-statuario-marble-countertop-w119469083.html?piid=2000572188', 'Calix 72" · Wayfair'], 'CALIX-FLOAT': [WF + 'ebern-designs-calix-24-wall-mounted-single-vanity-w119497954.html?piid=1712794509', 'Calix 24" wall-mounted · Wayfair'],
+  PARKWAY: [WF + 'ebern-designs-caroline-parkway-36-single-sink-bathroom-vanity-with-dazzle-white-quartz-w121113621.html?piid=1026469077%2C1026469083', 'Caroline Parkway 36" · Wayfair'] };
+LINKS.VANITY = LINKS.ZENA; const SHOPEE = ['https://shopee.vn/product/1930028500/57268678004/', 'Xe đẩy 3 tầng · Shopee'];
+const BIO = /^(tiktok|instagram|youtube-shorts)|story$/;
+function linkify(p) {
+  const [url, label] = p.ch === 'local' ? SHOPEE : (LINKS[p.sku] || LINKS.VESTRA); p.link = url; p.link_label = label;
+  let c = (p.caption || '').replace(/https?:\/\/shopee\.vn\/living_furniture\S*/g, url).replace(/\s*Search ['"]?Lignarc['"]?[^.\n]*\.?/gi, '');
+  if (BIO.test(p.channel)) { p.link_where = 'dán vào bio / link sticker'; if (!/bio|sticker/i.test(c)) c += p.ch === 'local' ? '\n\n🔗 Link Shopee ở bio' : '\n\n🔗 Link in bio'; }
+  else if (!c.includes(url)) c += p.ch === 'local' ? `\n\n🛒 Mua tại Shopee: ${url}` : `\n\n🛒 Shop: ${url}`;
+  p.caption = c; if (/search/i.test(p.cta || '')) p.cta = 'Link in bio'; return p;
+}
 const prod = (ch, sku) => { if (ch === 'local') return hub.products.local; const V = hub.products.vanities || {};
-  if (sku && sku !== 'VESTRA') { const v = V[sku]; if (v) return { ...v, specs: v.sizes + '; ' + v.specs, amazon: 'Amazon & Wayfair (search "Lignarc")' };
-    return { name: 'Lignarc bathroom vanities (Zena, Calix, Calix Floating, Caroline Parkway)', specs: Object.values(V).map(v => v.name + ': ' + v.sizes + ', ' + v.specs).join(' | '), colors: ['Light Oak', 'Dark Oak', 'Black Oak', 'Grey'], amazon: 'Amazon & Wayfair' } }
+  if (sku && sku !== 'VESTRA') { const v = V[sku]; if (v) return { ...v, specs: v.sizes + '; ' + v.specs, amazon: 'Wayfair (listed under the Ebern Designs name — never tell people to search "Lignarc" on Wayfair)' };
+    return { name: 'Lignarc bathroom vanities (Zena, Calix, Calix Floating, Caroline Parkway)', specs: Object.values(V).map(v => v.name + ': ' + v.sizes + ', ' + v.specs).join(' | '), colors: ['Light Brown', 'Walnut', 'Dark Oak', 'Grey', 'White'], amazon: 'Wayfair (Ebern Designs listings)' } }
   return hub.products.global_; };
 const BAN = /\b(marshall|smeg|ikea|target|walmart|best[- ]selling|#1|number one|cheapest|guarantee[ds]?|lowest price)\b|rẻ nhất|tốt nhất thị trường|số 1/i;
 
@@ -63,7 +76,7 @@ async function writePost(slot, notes = '') {
   const P = prod(slot.ch, slot.sku), lang = slot.ch === 'global' ? 'English (US audience)' : 'Vietnamese (Vietnam Shopee shoppers)';
   const trends = (hub.meta.trends || {})[slot.ch] || [];
   const sys = [A('strategist').prompt, A('copy').prompt, A('trend').prompt].join('\n\n') + `\nWrite ONLY in ${lang}. Product facts you may use (never invent others): ${P.name}; ${P.specs}; colours: ${P.colors.join(', ')}. ` +
-    (slot.ch === 'global' ? `Brand: Lignarc — warm, calm, design-led; sold on Amazon (${P.amazon}) and Wayfair. Product line for this slot: ${slot.sku}. Amazon Posts no longer exists.` : `Thương hiệu: Living Furniture — gần gũi, thực tế; bán trên Shopee (${P.shopee}).`) +
+    (slot.ch === 'global' ? `Brand: Lignarc — warm, calm, design-led; where to buy: ${slot.sku === 'VESTRA' ? 'Amazon (ASIN B0HJQQ3MY4)' : P.amazon}. Product line for this slot: ${slot.sku}. Never tell people to "search" for the brand — a product link is added automatically ("link in bio" on TikTok/Instagram).` : `Thương hiệu: Living Furniture — gần gũi, thực tế; bán trên Shopee; link sản phẩm được tự thêm vào cuối bài, đừng tự viết link.`) +
     ' Never mention other brands, never promise a price or % discount, never claim best/#1, never write fake testimonials. Seeding posts must disclose the brand.';
   const user = `Slot: ${slot.date} · channel ${slot.channel} · format ${slot.format} · theme "${slot.theme}"${slot.event ? ' · event ' + slot.event : ''}.
 Trends to consider: ${trends.join(' | ') || 'n/a'}
@@ -107,6 +120,7 @@ async function review(slot, post) {
       hub.posts.push({ id, ch: slot.ch, date: slot.date, channel: slot.channel, also: Object.keys(post.variants || {}), format: slot.format, theme: slot.theme, sku: slot.sku, media: media ? [media] : [],
         hook: post.hook, title: post.title || undefined, caption: post.caption, description: post.description || undefined, hashtags: post.hashtags || '', alt: post.alt || '', cta: post.cta || '', brief: post.brief || '', variants: post.variants || undefined,
         status, review: { by: 'director', score: rv.score, notes: rv.notes, verdict: rv.verdict }, guardian: { pass_: !rv.issues.length, issues: rv.issues }, by: `Gemini ${MODEL} (agents)`, created: vnToday });
+      linkify(hub.posts[hub.posts.length - 1]);
       slot.post = id; made++; console.log('post', id, rv.score, status);
     } catch (e) { console.log('slot fail', slot.id, e.message); if (/quota|429/.test(e.message)) break; }
   }
