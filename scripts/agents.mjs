@@ -20,13 +20,14 @@ async function pickModel() {
     const r = await fetch(`${BASE}/models?key=${KEY}&pageSize=200`); const j = await r.json();
     const names = (j.models || []).filter(m => (m.supportedGenerationMethods || []).includes('generateContent')).map(m => m.name.replace('models/', ''));
     const ok = n => /flash/.test(n) && !/image|tts|audio|live|embedding|thinking-exp|preview-tts|veo|omni/.test(n);
-    CANDS = ['gemini-2.5-flash', 'gemini-2.5-flash-lite', 'gemini-2.0-flash', 'gemini-flash-lite-latest'].filter(n => names.includes(n)); console.log('models', names.filter(ok).join(','));
-    return names.find(n => n === 'gemini-flash-latest') || names.filter(ok).filter(n => !/lite/.test(n)).sort().reverse()[0] || names.filter(ok).sort().reverse()[0] || 'gemini-flash-latest';
+    const ver = n => parseFloat((n.match(/(\d+(\.\d+)?)/) || [0, 0])[1]); const stable = names.filter(ok).filter(n => !/preview|exp/.test(n) && /\d/.test(n));
+    CANDS = [...stable.filter(n => !/lite/.test(n)).sort((a, b) => ver(b) - ver(a)), 'gemini-flash-latest', ...stable.filter(n => /lite/.test(n)).sort((a, b) => ver(b) - ver(a)), 'gemini-flash-lite-latest'].filter(n => names.includes(n)); console.log('models', names.filter(ok).join(','));
+    return CANDS[0] || names.find(n => n === 'gemini-flash-latest') || names.filter(ok).filter(n => !/lite/.test(n)).sort().reverse()[0] || names.filter(ok).sort().reverse()[0] || 'gemini-flash-latest';
   } catch (e) { return 'gemini-flash-latest'; }
 }
 let MODEL, CANDS = [];
 async function ask(system, user, tries = 4) {
-  for (const m of [MODEL, ...CANDS.filter(c => c !== MODEL)].slice(0, 4)) { try { const out = await ask1(m, system, user, tries); if (MODEL !== m) { console.log('switch model ->', m); MODEL = m; } return out; } catch (e) { console.log('model fail', m, e.message.slice(0, 300)); if (!/quota|429|404|not found|NOT_FOUND|timeout/i.test(e.message)) throw e; } }
+  for (const m of [MODEL, ...CANDS.filter(c => c !== MODEL)].slice(0, 6)) { try { const out = await ask1(m, system, user, tries); if (MODEL !== m) { console.log('switch model ->', m); MODEL = m; } return out; } catch (e) { console.log('model fail', m, e.message.slice(0, 300)); if (!/quota|429|404|not found|NOT_FOUND|timeout/i.test(e.message)) throw e; } }
   throw new Error('Gemini quota/timeout');
 }
 async function ask1(MODEL, system, user, tries) {
