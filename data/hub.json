@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-25T02:28:36Z",
+  "updated": "2026-11-25T02:30:22Z",
   "version": 1,
   "horizon": "2027-12-31",
   "note": "Nội dung đợt 1 do Claude tạo (vai Strategist, Copywriter, Visual, Director). Từ đợt sau: agent tự chạy bằng GitHub Actions + Gemini API free tier."
@@ -217,6 +217,18 @@
    "source": "Gemini + Claude edit",
    "created": "2026-11-25",
    "poster": "media/v/R01-which-bathroom-are-you-poster.jpg"
+  },
+  {
+   "id": "VEO-V01-vestra-coffee",
+   "path": "media/gen/VEO-V01-vestra-coffee.mp4",
+   "kind": "video",
+   "aspect": "9:16",
+   "title": "Reel photoreal · ../gen/VEO-V01-vestra-coffee",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini + Claude edit",
+   "created": "2026-11-25",
+   "poster": null
   },
   {
    "id": "X-V04-story",
@@ -1292,6 +1304,18 @@
    "source": "Gemini app (Pro)",
    "created": "2026-11-25",
    "raw": true
+  },
+  {
+   "id": "VEO-V01-vestra-coffee",
+   "path": "media/gen/VEO-V01-vestra-coffee.mp4",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · VEO-V01-vestra-coffee.mp4",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
   }
  ],
  "posts": [
@@ -1893,6 +1917,42 @@
     "by": "director",
     "score": 82,
     "notes": "Poll story tăng tương tác.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-1202-TT-VEO1",
+   "ch": "global",
+   "sku": "VESTRA",
+   "date": "2026-12-02",
+   "channel": "tiktok",
+   "also": [
+    "instagram-reels",
+    "youtube-shorts",
+    "amazon"
+   ],
+   "format": "Video 9:16 (10s, Veo)",
+   "theme": "ASMR coffee morning",
+   "media": [
+    "media/gen/VEO-V01-vestra-coffee.mp4"
+   ],
+   "hook": "The 6:45am coffee bar that lives next to the fridge",
+   "caption": "POV: your coffee bar fits in the 12-inch gap next to the fridge ☕️🤍 #coffeebar #morningroutine #smallkitchen #asmr #rollingcart",
+   "hashtags": "#coffeebar #morningroutine #smallkitchen #asmr #rollingcart",
+   "alt": "",
+   "cta": "Giữ âm thanh gốc (ASMR) hoặc thêm nhạc lo-fi trending",
+   "note": "Đăng thêm làm video listing Amazon (Manage Videos) cho Vestra.",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 92,
+    "notes": "Video chân thực, có chuyển động tay + hơi nước — dạng ASMR morning routine rất dễ viral.",
     "verdict": "approve"
    },
    "guardian": {
