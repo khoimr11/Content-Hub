@@ -40,7 +40,7 @@ const SKUN = { VESTRA: 'Vestra', ZENA: 'Zena', CALIX: 'Calix', 'CALIX-FLOAT': 'C
 
 /* ---------------- state ---------------- */
 const S = { tab: store.get('ch-tab') || 'coo', ch: store.get('ch-ch') || 'all', postFilter: 'ready', sku: 'all', calMonth: todayISO().slice(0, 7), user: store.get('ch-user') || '', keys: {}, G: null, L: null, hub: null, st: { posts: {}, studio: {}, uploads: [], approvals: {} }, sha: null, open: {} };
-const TABS = [['coo', 'Tổng quan', '◎'], ['posts', 'Bài đăng', '▤'], ['cal', 'Lịch', '▦'], ['studio', 'Studio', '◐'], ['seed', 'Seeding', '⌖'], ['lib', 'Thư viện', '▣'], ['agents', 'Agents', '✦']];
+const TABS = [['coo', 'Tổng quan', '◎'], ['posts', 'Bài đăng', '▤'], ['cal', 'Lịch', '▦'], ['studio', 'Studio', '◐'], ['seed', 'Seeding', '⌖'], ['lib', 'Thư viện', '▣'], ['agents', 'Agents', '✦'], ['shop', 'Shopee Store', '⌂']];
 
 /* ---------------- crypto: open the two dashboards ---------------- */
 async function pbkdf(user, pass, salt, iter = 250000) {
@@ -367,6 +367,47 @@ function viewAgents() {
   ${teams.map(t => `<h3 style="margin:16px 4px 10px">${t}</h3><div class="agents">${H.agents.filter(a => a.team === t).map(a => `<div class="agent glass" data-team="${esc(a.team)}"><div class="row"><span class="av">${esc(a.icon)}</span><b>${esc(a.name)}</b></div><div class="sub">${esc(a.role)}</div><details><summary class="sub">System prompt</summary><div class="prompt">${esc(a.prompt)}</div></details></div>`).join('')}</div>`).join('')}`;
 }
 
+/* ---------------- Shopee store (Living Furniture) ---------------- */
+const SPSEC = [['camp', 'Campaign'], ['video', 'Video'], ['store', 'Trang trí store'], ['listing', 'Ảnh sản phẩm'], ['brand', 'Nhận diện'], ['strategy', 'Chiến lược']];
+const TIERL = { mega: 'Double day', mid: 'Giữa tháng', pay: 'Lương về', event: 'Sự kiện' };
+function spAsset(a, ratio) { return `<a class="sp-a" href="${esc(a.path || a)}" download title="Tải về"><img loading="lazy" src="${esc(a.path || a)}" style="aspect-ratio:${ratio}"><span>${esc(a.title || '')}</span>${a.where ? `<small>${esc(a.where)}</small>` : ''}</a>`; }
+function spCamp(c) {
+  const st = (S.st.posts || {})[c.id] || {}, done = st.status === 'posted', cp = c.copy;
+  const blk = (k, label, txt) => `<div class="sp-copy"><div class="row"><b>${label}</b><button class="btn sm" data-act="spcopy" data-id="${esc(c.id)}" data-k="${k}">Copy</button></div><pre>${esc(txt)}</pre></div>`;
+  return `<div class="card glass sp-camp${done ? ' done' : ''}" id="${esc(c.id)}">
+    <div class="row" style="justify-content:space-between;align-items:flex-start;gap:10px"><div><span class="sp-pill">${esc(TIERL[c.tier] || c.tier)}</span> <span class="sub">${esc(c.window)}</span><h3 style="margin:6px 0 2px">${esc(c.name)}</h3><p class="sub">${esc(c.theme)} · ${esc(c.persona)}${c.units ? ` · <b>Mục tiêu ~${c.units} xe</b>` : ''}</p></div>
+      ${done ? `<button class="btn sm" data-act="spundo" data-id="${esc(c.id)}">✓ Đã triển khai</button>` : `<button class="btn sm pri" data-act="spdone" data-id="${esc(c.id)}">Đánh dấu đã triển khai</button>`}</div>
+    <div class="sp-assets">${spAsset({ path: c.assets.banner, title: 'Banner store 2:1' }, '2/1')}${spAsset({ path: c.assets.square, title: 'Feed / ảnh bìa 1:1' }, '1/1')}${spAsset({ path: c.assets.story, title: 'Bìa video / Live 9:16' }, '9/16')}</div>
+    <details><summary>Cơ chế & checklist</summary><div class="grid g2"><div><b>Cơ chế Shopee</b><ul>${c.mechanics.map(m => `<li>${esc(m)}</li>`).join('')}</ul></div><div><b>Checklist</b><ul>${c.checklist.map(m => `<li>${esc(m)}</li>`).join('')}</ul></div></div></details>
+    <details><summary>Nội dung (Feed, chat, video${cp.live ? ', live, KOC' : ''})</summary>
+      ${blk('feed', 'Bài Shopee Feed', cp.feed)}${blk('push', 'Chat broadcast', cp.push)}${blk('video', 'Kịch bản Shopee Video', cp.video.join('\n'))}${blk('video_caption', 'Caption video', cp.video_caption)}
+      ${cp.live ? blk('live', 'Kịch bản Live 20h', cp.live.join('\n')) + blk('koc', 'Brief KOC / affiliate', cp.koc) : ''}</details></div>`;
+}
+function viewShop() {
+  const D = S.shop; if (!D) { getJSON('data/shopee.json').then(x => { S.shop = x; render(); }).catch(() => toast('Chưa tải được data/shopee.json')); return `<div class="card glass"><p class="sub">Đang tải…</p></div>`; }
+  const sec = S.spSec || 'camp';
+  const head = `<div class="page-head"><div><h1>Shopee Store · Living Furniture</h1><p class="sub">Giải tồn kệ 3 tầng · <a href="${esc(D.shop)}" target="_blank" rel="noopener">mở store</a> · <a href="${esc(D.item)}" target="_blank" rel="noopener">trang sản phẩm</a> · ${esc(D.facts)}</p></div></div>
+    <div class="toolbar">${SPSEC.map(([k, l]) => `<button class="chip" data-spsec="${k}" aria-pressed="${sec === k}">${l}</button>`).join('')}</div>`;
+  if (sec === 'camp') {
+    const months = [...new Set(D.campaigns.map(c => c.month))], today = new Date().toISOString().slice(0, 10);
+    const m = S.spMonth && months.includes(S.spMonth) ? S.spMonth : (months.find(x => D.campaigns.some(c => c.month === x && c.end >= today)) || months[0]);
+    const cs = D.campaigns.filter(c => c.month === m), plan = D.plan[m];
+    return head + `<div class="toolbar">${months.map(x => `<button class="chip" data-spm="${x}" aria-pressed="${x === m}">${+x.slice(5)}/${x.slice(2, 4)}</button>`).join('')}</div>
+      <p class="sub" style="margin:0 4px 12px">Chủ đề tháng: <b>${esc(cs[0] ? cs[0].theme : '')}</b>${plan ? ` · Kế hoạch tháng: <b>${plan} xe</b> (85% chia cho campaign, phần còn lại là bán thường ngày)` : ' · Mục tiêu: theo KPI trên dashboard Local'}</p>
+      <div class="sp-list">${cs.map(spCamp).join('')}</div>`;
+  }
+  if (sec === 'video') return head + `<div class="grid g3">${(D.videos || []).map(v => `<div class="card glass"><video src="${esc(v.path)}" poster="${esc(v.poster || '')}" controls playsinline preload="none" style="width:100%;border-radius:14px;aspect-ratio:9/16;background:#000"></video><h3 style="margin-top:10px">${esc(v.title)}</h3><p class="sub">${esc(v.use)}</p><p class="sub"><b>Caption:</b> ${esc(v.caption)}</p><div class="actions"><a class="btn sm" href="${esc(v.path)}" download>Tải video</a><button class="btn sm" data-act="spvcap" data-id="${esc(v.id)}">Copy caption</button></div></div>`).join('')}</div>`;
+  if (sec === 'store') return head + `<p class="sub" style="margin:0 4px 12px">Seller Centre → Shop → Trang trí shop. Banner trượt tỉ lệ 2:1, ô danh mục 1:1. Mỗi campaign có banner riêng ở tab Campaign: thay vào vị trí 1 trong thời gian chạy.</p><div class="sp-grid">${D.store.map(a => spAsset(a, a.path.includes('banner') ? '2/1' : '1/1')).join('')}</div>`;
+  if (sec === 'listing') return head + `<p class="sub" style="margin:0 4px 12px">Bộ 9 ảnh cho trang sản phẩm kệ 3 tầng, đúng thứ tự vị trí. Ảnh bìa có thể tạm thay bằng ảnh "Feed / ảnh bìa" của campaign đang chạy.</p><div class="sp-grid sq">${D.listing.map(a => spAsset(a, '1/1')).join('')}</div>`;
+  const B = D.brand;
+  if (sec === 'brand') return head + `<div class="grid g2"><div class="card glass"><h3>Lời hứa thương hiệu</h3><p style="font-size:22px;font-weight:800;margin:6px 0">${esc(B.promise)}</p><p class="sub">Tagline: <b>${esc(B.tagline)}</b></p><p>${esc(B.positioning)}</p></div>
+    <div class="card glass"><h3>Màu & chữ</h3><div class="row" style="flex-wrap:wrap;gap:10px;margin:8px 0">${B.palette.map(([n, c]) => `<div style="text-align:center"><div style="width:58px;height:58px;border-radius:14px;background:${c};border:1px solid var(--line)"></div><small>${esc(n)}<br>${c}</small></div>`).join('')}</div><p class="sub">${esc(B.type)}</p><p class="sub"><b>Giọng nói:</b> ${esc(B.voice)}</p></div>
+    <div class="card glass"><h3>4 trụ cột thông điệp</h3><ul>${B.pillars.map(([a, b]) => `<li><b>${esc(a)}</b> — ${esc(b)}</li>`).join('')}</ul></div>
+    <div class="card glass"><h3>Chân dung khách hàng</h3><ul>${B.personas.map(([a, b, c]) => `<li><b>${esc(a)}</b> — ${esc(b)} <small class="sub">(ảnh: ${esc(c)})</small></li>`).join('')}</ul></div>
+    <div class="card glass"><h3>Nên</h3><ul>${B.dos.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div><div class="card glass"><h3>Không nên</h3><ul>${B.donts.map(x => `<li>${esc(x)}</li>`).join('')}</ul><p class="sub">Hashtag: ${esc(B.hashtags)}</p></div></div>`;
+  return head + `<div class="card glass"><h3>Chiến lược giải tồn</h3><ul>${D.strategy.map(([a, b]) => `<li style="margin:8px 0"><b>${esc(a)}:</b> ${esc(b)}</li>`).join('')}</ul></div>`;
+}
+
 /* ---------------- modals ---------------- */
 function postModal(p) {
   const chans = [p.channel, ...(p.also || [])];
@@ -415,7 +456,7 @@ function render() {
   $('#tabs').innerHTML = TABS.map(([k, l]) => `<button role="tab" data-tab="${k}" aria-selected="${S.tab === k}">${l}${k === 'posts' && c.posts ? `<span class="n">${c.posts}</span>` : ''}</button>`).join('');
   $('#tabbar').innerHTML = TABS.filter(t => t[0] !== 'lib').map(([k, l, i]) => `<button data-tab="${k}" aria-selected="${S.tab === k}"><b>${i}</b>${l}</button>`).join('');
   $$('#chSeg button').forEach(b => b.setAttribute('aria-pressed', b.dataset.ch === S.ch));
-  const v = { coo: viewCOO, posts: viewPosts, cal: viewCal, studio: viewStudio, seed: viewSeed, lib: viewLib, agents: viewAgents }[S.tab] || viewCOO;
+  const v = { coo: viewCOO, posts: viewPosts, cal: viewCal, studio: viewStudio, seed: viewSeed, lib: viewLib, agents: viewAgents, shop: viewShop }[S.tab] || viewCOO;
   $('#view').innerHTML = v();
   $('#stamp').textContent = `Nội dung cập nhật ${(S.hub.meta.updated || '').slice(0, 10)} · ${[S.G && 'Global', S.L && 'Local'].filter(Boolean).join(' + ') || 'chưa nối dashboard'}`;
 }
@@ -423,6 +464,8 @@ document.addEventListener('click', async e => {
   const tb = e.target.closest('[data-tab]'); if (tb) { S.tab = tb.dataset.tab; store.set('ch-tab', S.tab); render(); scrollTo({ top: 0, behavior: 'smooth' }); return; }
   const cs = e.target.closest('#chSeg button'); if (cs) { S.ch = cs.dataset.ch; store.set('ch-ch', S.ch); render(); return; }
   const sk = e.target.closest('[data-sk]'); if (sk) { S.sku = sk.dataset.sk; render(); return; }
+  const spsec = e.target.closest('[data-spsec]'); if (spsec) { S.spSec = spsec.dataset.spsec; render(); return; }
+  const spm = e.target.closest('[data-spm]'); if (spm) { S.spMonth = spm.dataset.spm; render(); return; }
   const pf = e.target.closest('[data-pf]'); if (pf) { S.postFilter = pf.dataset.pf; render(); return; }
   const cm = e.target.closest('[data-cal]'); if (cm) { S.calMonth = cm.dataset.cal; render(); return; }
   const sl = e.target.closest('[data-slide]'); if (sl) { const id = sl.closest('.post').dataset.id; S.open[id] = +sl.dataset.slide; render(); return; }
@@ -436,6 +479,13 @@ document.addEventListener('click', async e => {
   if (e.target.closest('#settingsBtn')) { settingsModal(); return; }
   const a = e.target.closest('[data-act]'); if (!a) return;
   const id = a.dataset.id, p = S.hub.posts.find(x => x.id === id);
+  if (/^sp/.test(a.dataset.act)) {
+    if (a.dataset.act === 'spvcap') { copy(S.shop.videos.find(v => v.id === id).caption); return; }
+    const c = S.shop.campaigns.find(x => x.id === id);
+    if (a.dataset.act === 'spcopy') { const v = c.copy[a.dataset.k]; copy(Array.isArray(v) ? v.join('\n') : v); return; }
+    if (a.dataset.act === 'spdone') { await saveState(`shopee done: ${id}`, { posts: { [id]: { status: 'posted', at: new Date().toISOString(), by: S.user } } }); render(); return; }
+    if (a.dataset.act === 'spundo') { await saveState(`shopee undo: ${id}`, { posts: { [id]: { status: 'planned', at: null } } }); render(); return; }
+  }
   switch (a.dataset.act) {
     case 'copylink': copy(p.link); break;
     case 'copy': copy([p.title ? p.title : '', p.caption, p.description || '', p.hashtags || ''].filter(Boolean).join('\n\n')); break;

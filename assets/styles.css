@@ -174,3 +174,17 @@ td.r,th.r{text-align:right}
 }
 a.btn{text-decoration:none;display:inline-block}
 @media (max-width:760px){.top .brand div{display:none}.top{justify-content:space-between}.seg button{padding:6px 8px;white-space:nowrap}}
+
+/* Shopee store tab */
+.sp-list{display:grid;gap:14px}
+.sp-camp.done{opacity:.72}
+.sp-assets{display:grid;grid-template-columns:2fr 1fr .56fr;gap:10px;margin:12px 0;align-items:start}
+.sp-a{display:block;text-decoration:none;color:var(--ink)}
+.sp-a img{width:100%;object-fit:cover;border-radius:14px;display:block;box-shadow:0 6px 18px rgba(46,36,33,.12)}
+.sp-a span{display:block;font-size:12px;font-weight:700;margin-top:6px}.sp-a small{display:block;font-size:11px;color:var(--ink2)}
+.sp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}.sp-grid.sq{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
+.sp-copy{margin:10px 0}.sp-copy .row{display:flex;justify-content:space-between;align-items:center}
+.sp-copy pre{white-space:pre-wrap;font:inherit;font-size:13px;background:rgba(255,255,255,.55);border:1px solid var(--line);border-radius:12px;padding:10px;margin:6px 0 0}
+.sp-camp details{margin-top:8px}.sp-camp summary{cursor:pointer;font-weight:700;font-size:14px}
+.sp-pill{display:inline-block;font-size:11px;font-weight:800;padding:3px 9px;border-radius:999px;background:var(--ink);color:#fff}
+@media (max-width:700px){.sp-assets{grid-template-columns:1fr 1fr}.sp-assets .sp-a:first-child{grid-column:1/-1}}
