@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-24T15:12:29Z",
+  "updated": "2026-11-25T02:28:36Z",
   "version": 1,
   "horizon": "2027-12-31",
   "note": "Nội dung đợt 1 do Claude tạo (vai Strategist, Copywriter, Visual, Director). Từ đợt sau: agent tự chạy bằng GitHub Actions + Gemini API free tier."
@@ -183,6 +183,493 @@
  ],
  "media": [
   {
+   "id": "R03-xe-day-1-chiec-nhieu-goc",
+   "path": "media/v/R03-xe-day-1-chiec-nhieu-goc.mp4",
+   "kind": "video",
+   "aspect": "9:16",
+   "title": "Reel photoreal · R03-xe-day-1-chiec-nhieu-goc",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini + Claude edit",
+   "created": "2026-11-25",
+   "poster": "media/v/R03-xe-day-1-chiec-nhieu-goc-poster.jpg"
+  },
+  {
+   "id": "R02-vestra-one-cart-every-room",
+   "path": "media/v/R02-vestra-one-cart-every-room.mp4",
+   "kind": "video",
+   "aspect": "9:16",
+   "title": "Reel photoreal · R02-vestra-one-cart-every-room",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini + Claude edit",
+   "created": "2026-11-25",
+   "poster": "media/v/R02-vestra-one-cart-every-room-poster.jpg"
+  },
+  {
+   "id": "R01-which-bathroom-are-you",
+   "path": "media/v/R01-which-bathroom-are-you.mp4",
+   "kind": "video",
+   "aspect": "9:16",
+   "title": "Reel photoreal · R01-which-bathroom-are-you",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Gemini + Claude edit",
+   "created": "2026-11-25",
+   "poster": "media/v/R01-which-bathroom-are-you-poster.jpg"
+  },
+  {
+   "id": "X-V04-story",
+   "path": "media/x/X-V04-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "Photoreal · X-V04 · story",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-V04-pin",
+   "path": "media/x/X-V04-pin.jpg",
+   "kind": "image",
+   "aspect": "2:3",
+   "title": "Photoreal · X-V04 · pin",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-V04-feed",
+   "path": "media/x/X-V04-feed.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Photoreal · X-V04 · feed",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-V03-story",
+   "path": "media/x/X-V03-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "Photoreal · X-V03 · story",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-V03-pin",
+   "path": "media/x/X-V03-pin.jpg",
+   "kind": "image",
+   "aspect": "2:3",
+   "title": "Photoreal · X-V03 · pin",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-V03-feed",
+   "path": "media/x/X-V03-feed.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Photoreal · X-V03 · feed",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-V02-story",
+   "path": "media/x/X-V02-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "Photoreal · X-V02 · story",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-V02-pin",
+   "path": "media/x/X-V02-pin.jpg",
+   "kind": "image",
+   "aspect": "2:3",
+   "title": "Photoreal · X-V02 · pin",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-V02-feed",
+   "path": "media/x/X-V02-feed.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Photoreal · X-V02 · feed",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-V01-story",
+   "path": "media/x/X-V01-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "Photoreal · X-V01 · story",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-V01-pin",
+   "path": "media/x/X-V01-pin.jpg",
+   "kind": "image",
+   "aspect": "2:3",
+   "title": "Photoreal · X-V01 · pin",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-V01-feed",
+   "path": "media/x/X-V01-feed.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Photoreal · X-V01 · feed",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-L04-story",
+   "path": "media/x/X-L04-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "Photoreal · X-L04 · story",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-L04-feed",
+   "path": "media/x/X-L04-feed.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Photoreal · X-L04 · feed",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-L03-story",
+   "path": "media/x/X-L03-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "Photoreal · X-L03 · story",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-L03-feed",
+   "path": "media/x/X-L03-feed.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Photoreal · X-L03 · feed",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-L02-story",
+   "path": "media/x/X-L02-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "Photoreal · X-L02 · story",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-L02-feed",
+   "path": "media/x/X-L02-feed.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Photoreal · X-L02 · feed",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-L01-story",
+   "path": "media/x/X-L01-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "Photoreal · X-L01 · story",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-L01-feed",
+   "path": "media/x/X-L01-feed.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Photoreal · X-L01 · feed",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B08-story",
+   "path": "media/x/X-B08-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "Photoreal · X-B08 · story",
+   "ch": "global",
+   "sku": "PARKWAY",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B08-pin",
+   "path": "media/x/X-B08-pin.jpg",
+   "kind": "image",
+   "aspect": "2:3",
+   "title": "Photoreal · X-B08 · pin",
+   "ch": "global",
+   "sku": "PARKWAY",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B08-feed",
+   "path": "media/x/X-B08-feed.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Photoreal · X-B08 · feed",
+   "ch": "global",
+   "sku": "PARKWAY",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B07-story",
+   "path": "media/x/X-B07-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "Photoreal · X-B07 · story",
+   "ch": "global",
+   "sku": "CALIX-FLOAT",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B07-pin",
+   "path": "media/x/X-B07-pin.jpg",
+   "kind": "image",
+   "aspect": "2:3",
+   "title": "Photoreal · X-B07 · pin",
+   "ch": "global",
+   "sku": "CALIX-FLOAT",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B07-feed",
+   "path": "media/x/X-B07-feed.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Photoreal · X-B07 · feed",
+   "ch": "global",
+   "sku": "CALIX-FLOAT",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B06-story",
+   "path": "media/x/X-B06-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "Photoreal · X-B06 · story",
+   "ch": "global",
+   "sku": "CALIX-FLOAT",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B06-pin",
+   "path": "media/x/X-B06-pin.jpg",
+   "kind": "image",
+   "aspect": "2:3",
+   "title": "Photoreal · X-B06 · pin",
+   "ch": "global",
+   "sku": "CALIX-FLOAT",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B06-feed",
+   "path": "media/x/X-B06-feed.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Photoreal · X-B06 · feed",
+   "ch": "global",
+   "sku": "CALIX-FLOAT",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B05-story",
+   "path": "media/x/X-B05-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "Photoreal · X-B05 · story",
+   "ch": "global",
+   "sku": "CALIX",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B05-pin",
+   "path": "media/x/X-B05-pin.jpg",
+   "kind": "image",
+   "aspect": "2:3",
+   "title": "Photoreal · X-B05 · pin",
+   "ch": "global",
+   "sku": "CALIX",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B05-feed",
+   "path": "media/x/X-B05-feed.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Photoreal · X-B05 · feed",
+   "ch": "global",
+   "sku": "CALIX",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B04-story",
+   "path": "media/x/X-B04-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "Photoreal · X-B04 · story",
+   "ch": "global",
+   "sku": "CALIX",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B04-pin",
+   "path": "media/x/X-B04-pin.jpg",
+   "kind": "image",
+   "aspect": "2:3",
+   "title": "Photoreal · X-B04 · pin",
+   "ch": "global",
+   "sku": "CALIX",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B04-feed",
+   "path": "media/x/X-B04-feed.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Photoreal · X-B04 · feed",
+   "ch": "global",
+   "sku": "CALIX",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B02-story",
+   "path": "media/x/X-B02-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "Photoreal · X-B02 · story",
+   "ch": "global",
+   "sku": "ZENA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B02-pin",
+   "path": "media/x/X-B02-pin.jpg",
+   "kind": "image",
+   "aspect": "2:3",
+   "title": "Photoreal · X-B02 · pin",
+   "ch": "global",
+   "sku": "ZENA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B02-feed",
+   "path": "media/x/X-B02-feed.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Photoreal · X-B02 · feed",
+   "ch": "global",
+   "sku": "ZENA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B01-story",
+   "path": "media/x/X-B01-story.jpg",
+   "kind": "image",
+   "aspect": "9:16",
+   "title": "Photoreal · X-B01 · story",
+   "ch": "global",
+   "sku": "ZENA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B01-pin",
+   "path": "media/x/X-B01-pin.jpg",
+   "kind": "image",
+   "aspect": "2:3",
+   "title": "Photoreal · X-B01 · pin",
+   "ch": "global",
+   "sku": "ZENA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B01-feed",
+   "path": "media/x/X-B01-feed.jpg",
+   "kind": "image",
+   "aspect": "4:5",
+   "title": "Photoreal · X-B01 · feed",
+   "ch": "global",
+   "sku": "ZENA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
    "id": "G01-one-cart-every-room",
    "path": "media/g/G01-one-cart-every-room.jpg",
    "kind": "image",
@@ -190,7 +677,7 @@
    "title": "One cart. Every room.",
    "ch": "global",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -202,7 +689,7 @@
    "title": "0 tools — fully assembled",
    "ch": "global",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -214,7 +701,7 @@
    "title": "Made for the 12-inch gap",
    "ch": "global",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -226,7 +713,7 @@
    "title": "Hosting season, sorted",
    "ch": "global",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -238,7 +725,7 @@
    "title": "Pinterest — 5 ways to style",
    "ch": "global",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -250,7 +737,7 @@
    "title": "Carousel 1/5",
    "ch": "global",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -262,7 +749,7 @@
    "title": "Carousel 2/5",
    "ch": "global",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -274,7 +761,7 @@
    "title": "Carousel 3/5",
    "ch": "global",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -286,7 +773,7 @@
    "title": "Carousel 4/5",
    "ch": "global",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -298,7 +785,7 @@
    "title": "Carousel 5/5",
    "ch": "global",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -310,7 +797,7 @@
    "title": "Cyber Week story",
    "ch": "global",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -322,7 +809,7 @@
    "title": "Plant stage",
    "ch": "global",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -334,7 +821,7 @@
    "title": "Wayfair — every room",
    "ch": "global",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -346,7 +833,7 @@
    "title": "Wayfair — assembled",
    "ch": "global",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -358,7 +845,7 @@
    "title": "Reel — one cart, every room (11s)",
    "ch": "global",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": "media/v/V01-one-cart-every-room-poster.jpg"
   },
@@ -370,7 +857,7 @@
    "title": "Zena — herringbone",
    "ch": "global",
    "sku": "ZENA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -382,7 +869,7 @@
    "title": "Calix — fluted",
    "ch": "global",
    "sku": "CALIX",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -394,7 +881,7 @@
    "title": "Calix Floating — small bath",
    "ch": "global",
    "sku": "CALIX-FLOAT",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -406,7 +893,7 @@
    "title": "Pinterest — vanity size guide",
    "ch": "global",
    "sku": "ZENA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -418,7 +905,7 @@
    "title": "Caroline Parkway — shaker 36\"",
    "ch": "global",
    "sku": "PARKWAY",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -430,7 +917,7 @@
    "title": "Vanity carousel 1/5",
    "ch": "global",
    "sku": "VANITY",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -442,7 +929,7 @@
    "title": "Vanity carousel 2/5",
    "ch": "global",
    "sku": "VANITY",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -454,7 +941,7 @@
    "title": "Vanity carousel 3/5",
    "ch": "global",
    "sku": "VANITY",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -466,7 +953,7 @@
    "title": "Vanity carousel 4/5",
    "ch": "global",
    "sku": "VANITY",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -478,7 +965,7 @@
    "title": "Vanity carousel 5/5",
    "ch": "global",
    "sku": "VANITY",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -490,7 +977,7 @@
    "title": "New year bathroom story",
    "ch": "global",
    "sku": "VANITY",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -502,7 +989,7 @@
    "title": "Wayfair — bath collection lineup",
    "ch": "global",
    "sku": "VANITY",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -514,7 +1001,7 @@
    "title": "Reel — bath vanity collection (12s)",
    "ch": "global",
    "sku": "VANITY",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": "media/v/V03-bath-collection-poster.jpg"
   },
@@ -526,7 +1013,7 @@
    "title": "Nhà nhỏ vẫn gọn bếp",
    "ch": "local",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -538,7 +1025,7 @@
    "title": "Không cần lắp ráp",
    "ch": "local",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -550,7 +1037,7 @@
    "title": "Chọn màu: trắng / xanh rêu",
    "ch": "local",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -562,7 +1049,7 @@
    "title": "Tết gọn nhà",
    "ch": "local",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -574,7 +1061,7 @@
    "title": "12.12 sale",
    "ch": "local",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -586,7 +1073,7 @@
    "title": "Kích thước — story",
    "ch": "local",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -598,7 +1085,7 @@
    "title": "Góc làm việc",
    "ch": "local",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": null
   },
@@ -610,1166 +1097,1045 @@
    "title": "Reel — mở hộp là dùng (10s)",
    "ch": "local",
    "sku": "VESTRA",
-   "source": "Claude design (mới)",
+   "source": "v1 graphic (phụ — infographic/spec)",
    "created": "2026-11-25",
    "poster": "media/v/V02-mo-hop-la-dung-poster.jpg"
+  },
+  {
+   "id": "GEN-B01-zena-brooklyn-bath",
+   "path": "media/gen/GEN-B01-zena-brooklyn-bath.png",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-B01-zena-brooklyn-bath.png",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
+  },
+  {
+   "id": "GEN-B02-zena-dark-spa",
+   "path": "media/gen/GEN-B02-zena-dark-spa.jpg",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-B02-zena-dark-spa.jpg",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
+  },
+  {
+   "id": "GEN-B03-zena-couple-morning",
+   "path": "media/gen/GEN-B03-zena-couple-morning.jpg",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-B03-zena-couple-morning.jpg",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
+  },
+  {
+   "id": "GEN-B04-calix-light-japandi",
+   "path": "media/gen/GEN-B04-calix-light-japandi.jpg",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-B04-calix-light-japandi.jpg",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
+  },
+  {
+   "id": "GEN-B05-calix-dark-terracotta",
+   "path": "media/gen/GEN-B05-calix-dark-terracotta.jpg",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-B05-calix-dark-terracotta.jpg",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
+  },
+  {
+   "id": "GEN-B06-floating-black-powder",
+   "path": "media/gen/GEN-B06-floating-black-powder.jpg",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-B06-floating-black-powder.jpg",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
+  },
+  {
+   "id": "GEN-B07-floating-light-nyc",
+   "path": "media/gen/GEN-B07-floating-light-nyc.jpg",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-B07-floating-light-nyc.jpg",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
+  },
+  {
+   "id": "GEN-B08-parkway-farmhouse",
+   "path": "media/gen/GEN-B08-parkway-farmhouse.jpg",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-B08-parkway-farmhouse.jpg",
+   "ch": "global",
+   "sku": "VANITY",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
+  },
+  {
+   "id": "GEN-L01-xanh-bep-saigon",
+   "path": "media/gen/GEN-L01-xanh-bep-saigon.jpg",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-L01-xanh-bep-saigon.jpg",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
+  },
+  {
+   "id": "GEN-L02-xanh-tet",
+   "path": "media/gen/GEN-L02-xanh-tet.jpg",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-L02-xanh-tet.jpg",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
+  },
+  {
+   "id": "GEN-L03-trang-phong-tro",
+   "path": "media/gen/GEN-L03-trang-phong-tro.jpg",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-L03-trang-phong-tro.jpg",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
+  },
+  {
+   "id": "GEN-L04-trang-ban-cong-phin",
+   "path": "media/gen/GEN-L04-trang-ban-cong-phin.jpg",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-L04-trang-ban-cong-phin.jpg",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
+  },
+  {
+   "id": "GEN-V01-vestra-coffee-nyc",
+   "path": "media/gen/GEN-V01-vestra-coffee-nyc.jpg",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-V01-vestra-coffee-nyc.jpg",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
+  },
+  {
+   "id": "GEN-V02-vestra-cocoa-xmas",
+   "path": "media/gen/GEN-V02-vestra-cocoa-xmas.jpg",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-V02-vestra-cocoa-xmas.jpg",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
+  },
+  {
+   "id": "GEN-V03-vestra-nursery",
+   "path": "media/gen/GEN-V03-vestra-nursery.jpg",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-V03-vestra-nursery.jpg",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
+  },
+  {
+   "id": "GEN-V04-vestra-wfh",
+   "path": "media/gen/GEN-V04-vestra-wfh.jpg",
+   "kind": "image",
+   "aspect": "3:4",
+   "title": "Ảnh gốc (không chữ) · GEN-V04-vestra-wfh.jpg",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini app (Pro)",
+   "created": "2026-11-25",
+   "raw": true
   }
  ],
  "posts": [
   {
-   "id": "G-1126-IG",
+   "id": "X-1126-IG-B01",
    "ch": "global",
+   "sku": "ZENA",
    "date": "2026-11-26",
    "channel": "instagram",
    "also": [
-    "facebook"
+    "facebook",
+    "threads"
    ],
-   "format": "Carousel (5)",
-   "theme": "Cyber Week — product truth",
+   "format": "Single photo 4:5",
+   "theme": "Black Friday hero — Zena",
    "media": [
-    "media/g/G06-carousel-1.jpg",
-    "media/g/G06-carousel-2.jpg",
-    "media/g/G06-carousel-3.jpg",
-    "media/g/G06-carousel-4.jpg",
-    "media/g/G06-carousel-5.jpg"
+    "media/x/X-B01-feed.jpg",
+    "media/b/B04-pin-size-guide.jpg"
    ],
-   "hook": "Small space, smart cart.",
-   "caption": "Small space, smart cart. 🛒\n\nVestra is the rolling cart that looks like furniture:\n— solid wood frame, not a plastic utility cart\n— raised-edge, scratch-resistant trays\n— 360° casters, two of them lock\n— arrives fully assembled\n\nCyber Week savings are live on Amazon and Wayfair for a limited time. Link in bio.",
-   "hashtags": "#rollingcart #smallspaceliving #homeorganization #organizedhome #apartmentliving #storageideas #homedecor #cozyhome #scandinavianhome #japandi #cyberweek",
-   "alt": "Five slides showing the Lignarc Vestra 3-tier rolling cart with a natural wood frame and white trays, with captions about its frame, trays and casters.",
-   "cta": "Link in bio → Amazon / Wayfair",
+   "hook": "The vanity that makes the whole bathroom look expensive.",
+   "caption": "The vanity that makes the whole bathroom look expensive. ✨\n\nZena’s herringbone doors do the heavy lifting — pair them with warm brass, an olive tree and that 5pm light.\n\n→ Light or Dark Oak · 36\" to 72\" double sink\n→ Black Friday savings on Amazon & Wayfair (limited time)\n\nSave this for your remodel board 📌",
+   "hashtags": "#bathroomvanity #bathroomremodel #bathroomdesign #bathroominspo #homerenovation #interiordesign #homedecor #herringbone #blackfriday",
+   "alt": "Light oak herringbone double vanity in a sunlit Brooklyn bathroom with zellige tile and brass mirror.",
+   "cta": "Link in bio",
    "variants": {
-    "facebook": "Small space, smart cart. Vestra has a solid wood frame, raised scratch-resistant trays and locking 360° casters — and it shows up fully assembled. Cyber Week savings on Amazon & Wayfair for a limited time 👉 https://www.amazon.com/dp/B0HJQQ3MY4"
+    "threads": "Hot take: the vanity sets the whole bathroom’s price tag. Herringbone > plain doors, every time. Agree?"
    },
    "status": "approved",
-   "sku": "VESTRA",
    "review": {
     "by": "director",
-    "score": 86,
-    "notes": "Hook ngắn, carousel kể đủ lý do mua; Cyber Week không hứa % giảm — an toàn. Nên ghim bình luận có link.",
+    "score": 90,
+    "notes": "Hook “look expensive” đánh đúng insight remodel; ảnh editorial đủ dừng scroll.",
     "verdict": "approve"
    },
    "guardian": {
     "pass_": true,
     "issues": []
    },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
    "created": "2026-11-25"
   },
   {
-   "id": "G-1127-TT",
+   "id": "X-1127-TT-R01",
    "ch": "global",
+   "sku": "VANITY",
    "date": "2026-11-27",
+   "channel": "tiktok",
+   "also": [
+    "instagram-reels",
+    "youtube-shorts",
+    "facebook-reels"
+   ],
+   "format": "Reel 9:16 (10s)",
+   "theme": "Black Friday — which bathroom are you",
+   "media": [
+    "media/v/R01-which-bathroom-are-you.mp4"
+   ],
+   "hook": "POV: you finally redo the bathroom",
+   "caption": "Which bathroom are you? 1, 2, 3, 4 or 5 👇 #bathroomremodel #bathroomtok #homerenovation #blackfriday",
+   "hashtags": "#bathroomremodel #bathroomtok #homerenovation #blackfriday",
+   "alt": "",
+   "cta": "Thêm nhạc trending trong app + ghim comment hỏi 1–5",
+   "note": "Comment “1–5” kéo tương tác mạnh → thuật toán đẩy reach.",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 88,
+    "notes": "Format “which one are you + comment 1–5” là cơ chế tương tác mạnh nhất cho home content.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-1129-PIN-B07",
+   "ch": "global",
+   "sku": "CALIX-FLOAT",
+   "date": "2026-11-29",
+   "channel": "pinterest",
+   "format": "Pin 2:3",
+   "theme": "Small bathroom idea",
+   "media": [
+    "media/x/X-B07-pin.jpg"
+   ],
+   "hook": "The trick that makes a tiny bathroom feel twice as big.",
+   "caption": "Small Bathroom Idea: A Floating Vanity That Frees the Floor",
+   "description": "Tiny bathroom? Mount the vanity on the wall. Seeing floor underneath makes a small bath feel bigger. Shown: Lignarc Calix Floating vanity in Light Oak — fluted front, ceramic sink, built-in towel bar, 18\", 24\" and 30\".",
+   "hashtags": "",
+   "alt": "Light oak floating vanity in a small bright New York bathroom.",
+   "cta": "Link: Amazon",
+   "board": "Small Bathroom Ideas",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 91,
+    "notes": "Pin “small bathroom idea” = từ khoá có search volume lớn nhất mảng vanity.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-1130-IG-B02",
+   "ch": "global",
+   "sku": "ZENA",
+   "date": "2026-11-30",
+   "channel": "instagram",
+   "also": [
+    "facebook"
+   ],
+   "format": "Carousel (3)",
+   "theme": "Cyber Monday — moody spa",
+   "media": [
+    "media/x/X-B02-feed.jpg",
+    "media/x/X-B01-feed.jpg",
+    "media/b/B01-zena-herringbone.jpg"
+   ],
+   "hook": "Quiet luxury, but make it your Tuesday night.",
+   "caption": "Quiet luxury, but make it your Tuesday night. 🕯️\n\nSwipe: Zena in Dark Oak → Light Oak → side by side.\nSame herringbone doors, two totally different moods.\n\nWhich one would you pick — dark or light? 👇\nCyber Monday savings on Amazon & Wayfair, limited time.",
+   "hashtags": "#bathroomvanity #bathroomremodel #bathroomdesign #bathroominspo #homerenovation #interiordesign #homedecor #moodybathroom #spabathroom #cybermonday",
+   "alt": "Dark walnut herringbone double vanity in a moody green-tile spa bathroom with candles and a steaming tub.",
+   "cta": "Comment dark/light",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 89,
+    "notes": "Carousel đối lập dark/light → tăng thời gian xem + comment.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-1202-IG-B05",
+   "ch": "global",
+   "sku": "CALIX",
+   "date": "2026-12-02",
+   "channel": "instagram",
+   "also": [
+    "facebook",
+    "pinterest"
+   ],
+   "format": "Single photo 4:5",
+   "theme": "Trend — warm minimalism",
+   "media": [
+    "media/x/X-B05-feed.jpg"
+   ],
+   "hook": "Warm minimalism is the new all-white bathroom.",
+   "caption": "Warm minimalism is the new all-white bathroom. 🧡\n\nTerracotta tile + fluted Dark Oak + brushed gold = a bathroom that feels like golden hour all day.\n\nCalix · 60\" & 72\" double sink · link in bio",
+   "hashtags": "#bathroomvanity #bathroomremodel #bathroomdesign #bathroominspo #homerenovation #interiordesign #homedecor #warmminimalism #flutedfurniture #terracotta",
+   "alt": "Fluted dark oak vanity with gold pulls against terracotta tile in warm sunlight.",
+   "cta": "Link in bio",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 87,
+    "notes": "Bắt đúng trend warm minimalism; màu ảnh nổi trên feed.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-1204-TT-B06",
+   "ch": "global",
+   "sku": "CALIX-FLOAT",
+   "date": "2026-12-04",
+   "channel": "tiktok",
+   "also": [
+    "instagram-reels"
+   ],
+   "format": "Reel 9:16 — Veo/Gemini",
+   "theme": "Powder room glow-up",
+   "status": "needs-asset",
+   "media": [
+    "media/x/X-B06-story.jpg"
+   ],
+   "hook": "Small powder room. Main-character energy.",
+   "caption": "Your powder room deserves main-character energy 🖤✨ #powderroom #jewelbox #floatingvanity #smallbathroom",
+   "hashtags": "#powderroom #jewelbox #floatingvanity #smallbathroom",
+   "alt": "",
+   "cta": "Dùng ảnh story X-B06 tạm thời; video Veo GS-23 khi có",
+   "note": "Có thể đăng dạng ảnh story ngay; bản video làm trong Studio.",
+   "review": {
+    "by": "director",
+    "score": 84,
+    "notes": "Hook mạnh; cần video Veo để tối đa reach.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-1206-IG-B04",
+   "ch": "global",
+   "sku": "CALIX",
+   "date": "2026-12-06",
+   "channel": "instagram",
+   "also": [
+    "facebook",
+    "pinterest"
+   ],
+   "format": "Single photo 4:5",
+   "theme": "Japandi",
+   "media": [
+    "media/x/X-B04-feed.jpg"
+   ],
+   "hook": "Japandi bathroom, unlocked.",
+   "caption": "Japandi bathroom, unlocked. 🌿\n\nLimewash walls, a pill mirror, one wooden stool — and fluted Light Oak doing all the talking.\n\nCalix · link in bio",
+   "hashtags": "#bathroomvanity #bathroomremodel #bathroomdesign #bathroominspo #homerenovation #interiordesign #homedecor #japandi #japandistyle #flutedvanity",
+   "alt": "Light oak fluted vanity in a calm Japandi bathroom.",
+   "cta": "Link in bio",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 85,
+    "notes": "Japandi vẫn là style được lưu nhiều nhất.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-1208-IG-B08",
+   "ch": "global",
+   "sku": "PARKWAY",
+   "date": "2026-12-08",
+   "channel": "instagram",
+   "also": [
+    "facebook",
+    "pinterest"
+   ],
+   "format": "Single photo 4:5",
+   "theme": "Guest bath before the holidays",
+   "media": [
+    "media/x/X-B08-feed.jpg",
+    "media/b/B05-parkway-shaker.jpg"
+   ],
+   "hook": "Classic shaker never goes out of style.",
+   "caption": "Guests arriving for the holidays? Start with the guest bath. 🎄\n\nCaroline Parkway: soft grey shaker, four drawers + a two-door cabinet, 36\" W × 22\" D × 35\" H. (Faucet sold separately.)\n\nLink in bio",
+   "hashtags": "#bathroomvanity #bathroomremodel #bathroomdesign #bathroominspo #homerenovation #interiordesign #homedecor #shakervanity #modernfarmhouse #guestbathroom",
+   "alt": "Grey shaker vanity in a modern farmhouse guest bathroom with shiplap.",
+   "cta": "Link in bio",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 84,
+    "notes": "Góc “guest bath trước lễ” đúng thời điểm.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-1209-PIN-B02",
+   "ch": "global",
+   "sku": "ZENA",
+   "date": "2026-12-09",
+   "channel": "pinterest",
+   "format": "Pin 2:3",
+   "theme": "Moody bathroom",
+   "media": [
+    "media/x/X-B02-pin.jpg"
+   ],
+   "hook": "Moody spa bathroom",
+   "caption": "Moody Spa Bathroom: Dark Wood Double Vanity + Green Tile",
+   "description": "Dark bathroom ideas: deep green vertical tile, brass sconces, candles and a walnut herringbone double vanity (Lignarc Zena, Dark Oak).",
+   "hashtags": "",
+   "alt": "",
+   "cta": "Link: Amazon",
+   "board": "Bathroom Remodel Ideas",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 86,
+    "notes": "Moody bathroom pin — evergreen.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-1211-WF",
+   "ch": "global",
+   "sku": "VANITY",
+   "date": "2026-12-11",
+   "channel": "wayfair",
+   "format": "Listing / Waymore images",
+   "theme": "Marketplace refresh — photoreal",
+   "media": [
+    "media/x/X-B01-feed.jpg",
+    "media/x/X-B05-feed.jpg",
+    "media/x/X-B07-feed.jpg",
+    "media/x/X-B08-feed.jpg"
+   ],
+   "hook": "Upload new lifestyle images to Wayfair listings",
+   "caption": "Global: thêm ảnh lifestyle mới vào listing Wayfair (Zena, Calix, Calix Floating, Parkway). Dùng bản ảnh gốc trong media/gen (không chữ) cho ảnh listing; bản có chữ chỉ dùng social.",
+   "hashtags": "",
+   "alt": "",
+   "cta": "Partner Home",
+   "note": "Ảnh AI phải đúng sản phẩm thật — Guardian đã soát; nếu Wayfair yêu cầu ảnh chụp thật thì chỉ dùng cho social.",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 90,
+    "notes": "Ảnh lifestyle mới cho Wayfair → tăng CVR listing traffic cao.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-1214-RD",
+   "ch": "global",
+   "sku": "VANITY",
+   "date": "2026-12-14",
+   "channel": "reddit",
+   "format": "Text (value-first)",
+   "theme": "Remodel tip",
+   "media": [],
+   "hook": "5 things to measure before ordering a vanity online",
+   "caption": "Title: Ordering a bathroom vanity online? Measure these 5 things first\n\nDisclosure: I work for a small brand that sells vanities (Lignarc). The returns we see are almost always one of these:\n1. Width to the door swing, not just wall-to-wall.\n2. Where the drain/supply lines exit — drawers over the drain surprise everyone.\n3. Depth vs. walkway (~21–22\" standard; tight baths → wall-mounted).\n4. Backsplash height vs. outlets and mirror.\n5. Faucet included or not (usually not).\nHappy to answer questions — no links unless mods allow.",
+   "hashtags": "",
+   "alt": "",
+   "cta": "Answer comments only",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 85,
+    "notes": "Giá trị thật, minh bạch.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-1126-IG-V02",
+   "ch": "global",
+   "sku": "VESTRA",
+   "date": "2026-11-26",
+   "channel": "instagram",
+   "also": [
+    "facebook",
+    "pinterest"
+   ],
+   "format": "Single photo 4:5",
+   "theme": "Holiday hosting",
+   "media": [
+    "media/x/X-V02-feed.jpg",
+    "media/g/G03-12-inch-gap.jpg"
+   ],
+   "hook": "The hot cocoa bar your guests won't stop talking about.",
+   "caption": "The hot cocoa bar your guests won't stop talking about. ☕️🎄\n\nTop: cocoa + marshmallows. Middle: mugs. Bottom: blankets.\nRoll it to the sofa when the movie starts. Roll it away after.\n\nVestra 3-Tier Rolling Cart — arrives fully assembled. Black Friday savings, link in bio.",
+   "hashtags": "#rollingcart #smallspaceliving #homeorganization #apartmentliving #organizedhome #homehacks #hotcocoabar #holidayhosting #christmasdecor",
+   "alt": "Hot cocoa bar on a white-tray wooden rolling cart beside a sofa and Christmas tree.",
+   "cta": "Link in bio",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 89,
+    "notes": "Mùa lễ + cocoa bar là chủ đề viral mỗi tháng 12.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-1128-TT-R02",
+   "ch": "global",
+   "sku": "VESTRA",
+   "date": "2026-11-28",
    "channel": "tiktok",
    "also": [
     "instagram-reels",
     "youtube-shorts"
    ],
-   "format": "Reel 9:16 (11s)",
-   "theme": "One cart, every room",
+   "format": "Reel 9:16 (8s)",
+   "theme": "One cart, every hour",
    "media": [
-    "media/v/V01-one-cart-every-room.mp4"
+    "media/v/R02-vestra-one-cart-every-room.mp4"
    ],
-   "hook": "POV: one cart does the job of three shelves",
-   "caption": "One cart. Kitchen → living room → home office. No assembly. 🛒✨ #rollingcart #smallspacehacks #apartmenttok #organizationtok",
-   "hashtags": "#rollingcart #smallspacehacks #apartmenttok #organizationtok",
-   "alt": "Animated video of the Vestra cart moving between kitchen, living room and home office labels.",
-   "cta": "Add a trending sound in-app before posting",
-   "note": "Thêm nhạc trending ngay trong TikTok/IG (không gắn nhạc có bản quyền vào file).",
-   "status": "approved",
-   "sku": "VESTRA",
-   "review": {
-    "by": "director",
-    "score": 82,
-    "notes": "Format “one cart every room” hợp TikTok home; bắt buộc gắn nhạc trending trong app, nếu không reach thấp.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "G-1128-PIN",
-   "ch": "global",
-   "date": "2026-11-28",
-   "channel": "pinterest",
-   "format": "Standard pin 2:3",
-   "theme": "Styling ideas",
-   "media": [
-    "media/g/G05-pin-5-ways.jpg"
-   ],
-   "hook": "5 ways to style a 3-tier rolling cart",
-   "caption": "5 Ways to Style a 3-Tier Rolling Cart (Small Space Storage Ideas)",
-   "description": "Rolling cart ideas for small apartments: a coffee bar by the window, a bedside plant and book stand, a printer and paper station, a bathroom towel caddy and an art supply cart. Vestra by Lignarc has a solid wood frame, raised trays and locking casters, and arrives fully assembled.",
-   "hashtags": "",
-   "alt": "List pin: five ways to style a three-tier wooden rolling cart.",
-   "cta": "Link: https://www.amazon.com/dp/B0HJQQ3MY4",
-   "board": "Small Space Storage Ideas",
-   "status": "approved",
-   "sku": "VESTRA",
-   "review": {
-    "by": "director",
-    "score": 88,
-    "notes": "Tiêu đề chứa keyword “rolling cart”, “small space storage” — đúng hành vi tìm kiếm Pinterest.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "G-1129-RD",
-   "ch": "global",
-   "date": "2026-11-29",
-   "channel": "reddit",
-   "format": "Text + 1 image (value-first)",
-   "theme": "Small-space tip",
-   "media": [
-    "media/g/G03-12-inch-gap.jpg"
-   ],
-   "hook": "The 12-inch gap next to the fridge is the most wasted space in a small kitchen",
-   "caption": "Title: The ~12\" gap next to the fridge is wasted space — what we learned designing for it\n\nFull disclosure: I work for a small furniture brand (Lignarc). We spent a lot of time measuring the awkward gaps in apartment kitchens while designing a rolling cart, and a few things surprised us:\n\n1. Most fridge/wall gaps we measured were 11–13\" — anything deeper than 12\" sticks out past the counter edge.\n2. Raised tray edges matter more than tier count. Jars on flat shelves slide off every time you roll.\n3. Lock two casters, not four — easier to roll out, still stable when parked.\n4. Keep the heaviest stuff on the bottom tier; it stops the cart tipping when you pull it.\n\nHappy to answer questions about measuring your own gap. (Mods: remove if this breaks the self-promo rule — no link on purpose.)",
-   "hashtags": "",
+   "hook": "6:45am coffee bar → 3am diaper caddy",
+   "caption": "One cart, four jobs 😮‍💨 which one is you? #rollingcart #organizationtok #apartmenttok #smallspacehacks",
+   "hashtags": "#rollingcart #organizationtok #apartmenttok #smallspacehacks",
    "alt": "",
-   "cta": "No link — answer comments only",
-   "note": "Chỉ đăng ở sub cho phép (xem tab Seeding). Không đăng lại cùng nội dung ở nhiều sub một lúc.",
+   "cta": "Thêm nhạc trending",
    "status": "approved",
-   "sku": "VESTRA",
    "review": {
     "by": "director",
-    "score": 84,
-    "notes": "Giá trị thật + disclosure → hợp văn hoá Reddit. Chỉ đăng ở sub cho phép, không chèn link.",
+    "score": 86,
+    "notes": "Nhịp cắt nhanh 4 công dụng; thêm nhạc trending.",
     "verdict": "approve"
    },
    "guardian": {
     "pass_": true,
     "issues": []
    },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
    "created": "2026-11-25"
   },
   {
-   "id": "G-1201-IG",
+   "id": "X-1201-IG-V01",
    "ch": "global",
+   "sku": "VESTRA",
    "date": "2026-12-01",
    "channel": "instagram",
    "also": [
     "facebook",
     "threads"
    ],
-   "format": "Single image 4:5",
-   "theme": "Holiday hosting",
+   "format": "Single photo 4:5",
+   "theme": "Coffee bar",
    "media": [
-    "media/g/G04-hosting-season.jpg"
+    "media/x/X-V01-feed.jpg"
    ],
-   "hook": "Hosting season, sorted.",
-   "caption": "Hosting season, sorted. ☕️🍫\n\nTop tier: coffee & cocoa.\nMiddle: mugs & napkins.\nBottom: extra throws for the movie-night crowd.\n\nRoll it to wherever everyone ends up. Roll it away after.\n\nVestra 3-Tier Rolling Cart — fully assembled, solid wood frame. Link in bio.",
-   "hashtags": "#rollingcart #smallspaceliving #homeorganization #organizedhome #apartmentliving #storageideas #homedecor #cozyhome #scandinavianhome #japandi #holidayhosting #hotcocoabar #coffeestation",
-   "alt": "Dark brown graphic of the Vestra cart labelled as a holiday cocoa and coffee station.",
+   "hook": "6:45am. The coffee bar that fits the 12-inch gap.",
+   "caption": "6:45am. The coffee bar that fits the 12-inch gap. ☕️\n\nThat awkward space beside the fridge? 11.9\" deep is all Vestra needs. Espresso up top, beans in the middle, towels below.\n\nLink in bio",
+   "hashtags": "#rollingcart #smallspaceliving #homeorganization #apartmentliving #organizedhome #homehacks #coffeebar #coffeestation #smallkitchen",
+   "alt": "White-tray wooden rolling cart styled as a coffee bar in a small New York kitchen at sunrise.",
    "cta": "Link in bio",
    "status": "approved",
-   "sku": "VESTRA",
    "review": {
     "by": "director",
-    "score": 85,
-    "notes": "Đúng mùa hosting, hình tối nổi bật trên feed. Hashtag #hotcocoabar đang có lượng tìm kiếm mùa lễ.",
+    "score": 88,
+    "notes": "Kết hợp cảm xúc (sáng sớm) + thông số (12 inch) → vừa đẹp vừa chốt.",
     "verdict": "approve"
    },
    "guardian": {
     "pass_": true,
     "issues": []
    },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
    "created": "2026-11-25"
   },
   {
-   "id": "G-1202-PIN",
+   "id": "X-1203-PIN-V01",
    "ch": "global",
-   "date": "2026-12-02",
-   "channel": "pinterest",
-   "format": "Standard pin 2:3",
-   "theme": "Hot cocoa bar",
-   "media": [
-    "media/g/G04-hosting-season.jpg"
-   ],
-   "hook": "Hot cocoa bar cart idea",
-   "caption": "Hot Cocoa Bar Cart Idea for Holiday Hosting",
-   "description": "Turn a 3-tier rolling cart into a holiday hot cocoa and coffee station: drinks on top, mugs and napkins in the middle, throw blankets below. Roll it to the living room when guests arrive.",
-   "hashtags": "",
-   "alt": "Holiday cocoa station on a wooden rolling cart.",
-   "cta": "Link: https://www.amazon.com/dp/B0HJQQ3MY4",
-   "board": "Holiday Hosting Ideas",
-   "status": "approved",
    "sku": "VESTRA",
-   "review": {
-    "by": "director",
-    "score": 83,
-    "notes": "Pin mùa lễ sống lâu tới tận năm sau — giữ.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "G-1203-WF",
-   "ch": "global",
    "date": "2026-12-03",
-   "channel": "wayfair",
-   "format": "Waymore / listing image 2:1",
-   "theme": "Marketplace refresh",
-   "media": [
-    "media/g/W01-waymore-every-room.jpg",
-    "media/g/W02-waymore-assembled.jpg"
-   ],
-   "hook": "Upload 2 new landscape images to Wayfair",
-   "caption": "Upload W01 + W02 vào Wayfair (Waymore / Brand content cho Vestra). Alt text: \"Lignarc Vestra 3-tier rolling cart in natural wood and white, fully assembled, with locking casters.\"",
-   "hashtags": "",
-   "alt": "",
-   "cta": "Partner Home → Product content",
-   "note": "Việc của Thuỳ Trang. Trước đây chưa làm Waymore content — hub sẽ theo dõi.",
-   "status": "approved",
-   "sku": "VESTRA",
-   "review": {
-    "by": "director",
-    "score": 90,
-    "notes": "Việc marketplace bắt buộc, Wayfair chưa có nội dung mới — ưu tiên cao.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "G-1204-TT",
-   "ch": "global",
-   "date": "2026-12-04",
-   "channel": "tiktok",
-   "also": [
-    "instagram-reels"
-   ],
-   "format": "Reel 9:16 — quay thật",
-   "theme": "Unboxing satisfaction",
-   "status": "needs-asset",
-   "media": [],
-   "hook": "Unboxing a cart that is already… a cart",
-   "caption": "Me waiting for the assembly part. It never came. 📦➡️🛒 #unboxing #rollingcart #noassembly #apartmenttok",
-   "hashtags": "#unboxing #rollingcart #noassembly #apartmenttok",
-   "alt": "",
-   "cta": "Quay 1 clip mở hộp thật (8–12s)",
-   "brief": "Shot list: (1) hộp đặt giữa phòng, cắt băng keo 1s; (2) kéo xe ra khỏi hộp nguyên chiếc 2s; (3) khoá bánh – click 1s; (4) đặt 3 món lên 3 tầng nhanh 3s; (5) đẩy xe ra khỏi khung hình. Text trên màn hình: “waiting for the assembly part…” → “it never came”.",
-   "sku": "VESTRA",
-   "review": {
-    "by": "director",
-    "score": null,
-    "notes": "Chờ asset mới (quay thật hoặc tạo trong Gemini Studio) rồi duyệt.",
-    "verdict": "pending"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "G-1206-IG",
-   "ch": "global",
-   "date": "2026-12-06",
-   "channel": "instagram",
-   "also": [
-    "facebook"
-   ],
-   "format": "Single image 1:1",
-   "theme": "Plant corner",
-   "media": [
-    "media/g/G08-plant-stage.jpg"
-   ],
-   "hook": "Your plants need a stage.",
-   "caption": "Your plants need a stage. 🌿\n\nThree tiers that roll toward the light — trailing pothos up top, snake plant in the middle, watering kit below. Roll it back when the sun moves.\n\nVestra by Lignarc. Link in bio.",
-   "hashtags": "#rollingcart #smallspaceliving #homeorganization #organizedhome #apartmentliving #storageideas #homedecor #cozyhome #scandinavianhome #japandi #plantshelf #houseplants #plantcorner",
-   "alt": "Vestra cart graphic with plant placement labels on a sage background.",
-   "cta": "Link in bio",
-   "status": "approved",
-   "sku": "VESTRA",
-   "review": {
-    "by": "director",
-    "score": 80,
-    "notes": "Ổn, nhưng góc plant kém mạnh hơn kitchen ở US mùa này; giữ làm bài lấp lịch.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "G-1208-FB",
-   "ch": "global",
-   "date": "2026-12-08",
-   "channel": "facebook-group",
-   "format": "Text + image (value-first)",
-   "theme": "Gift guide for small-space friends",
-   "media": [
-    "media/g/G02-zero-tools.jpg"
-   ],
-   "hook": "Gift idea for the friend who just moved into a tiny apartment",
-   "caption": "Gift idea for the friend who just moved into a small apartment: something that solves storage on day one and needs zero tools.\n\nWe make one (Lignarc Vestra — disclosure, it’s our brand), but whatever you pick, look for: raised tray edges, at least two locking casters, under 12\" deep, and arrives assembled. Anything that needs an Allen key will sit in its box until spring 😅",
-   "hashtags": "",
-   "alt": "",
-   "cta": "Comment link only if the group allows",
-   "status": "approved",
-   "sku": "VESTRA",
-   "review": {
-    "by": "director",
-    "score": 81,
-    "notes": "Gift guide đúng thời điểm; disclosure rõ. Đọc luật group trước.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "G-1210-IG",
-   "ch": "global",
-   "date": "2026-12-10",
-   "channel": "instagram",
-   "also": [
-    "facebook",
-    "pinterest"
-   ],
-   "format": "Single image 4:5",
-   "theme": "Dimensions / fit",
-   "media": [
-    "media/g/G03-12-inch-gap.jpg"
-   ],
-   "hook": "Made for the 12-inch gap.",
-   "caption": "Made for the 12-inch gap. 📏\n\n16.9\" W · 11.9\" D · 31.9\" H — slim enough for the space beside the fridge, the desk or the sofa. Each tier holds about 11 lb.\n\nMeasure your gap, then come find Vestra. Link in bio.",
-   "hashtags": "#rollingcart #smallspaceliving #homeorganization #organizedhome #apartmentliving #storageideas #homedecor #cozyhome #scandinavianhome #japandi #smallkitchen #kitchenorganization",
-   "alt": "Vestra cart with width, depth and height dimensions.",
-   "cta": "Link in bio",
-   "status": "approved",
-   "sku": "VESTRA",
-   "review": {
-    "by": "director",
-    "score": 84,
-    "notes": "Thông số cụ thể giúp chốt đơn — đúng câu hỏi khách hay hỏi nhất.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "G-1212-TT",
-   "ch": "global",
-   "date": "2026-12-12",
-   "channel": "tiktok",
-   "also": [
-    "instagram-reels"
-   ],
-   "format": "Reel 9:16 — Gemini/Veo",
-   "theme": "Cozy morning coffee bar",
-   "status": "needs-asset",
-   "media": [],
-   "hook": "My 6:45am coffee bar rolls to wherever the sun is",
-   "caption": "6:45am coffee bar, but make it portable ☕️ #coffeebar #coffeestation #morningroutine #rollingcart",
-   "hashtags": "#coffeebar #coffeestation #morningroutine #rollingcart",
-   "alt": "",
-   "cta": "Tạo bằng Gemini Studio (brief GS-04)",
-   "sku": "VESTRA",
-   "review": {
-    "by": "director",
-    "score": null,
-    "notes": "Chờ asset mới (quay thật hoặc tạo trong Gemini Studio) rồi duyệt.",
-    "verdict": "pending"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "G-1215-IG",
-   "ch": "global",
-   "date": "2026-12-15",
-   "channel": "instagram",
-   "also": [
-    "facebook"
-   ],
-   "format": "Single image 4:5",
-   "theme": "Every room",
-   "media": [
-    "media/g/G01-one-cart-every-room.jpg"
-   ],
-   "hook": "One cart. Every room.",
-   "caption": "One cart. Every room.\n\nMorning: coffee bar.\nAfternoon: plant & book stand.\nWork hours: printer station.\n\nVestra rolls with your day. Fully assembled, solid wood frame. Link in bio.",
-   "hashtags": "#rollingcart #smallspaceliving #homeorganization #organizedhome #apartmentliving #storageideas #homedecor #cozyhome #scandinavianhome #japandi",
-   "alt": "Vestra cart with three use-case cards: coffee bar, plant and book stand, printer station.",
-   "cta": "Link in bio",
-   "status": "approved",
-   "sku": "VESTRA",
-   "review": {
-    "by": "director",
-    "score": 82,
-    "notes": "Bài nền tảng định vị, đăng lại được mỗi quý.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "G-1218-ST",
-   "ch": "global",
-   "date": "2026-12-18",
-   "channel": "instagram-story",
-   "also": [
-    "facebook-story"
-   ],
-   "format": "Story 9:16",
-   "theme": "Last-minute gift",
-   "media": [
-    "media/g/G07-cyber-week-story.jpg"
-   ],
-   "hook": "Last-minute gift that arrives assembled",
-   "caption": "Sticker: link → Amazon. Text overlay: “Arrives assembled. No wrapping-paper-and-Allen-key Christmas.”",
-   "hashtags": "",
-   "alt": "",
-   "cta": "Link sticker → https://www.amazon.com/dp/B0HJQQ3MY4",
-   "note": "Kiểm tra ngày giao trước Giáng sinh trên Amazon trước khi đăng.",
-   "status": "approved",
-   "sku": "VESTRA",
-   "review": {
-    "by": "director",
-    "score": 80,
-    "notes": "Cần xác nhận ngày giao trước khi đăng.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "B-1127-IG",
-   "ch": "global",
-   "sku": "VANITY",
-   "date": "2026-11-27",
-   "channel": "instagram",
-   "also": [
-    "facebook"
-   ],
-   "format": "Carousel (5)",
-   "theme": "Black Friday — meet the bath collection",
-   "media": [
-    "media/b/B06-carousel-1.jpg",
-    "media/b/B06-carousel-2.jpg",
-    "media/b/B06-carousel-3.jpg",
-    "media/b/B06-carousel-4.jpg",
-    "media/b/B06-carousel-5.jpg"
-   ],
-   "hook": "Which vanity are you?",
-   "caption": "Which vanity are you? 🛁\n\nThe pattern lover → Zena (herringbone doors)\nThe texture lover → Calix (fluted fronts)\nThe small-space solver → Calix Floating (wall-mounted)\nThe classic → Caroline Parkway (shaker, soft grey)\n\nTell us your pick in the comments. Black Friday savings on Amazon & Wayfair for a limited time — link in bio.",
-   "hashtags": "#bathroomvanity #bathroomremodel #bathroomdesign #bathroomrefresh #herringbone #flutedvanity #floatingvanity #shakerstyle #homerenovation #bathroominspo",
-   "alt": "Five slides introducing four Lignarc bathroom vanities.",
-   "cta": "Comment + link in bio",
-   "status": "approved",
-   "review": {
-    "by": "director",
-    "score": 86,
-    "notes": "Carousel “which one are you” kéo comment và lưu bài; kể đủ 4 dòng một lần.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "B-1129-PIN",
-   "ch": "global",
-   "sku": "ZENA",
-   "date": "2026-11-29",
    "channel": "pinterest",
-   "format": "Standard pin 2:3",
-   "theme": "Vanity size guide",
+   "format": "Pin 2:3",
+   "theme": "Coffee station idea",
    "media": [
-    "media/b/B04-pin-size-guide.jpg"
+    "media/x/X-V01-pin.jpg"
    ],
-   "hook": "Which vanity width fits your bathroom?",
-   "caption": "Bathroom Vanity Size Guide: 36\", 48\", 60\" or 72\"?",
-   "description": "How to choose a bathroom vanity width: 36 inch for powder rooms and guest baths, 48 inch for more counter and storage, 60 inch double sink for shared bathrooms, 72 inch double sink for the primary bath. Shown: Lignarc Zena herringbone vanity and Calix fluted vanity.",
-   "hashtags": "",
-   "alt": "Size guide pin comparing 36, 48, 60 and 72 inch vanity widths.",
-   "cta": "Link: Amazon store",
-   "board": "Bathroom Remodel Ideas",
-   "status": "approved",
-   "review": {
-    "by": "director",
-    "score": 89,
-    "notes": "Pin size guide là dạng tìm kiếm evergreen số 1 của vanity trên Pinterest.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "B-1130-RD",
-   "ch": "global",
-   "sku": "VANITY",
-   "date": "2026-11-30",
-   "channel": "reddit",
-   "format": "Text (value-first)",
-   "theme": "Remodel tip — measure before you buy",
-   "media": [],
-   "status": "approved",
-   "hook": "Before you order a vanity online, measure these 5 things",
-   "caption": "Title: Ordering a bathroom vanity online? Measure these 5 things first (from people who ship them)\n\nDisclosure: I work for a small furniture brand that sells vanities (Lignarc). We see the same returns over and over, so sharing what to check:\n\n1. Width wall-to-wall AND to the door swing — leave ~1–2\" each side.\n2. Where the drain and supply lines come out. Drawers right over the drain are the #1 surprise.\n3. Depth vs. walkway — 21–22\" is standard; tight baths may need ~18\" or a wall-mounted unit.\n4. Backsplash height vs. outlets and the mirror.\n5. Whether the faucet is included (often it is not).\n\nHappy to answer questions. No links unless mods allow.",
+   "hook": "Small kitchen coffee bar",
+   "caption": "Small Kitchen Coffee Bar on a Rolling Cart (Fits a 12\" Gap)",
+   "description": "Coffee station idea for small apartments: a slim 3-tier rolling cart in the gap next to the fridge. Lignarc Vestra — solid wood frame, raised-edge trays, locking casters, arrives assembled.",
    "hashtags": "",
    "alt": "",
-   "cta": "No link — answer in comments",
-   "note": "Chỉ đăng ở r/HomeImprovement / r/bathrooms nếu luật cho phép; không link.",
-   "review": {
-    "by": "director",
-    "score": 85,
-    "notes": "Giá trị thật, giảm trả hàng; disclosure rõ.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "B-1202-IG",
-   "ch": "global",
-   "sku": "ZENA",
-   "date": "2026-12-02",
-   "channel": "instagram",
-   "also": [
-    "facebook",
-    "pinterest"
-   ],
-   "format": "Single image 4:5",
-   "theme": "Zena — herringbone",
-   "media": [
-    "media/b/B01-zena-herringbone.jpg"
-   ],
-   "hook": "Herringbone, but make it a vanity.",
-   "caption": "Herringbone, but make it a vanity. ✨\n\nZena pairs chevron-grain doors with a stone-look top — in Light Oak or Dark Oak, from 36\" to 72\" double sink.\n\nSave this for your bathroom refresh. Link in bio.",
-   "hashtags": "#herringbone #bathroomvanity #bathroomdesign #woodvanity #modernbathroom #bathroomrefresh #oakvanity #homedecor",
-   "alt": "Zena vanity in Light Oak and Dark Oak with herringbone doors.",
-   "cta": "Link in bio",
+   "cta": "Link: https://www.amazon.com/dp/B0HJQQ3MY4",
+   "board": "Small Space Storage Ideas",
    "status": "approved",
    "review": {
     "by": "director",
-    "score": 84,
-    "notes": "Herringbone đang được ưa chuộng trong nội thất US; hình rõ 2 màu.",
+    "score": 88,
+    "notes": "Keyword coffee bar — evergreen.",
     "verdict": "approve"
    },
    "guardian": {
     "pass_": true,
     "issues": []
    },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
    "created": "2026-11-25"
   },
   {
-   "id": "B-1205-IG",
+   "id": "X-1205-IG-V03",
    "ch": "global",
-   "sku": "CALIX",
+   "sku": "VESTRA",
    "date": "2026-12-05",
    "channel": "instagram",
    "also": [
     "facebook"
    ],
-   "format": "Single image 4:5",
-   "theme": "Calix — fluted",
+   "format": "Single photo 4:5",
+   "theme": "Nursery",
    "media": [
-    "media/b/B02-calix-fluted.jpg"
+    "media/x/X-V03-feed.jpg"
    ],
-   "hook": "Texture you can feel.",
-   "caption": "Texture you can feel. 🌿\n\nCalix brings fluted fronts to the bathroom — soft vertical lines that catch the light. Light Oak with black pulls, or Dark Oak with brushed-gold. 60\" and 72\".\n\nLink in bio.",
-   "hashtags": "#flutedvanity #flutedfurniture #bathroomvanity #japandi #bathroomdesign #modernbathroom #oakvanity",
-   "alt": "Calix fluted vanity in Light Oak and Dark Oak.",
-   "cta": "Link in bio",
+   "hook": "3am diaper changes, finally organized.",
+   "caption": "3am diaper changes, finally organized. 🍼\n\nEverything within one arm’s reach — and it rolls to wherever baby is tonight.\n\nTag a parent-to-be who needs this 👇",
+   "hashtags": "#rollingcart #smallspaceliving #homeorganization #apartmentliving #organizedhome #homehacks #nurseryorganization #nurseryinspo #babyregistry",
+   "alt": "Rolling cart used as a diaper caddy in a soft sage nursery.",
+   "cta": "Tag a friend",
    "status": "approved",
    "review": {
     "by": "director",
-    "score": 85,
-    "notes": "Fluted là trend mạnh; caption ngắn, đúng vibe.",
+    "score": 87,
+    "notes": "Nursery là ngách ít đối thủ, tag bạn bè tự nhiên.",
     "verdict": "approve"
    },
    "guardian": {
     "pass_": true,
     "issues": []
    },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
    "created": "2026-11-25"
   },
   {
-   "id": "B-1207-TT",
+   "id": "X-1207-IG-V04",
    "ch": "global",
-   "sku": "VANITY",
+   "sku": "VESTRA",
    "date": "2026-12-07",
-   "channel": "tiktok",
-   "also": [
-    "instagram-reels",
-    "youtube-shorts"
-   ],
-   "format": "Reel 9:16 (12s)",
-   "theme": "Collection reel",
-   "media": [
-    "media/v/V03-bath-collection.mp4"
-   ],
-   "hook": "4 vanities, 4 bathroom personalities",
-   "caption": "Herringbone, fluted, floating or classic — which one is your bathroom? 🛁 #bathroomvanity #bathroomremodel #homerenovation #bathroomtok",
-   "hashtags": "#bathroomvanity #bathroomremodel #homerenovation #bathroomtok",
-   "alt": "",
-   "cta": "Add trending sound in-app",
-   "status": "approved",
-   "review": {
-    "by": "director",
-    "score": 81,
-    "notes": "Ổn; bắt buộc thêm nhạc trending.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "B-1209-IG",
-   "ch": "global",
-   "sku": "CALIX-FLOAT",
-   "date": "2026-12-09",
    "channel": "instagram",
    "also": [
     "facebook",
     "pinterest"
    ],
-   "format": "Single image 4:5",
-   "theme": "Small bath — floating",
+   "format": "Single photo 4:5",
+   "theme": "Desk setup",
    "media": [
-    "media/b/B03-calix-floating.jpg"
+    "media/x/X-V04-feed.jpg"
    ],
-   "hook": "Small bath? Float it.",
-   "caption": "Small bath? Float it. 🫧\n\nCalix Floating mounts to the wall, so the floor stays open and the room feels bigger. Built-in towel bar, ceramic sink, 18\" / 24\" / 30\" in Light, Dark or Black Oak.\n\nLink in bio.",
-   "hashtags": "#floatingvanity #smallbathroom #powderroom #smallbathroomideas #bathroomvanity #wallmountedvanity",
-   "alt": "Calix Floating vanity in black oak and light oak.",
+   "hook": "Desk clutter? Roll it out of the shot.",
+   "caption": "Desk clutter? Roll it out of the shot. 💻\n\nPrinter on top, paper in the middle, cables below — and out of frame before your 9am call.\n\nLink in bio",
+   "hashtags": "#rollingcart #smallspaceliving #homeorganization #apartmentliving #organizedhome #homehacks #desksetup #homeoffice #wfh",
+   "alt": "Rolling cart holding a printer beside a walnut desk in a sunny home office.",
    "cta": "Link in bio",
    "status": "approved",
    "review": {
     "by": "director",
-    "score": 86,
-    "notes": "Small bath là nỗi đau lớn nhất — hook mạnh.",
+    "score": 84,
+    "notes": "Desk setup community lớn trên IG.",
     "verdict": "approve"
    },
    "guardian": {
     "pass_": true,
     "issues": []
    },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
    "created": "2026-11-25"
   },
   {
-   "id": "B-1211-WF",
+   "id": "X-1210-ST-V02",
    "ch": "global",
-   "sku": "VANITY",
-   "date": "2026-12-11",
-   "channel": "wayfair",
-   "format": "Waymore / listing image 2:1",
-   "theme": "Marketplace refresh — vanities",
-   "media": [
-    "media/b/B08-waymore-lineup.jpg"
-   ],
-   "hook": "Upload bath collection lineup to Wayfair",
-   "caption": "Upload B08 vào Wayfair (Waymore / brand content) cho 9 listing vanity. Alt: \"Lignarc bath vanity collection: Zena herringbone, Calix fluted, Calix Floating and Caroline Parkway shaker.\"",
-   "hashtags": "",
-   "alt": "",
-   "cta": "Partner Home",
-   "note": "Việc của Global — Waymore chưa có nội dung vanity.",
-   "status": "approved",
-   "review": {
-    "by": "director",
-    "score": 90,
-    "notes": "Wayfair chưa có nội dung vanity mới — ưu tiên.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "B-1214-IG",
-   "ch": "global",
-   "sku": "PARKWAY",
-   "date": "2026-12-14",
-   "channel": "instagram",
-   "also": [
-    "facebook"
-   ],
-   "format": "Single image 4:5",
-   "theme": "Classic shaker",
-   "media": [
-    "media/b/B05-parkway-shaker.jpg"
-   ],
-   "hook": "Classic shaker. 36 inches.",
-   "caption": "Classic shaker. 36 inches. 🤍\n\nCaroline Parkway: four drawers, a two-door cabinet and a stone-look top in soft grey — 36\" W × 22\" D × 35\" H. (Faucet sold separately.)\n\nLink in bio.",
-   "hashtags": "#shakervanity #greyvanity #bathroomvanity #classicbathroom #guestbathroom #bathroomrefresh",
-   "alt": "Caroline Parkway 36 inch grey shaker vanity.",
-   "cta": "Link in bio",
-   "status": "approved",
-   "review": {
-    "by": "director",
-    "score": 80,
-    "notes": "Ổn; nói rõ faucet không kèm để tránh trả hàng.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "B-1228-ST",
-   "ch": "global",
-   "sku": "VANITY",
-   "date": "2026-12-28",
+   "sku": "VESTRA",
+   "date": "2026-12-10",
    "channel": "instagram-story",
    "also": [
-    "facebook-story",
-    "pinterest"
+    "facebook-story"
    ],
    "format": "Story 9:16",
-   "theme": "New year bathroom",
+   "theme": "Gift idea",
    "media": [
-    "media/b/B07-new-year-story.jpg"
+    "media/x/X-V02-story.jpg"
    ],
-   "hook": "New year, new bathroom.",
-   "caption": "Text overlay: “Your 2027 bathroom starts with the vanity.” Link sticker → Amazon store.",
+   "hook": "Gift that arrives assembled",
+   "caption": "Sticker poll: “Cocoa bar or coffee bar?” + link sticker → Amazon",
    "hashtags": "",
    "alt": "",
-   "cta": "Link sticker",
+   "cta": "Poll + link sticker",
    "status": "approved",
    "review": {
     "by": "director",
     "score": 82,
-    "notes": "Đúng thời điểm năm mới — mùa remodel bắt đầu.",
+    "notes": "Poll story tăng tương tác.",
     "verdict": "approve"
    },
    "guardian": {
     "pass_": true,
     "issues": []
    },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
    "created": "2026-11-25"
   },
   {
-   "id": "B-1216-TT",
-   "ch": "global",
-   "sku": "CALIX-FLOAT",
-   "date": "2026-12-16",
-   "channel": "tiktok",
-   "also": [
-    "instagram-reels"
-   ],
-   "format": "Reel 9:16 — Gemini/Veo",
-   "theme": "Powder room glow-up",
-   "status": "needs-asset",
-   "media": [],
-   "hook": "Powder room glow-up in 8 seconds",
-   "caption": "Tiny powder room, big glow-up ✨ #powderroom #smallbathroom #floatingvanity #bathroomglowup",
-   "hashtags": "#powderroom #smallbathroom #floatingvanity #bathroomglowup",
-   "alt": "",
-   "cta": "Tạo bằng Gemini Studio (GS-23)",
-   "review": {
-    "by": "director",
-    "score": null,
-    "notes": "Chờ asset mới (quay thật hoặc tạo trong Gemini Studio) rồi duyệt.",
-    "verdict": "pending"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "L-1126-FB",
+   "id": "X-1126-FB-L01",
    "ch": "local",
+   "sku": "VESTRA",
    "date": "2026-11-26",
    "channel": "facebook",
    "also": [
     "instagram"
    ],
    "format": "Ảnh 4:5",
-   "theme": "Bếp nhỏ gọn gàng",
+   "theme": "Bếp chung cư",
    "media": [
-    "media/l/L01-nha-nho-gon-bep.jpg"
+    "media/x/X-L01-feed.jpg",
+    "media/l/L06-kich-thuoc-story.jpg"
    ],
-   "hook": "Nhà nhỏ vẫn gọn cả bếp.",
-   "caption": "Nhà nhỏ vẫn gọn cả bếp ✨\n\nTầng 1: máy pha cà phê, lò nướng mini\nTầng 2: chén đĩa, ly tách\nTầng 3: nồi niêu, gia vị, đồ khô\n\nXe đẩy 3 tầng khung gỗ Living Furniture — lắp sẵn, bánh xe xoay 360° có khoá. Nấu xong đẩy gọn vào góc, nhà rộng hẳn ra.\n\n👉 Đặt trên Shopee: https://shopee.vn/living_furniture",
-   "hashtags": "#xedaydanang #kexedday #kegonnha #nhanho #decornhacua #canhonho #nhaxinh #gocnhoxinh #livingfurniture",
-   "alt": "Xe đẩy 3 tầng màu trắng gỗ với gợi ý đồ đặt từng tầng.",
+   "hook": "Bếp chung cư nhỏ vẫn có chỗ riêng cho nồi cơm, ấm nước.",
+   "caption": "Bếp chung cư nhỏ vẫn có chỗ riêng cho nồi cơm, ấm nước 🍚\n\nTầng 1: nồi cơm, ấm siêu tốc\nTầng 2: chén bát, ống đũa\nTầng 3: nước mắm, dầu ăn\n\nXe đẩy 3 tầng màu Xanh rêu — lắp sẵn, bánh xe 360° có khoá. Nấu xong đẩy gọn vào góc.\n👉 https://shopee.vn/living_furniture",
+   "hashtags": "#xedaydanang #kegonnha #nhanho #decornhacua #canhonho #phongtro #livingfurniture",
+   "alt": "Xe đẩy 3 tầng xanh rêu trong bếp chung cư Sài Gòn.",
    "cta": "Link Shopee",
    "status": "approved",
-   "sku": "VESTRA",
    "review": {
     "by": "director",
-    "score": 85,
-    "notes": "Giọng gần gũi, nỗi đau “bếp nhỏ” rõ, CTA Shopee rõ.",
+    "score": 88,
+    "notes": "Đúng nỗi đau bếp chung cư VN; ảnh thật “nhà mình”.",
     "verdict": "approve"
    },
    "guardian": {
     "pass_": true,
     "issues": []
    },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
    "created": "2026-11-25"
   },
   {
-   "id": "L-1127-TT",
+   "id": "X-1127-TT-R03",
    "ch": "local",
+   "sku": "VESTRA",
    "date": "2026-11-27",
    "channel": "tiktok",
    "also": [
     "shopee-video",
     "facebook-reels"
    ],
-   "format": "Video 9:16 (10s)",
-   "theme": "Mở hộp là dùng",
+   "format": "Video 9:16 (8s)",
+   "theme": "1 chiếc xe, nhiều góc",
    "media": [
-    "media/v/V02-mo-hop-la-dung.mp4"
+    "media/v/R03-xe-day-1-chiec-nhieu-goc.mp4"
    ],
-   "hook": "Mua kệ mà không phải lắp? Có thật đó!",
-   "caption": "Mua kệ mà không phải lắp ốc nào 😳 Mở hộp là đẩy đi dùng luôn! #xedaydanang #kegonnha #nhanho #reviewnhacua #shopeehaul",
-   "hashtags": "#xedaydanang #kegonnha #nhanho #reviewnhacua #shopeehaul",
+   "hook": "Sáng nấu ăn, trưa cà phê, tối room tour, Tết xe mứt",
+   "caption": "1 chiếc xe đẩy mà dùng được cả năm 😳 Bạn sẽ để ở góc nào? #kegonnha #phongtro #reviewnhacua #shopeehaul",
+   "hashtags": "#kegonnha #phongtro #reviewnhacua #shopeehaul",
    "alt": "",
-   "cta": "Gắn giỏ hàng Shopee / TikTok Shop nếu có",
-   "note": "Thêm nhạc trending trong app trước khi đăng.",
+   "cta": "Gắn giỏ hàng",
    "status": "approved",
-   "sku": "VESTRA",
    "review": {
     "by": "director",
-    "score": 83,
-    "notes": "Hook “không phải lắp” là USP mạnh nhất ở VN; gắn giỏ hàng.",
+    "score": 87,
+    "notes": "Cả năm một chiếc xe — USP rõ.",
     "verdict": "approve"
    },
    "guardian": {
     "pass_": true,
     "issues": []
    },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
    "created": "2026-11-25"
   },
   {
-   "id": "L-1128-GR",
+   "id": "X-1129-FB-L03",
    "ch": "local",
-   "date": "2026-11-28",
-   "channel": "facebook-group",
-   "format": "Bài chia sẻ + ảnh",
-   "theme": "Mẹo sắp xếp bếp nhỏ",
-   "media": [
-    "media/l/L06-kich-thuoc-story.jpg"
-   ],
-   "hook": "Khe hở 30cm cạnh tủ lạnh — chỗ phí nhất trong bếp nhỏ",
-   "caption": "Mẹo nhỏ cho bếp chung cư/phòng trọ: khe hở cạnh tủ lạnh thường chỉ khoảng 30cm nhưng cao gần 1m — đủ cho một chiếc xe đẩy 3 tầng.\n\nMình xếp: tầng trên gia vị hay dùng, tầng giữa ly chén, tầng dưới đồ khô nặng (để xe không bị chòng chành khi kéo).\n\nMẹo: chọn loại có viền khay cao để chai lọ không rơi khi đẩy, và có ít nhất 2 bánh khoá.\n\n(Mình bên shop Living Furniture, có bán mẫu này — ai cần kích thước chi tiết cứ hỏi nha.)",
-   "hashtags": "",
-   "alt": "",
-   "cta": "Không để link trong bài — trả lời trong comment nếu group cho phép",
-   "note": "Ghi rõ là người bán (minh bạch) — group VN rất ghét seeding giấu mặt.",
-   "status": "approved",
    "sku": "VESTRA",
+   "date": "2026-11-29",
+   "channel": "facebook",
+   "also": [
+    "instagram",
+    "threads"
+   ],
+   "format": "Ảnh 4:5",
+   "theme": "Phòng trọ",
+   "media": [
+    "media/x/X-L03-feed.jpg"
+   ],
+   "hook": "Phòng trọ 15m² vẫn gọn như room tour.",
+   "caption": "Phòng trọ 15m² vẫn gọn như room tour ✨\n\nSách + cây nhỏ tầng trên, skincare tầng giữa, đồ ăn vặt tầng dưới. Hết chỗ trên bàn? Đẩy xe sang cạnh giường.\n\n🛒 https://shopee.vn/living_furniture",
+   "hashtags": "#xedaydanang #kegonnha #nhanho #decornhacua #canhonho #phongtro #livingfurniture #roomtour #decorphongtro",
+   "alt": "Xe đẩy 3 tầng trắng gỗ trong phòng trọ ấm cúng.",
+   "cta": "Link Shopee",
+   "status": "approved",
    "review": {
     "by": "director",
     "score": 86,
-    "notes": "Seeding minh bạch, đúng kiểu bài được group duyệt.",
+    "notes": "Room tour phòng trọ đang rất hot trên TikTok/FB.",
     "verdict": "approve"
    },
    "guardian": {
     "pass_": true,
     "issues": []
    },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
    "created": "2026-11-25"
   },
   {
-   "id": "L-1130-FB",
+   "id": "X-1201-FB-L04",
    "ch": "local",
-   "date": "2026-11-30",
-   "channel": "facebook",
-   "also": [
-    "instagram"
-   ],
-   "format": "Ảnh 1:1",
-   "theme": "Chọn màu",
-   "media": [
-    "media/l/L03-chon-mau.jpg"
-   ],
-   "hook": "Team Trắng gỗ hay team Xanh rêu?",
-   "caption": "Team Trắng gỗ 🤍 hay team Xanh rêu 💚?\n\nCùng khung gỗ tự nhiên, cùng 3 tầng và bánh xe khoá — chỉ khác “vibe”:\n• Trắng gỗ: sáng, gọn, hợp nhà tối giản\n• Xanh rêu: ấm, gần thiên nhiên, hợp góc nhiều cây\n\nComment màu bạn chọn nha 👇\n🛒 https://shopee.vn/living_furniture",
-   "hashtags": "#xedaydanang #kexedday #kegonnha #nhanho #decornhacua #canhonho #nhaxinh #gocnhoxinh #livingfurniture",
-   "alt": "Hai xe đẩy 3 tầng màu trắng gỗ và xanh rêu đặt cạnh nhau.",
-   "cta": "Câu hỏi tương tác → comment",
-   "status": "approved",
    "sku": "VESTRA",
-   "review": {
-    "by": "director",
-    "score": 84,
-    "notes": "Câu hỏi chọn màu kéo comment → tăng reach tự nhiên.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "L-1202-SV",
-   "ch": "local",
-   "date": "2026-12-02",
-   "channel": "shopee-video",
-   "also": [
-    "tiktok"
-   ],
-   "format": "Video 9:16",
-   "theme": "Kích thước",
-   "status": "needs-asset",
-   "media": [],
-   "hook": "Đo thử: kệ này vừa khe 30cm không?",
-   "caption": "Đo thử xem xe đẩy 3 tầng có vừa khe 30cm cạnh tủ lạnh không 📏 Kích thước 43 × 30 × 81 cm, mỗi tầng ~5kg.",
-   "hashtags": "#xedaydanang #nhanho #kegonnha",
-   "alt": "",
-   "cta": "Gắn sản phẩm trong Shopee Video",
-   "brief": "Quay thật bằng điện thoại: thước dây đo khe tủ lạnh → đẩy xe vào khít → mở/khoá bánh → zoom viền khay. 10–15s, ánh sáng tự nhiên.",
-   "sku": "VESTRA",
-   "review": {
-    "by": "director",
-    "score": null,
-    "notes": "Chờ asset mới (quay thật hoặc tạo trong Gemini Studio) rồi duyệt.",
-    "verdict": "pending"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "L-1204-FB",
-   "ch": "local",
-   "date": "2026-12-04",
+   "date": "2026-12-01",
    "channel": "facebook",
    "also": [
     "instagram"
    ],
    "format": "Ảnh 4:5",
-   "theme": "Góc làm việc",
+   "theme": "Ban công cà phê",
    "media": [
-    "media/l/L07-goc-lam-viec.jpg"
+    "media/x/X-L04-feed.jpg"
    ],
-   "hook": "Góc làm việc hết bừa bộn.",
-   "caption": "Bàn làm việc nhỏ xíu mà vẫn gọn? 🖨️\n\nMáy in tầng trên, giấy tờ tầng giữa, hộp đồ lặt vặt tầng dưới. Hết giờ làm thì đẩy gọn vào góc — không khoan tường, không chiếm bàn.\n\n👉 https://shopee.vn/living_furniture",
-   "hashtags": "#xedaydanang #kexedday #kegonnha #nhanho #decornhacua #canhonho #nhaxinh #gocnhoxinh #livingfurniture #goclamviec #wfh",
-   "alt": "Xe đẩy xanh rêu với gợi ý dùng cho góc làm việc.",
+   "hook": "Sáng cà phê phin, xe đẩy theo nắng ra ban công.",
+   "caption": "Sáng cà phê phin, xe đẩy theo nắng ra ban công ☕️🌿\n\nMột góc nhỏ cho riêng mình — phin trên cùng, cây xanh tầng giữa, bình tưới bên dưới.\n\n👉 https://shopee.vn/living_furniture",
+   "hashtags": "#xedaydanang #kegonnha #nhanho #decornhacua #canhonho #phongtro #livingfurniture #caphephin #bancong",
+   "alt": "Xe đẩy trắng gỗ với phin cà phê trên ban công đầy cây.",
    "cta": "Link Shopee",
    "status": "approved",
-   "sku": "VESTRA",
    "review": {
     "by": "director",
-    "score": 80,
-    "notes": "Ổn; WFH ở VN yếu hơn bếp — giữ tần suất thấp.",
+    "score": 85,
+    "notes": "Cà phê phin ban công — cảm xúc VN.",
     "verdict": "approve"
    },
    "guardian": {
     "pass_": true,
     "issues": []
    },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
    "created": "2026-11-25"
   },
   {
-   "id": "L-1206-FB",
+   "id": "X-1203-GR-L01",
    "ch": "local",
-   "date": "2026-12-06",
+   "sku": "VESTRA",
+   "date": "2026-12-03",
+   "channel": "facebook-group",
+   "format": "Bài chia sẻ + ảnh",
+   "theme": "Seeding — bếp nhỏ",
+   "media": [
+    "media/x/X-L01-feed.jpg"
+   ],
+   "hook": "Bếp chung cư nhỏ xíu, mình xếp như này cho đỡ chật",
+   "caption": "Bếp chung cư nhà mình nhỏ xíu, mặt bếp lúc nào cũng đầy nồi cơm, ấm nước. Mình chuyển hết sang 1 chiếc xe đẩy 3 tầng kê cạnh tủ: trên nồi cơm, giữa chén bát, dưới chai lọ — nặng để dưới cho xe không chòng chành.\n\nMẹo: chọn loại có viền khay cao và bánh khoá.\n(Mình bên shop Living Furniture có bán mẫu này, ai cần kích thước cứ hỏi nha.)",
+   "hashtags": "",
+   "alt": "",
+   "cta": "Không để link trong bài",
+   "note": "Ghi rõ là người bán — minh bạch.",
+   "status": "approved",
+   "review": {
+    "by": "director",
+    "score": 87,
+    "notes": "Seeding minh bạch, giọng người dùng thật.",
+    "verdict": "approve"
+   },
+   "guardian": {
+    "pass_": true,
+    "issues": []
+   },
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-1210-FB-L02",
+   "ch": "local",
+   "sku": "VESTRA",
+   "date": "2026-12-10",
    "channel": "facebook",
    "also": [
     "instagram",
     "zalo"
    ],
-   "format": "Ảnh 1:1",
-   "theme": "Không cần lắp ráp",
-   "media": [
-    "media/l/L02-khong-can-lap-rap.jpg"
-   ],
-   "hook": "Ghét lắp đồ? Cái này lắp sẵn rồi.",
-   "caption": "Ai từng ngồi 2 tiếng vặn ốc lắp kệ thì hiểu 🥲\n\nXe đẩy 3 tầng Living Furniture giao tới là đã lắp sẵn 100%: mở hộp → khoá bánh → dùng luôn.\n✔ Khung gỗ tự nhiên\n✔ Bánh xe 360°, 2 bánh có khoá\n✔ Khay MDF chống trầy, dễ lau\n\n🛒 https://shopee.vn/living_furniture",
-   "hashtags": "#xedaydanang #kexedday #kegonnha #nhanho #decornhacua #canhonho #nhaxinh #gocnhoxinh #livingfurniture",
-   "alt": "Xe đẩy xanh rêu với các điểm: lắp sẵn, bánh xoay 360°, có khoá, khung gỗ.",
-   "cta": "Link Shopee",
-   "status": "approved",
-   "sku": "VESTRA",
-   "review": {
-    "by": "director",
-    "score": 84,
-    "notes": "USP rõ, ngắn.",
-    "verdict": "approve"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "L-1210-FB",
-   "ch": "local",
-   "date": "2026-12-10",
-   "channel": "facebook",
-   "also": [
-    "instagram",
-    "shopee-feed"
-   ],
    "format": "Ảnh 4:5",
-   "theme": "12.12",
+   "theme": "12.12 + Tết",
    "media": [
+    "media/x/X-L02-feed.jpg",
     "media/l/L05-12-12.jpg"
    ],
-   "hook": "12.12 — săn xe đẩy 3 tầng",
-   "caption": "12.12 sắp tới rồi 🔥 Xe đẩy 3 tầng khung gỗ (Trắng gỗ & Xanh rêu) có ưu đãi riêng tại shop Living Furniture.\n\nThêm vào giỏ từ hôm nay để không lỡ khung giờ sale nha 👉 https://shopee.vn/living_furniture",
-   "hashtags": "#xedaydanang #kexedday #kegonnha #nhanho #decornhacua #canhonho #nhaxinh #gocnhoxinh #livingfurniture #sale1212 #shopee1212",
-   "alt": "Banner 12.12 với hai xe đẩy trắng và xanh.",
+   "hook": "Khách tới là đẩy xe mứt ra. Tết gọn, nhà sang.",
+   "caption": "Khách tới là đẩy xe mứt ra. Tết gọn, nhà sang 🧧🌼\n\nTầng 1: khay mứt + cành mai\nTầng 2: bộ ấm trà\nTầng 3: hộp bánh kẹo\n\nSăn ưu đãi 12.12 để kịp giao trước Tết nha 👉 https://shopee.vn/living_furniture",
+   "hashtags": "#xedaydanang #kegonnha #nhanho #decornhacua #canhonho #phongtro #livingfurniture #tet2027 #sale1212 #mutTet",
+   "alt": "Xe đẩy xanh rêu làm xe mứt Tết với hoa mai.",
    "cta": "Link Shopee",
-   "note": "Điền đúng mức giảm thực tế khi đã set voucher (không ghi số chưa chốt).",
+   "note": "Điền đúng mức giảm thực tế khi đã set voucher.",
    "status": "approved",
-   "sku": "VESTRA",
    "review": {
     "by": "director",
-    "score": 82,
-    "notes": "Đúng mùa sale; điền mức giảm thật trước khi đăng.",
+    "score": 90,
+    "notes": "Xe mứt Tết — góc mới lạ, có lý do mua sớm.",
     "verdict": "approve"
    },
    "guardian": {
     "pass_": true,
     "issues": []
    },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
    "created": "2026-11-25"
   },
   {
-   "id": "L-1212-TT",
+   "id": "X-1212-ST-L02",
    "ch": "local",
+   "sku": "VESTRA",
    "date": "2026-12-12",
-   "channel": "tiktok",
+   "channel": "facebook-story",
    "also": [
-    "shopee-video"
+    "instagram-story",
+    "shopee-feed"
    ],
-   "format": "Video 9:16",
-   "theme": "12.12 — trước/sau",
-   "status": "needs-asset",
-   "media": [],
-   "hook": "Góc bếp trước và sau khi có xe đẩy 3 tầng",
-   "caption": "Trước: bừa. Sau: gọn. Chỉ thêm 1 chiếc xe đẩy 😌 #truocvasau #kegonnha #sale1212",
-   "hashtags": "#truocvasau #kegonnha #sale1212",
-   "alt": "",
-   "cta": "Quay before/after thật ở 1 góc bếp",
-   "brief": "Cảnh 1 (bừa): mặt bếp đầy chai lọ 2s. Transition vuốt tay. Cảnh 2: xe đẩy đầy đủ đồ, mặt bếp trống 3s. Kết: đẩy xe vào khe 2s.",
-   "sku": "VESTRA",
-   "review": {
-    "by": "director",
-    "score": null,
-    "notes": "Chờ asset mới (quay thật hoặc tạo trong Gemini Studio) rồi duyệt.",
-    "verdict": "pending"
-   },
-   "guardian": {
-    "pass_": true,
-    "issues": []
-   },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
-   "created": "2026-11-25"
-  },
-  {
-   "id": "L-1220-FB",
-   "ch": "local",
-   "date": "2026-12-20",
-   "channel": "facebook",
-   "also": [
-    "instagram"
-   ],
-   "format": "Ảnh 4:5",
-   "theme": "Tết",
+   "format": "Story 9:16",
+   "theme": "12.12",
    "media": [
-    "media/l/L04-tet-gon-nha.jpg"
+    "media/x/X-L02-story.jpg"
    ],
-   "hook": "Tết gọn nhà, đón khách thong thả.",
-   "caption": "Tết gọn nhà, đón khách thong thả 🧧\n\nTầng 1: ấm trà & ly\nTầng 2: khay mứt Tết\nTầng 3: bánh kẹo, hạt\n\nKhách tới thì đẩy ra phòng khách, khách về đẩy gọn vào bếp. Đặt sớm để kịp giao trước Tết nha 👉 https://shopee.vn/living_furniture",
-   "hashtags": "#xedaydanang #kexedday #kegonnha #nhanho #decornhacua #canhonho #nhaxinh #gocnhoxinh #livingfurniture #tet2027 #dontet",
-   "alt": "Banner Tết đỏ với xe đẩy xanh rêu dùng làm xe mứt Tết.",
-   "cta": "Link Shopee",
+   "hook": "12.12 — xe mứt Tết",
+   "caption": "Sticker link Shopee + đếm ngược 12.12",
+   "hashtags": "",
+   "alt": "",
+   "cta": "Link sticker",
    "status": "approved",
-   "sku": "VESTRA",
    "review": {
     "by": "director",
-    "score": 87,
-    "notes": "Góc Tết “xe mứt” mới lạ, có lý do mua sớm.",
+    "score": 83,
+    "notes": "Story ngày sale.",
     "verdict": "approve"
    },
    "guardian": {
     "pass_": true,
     "issues": []
    },
-   "by": "Claude (Strategist + Copywriter + Director roles)",
+   "by": "v2 · Gemini Pro (ảnh) + Claude (Creative Director, Copywriter, Director review)",
    "created": "2026-11-25"
   }
  ],
@@ -2433,11 +2799,11 @@
    "ch": "global",
    "date": "2026-11-26",
    "channel": "instagram",
-   "format": "Carousel (5)",
-   "theme": "Cyber Week — product truth",
+   "format": "Single photo 4:5",
+   "theme": "Black Friday hero — Zena",
    "sku": "VESTRA",
    "event": "Thanksgiving",
-   "post": "G-1126-IG"
+   "post": "X-1126-IG-B01"
   },
   {
    "id": "S-L-2026-11-26",
@@ -2445,194 +2811,193 @@
    "date": "2026-11-26",
    "channel": "facebook",
    "format": "Ảnh 4:5",
-   "theme": "Bếp nhỏ gọn gàng",
+   "theme": "Bếp chung cư",
    "sku": "VESTRA",
    "event": null,
-   "post": "L-1126-FB"
+   "post": "X-1126-FB-L01"
   },
   {
    "id": "S-G-2026-11-27",
    "ch": "global",
    "date": "2026-11-27",
    "channel": "tiktok",
-   "format": "Reel 9:16 (11s)",
-   "theme": "One cart, every room",
+   "format": "Reel 9:16 (10s)",
+   "theme": "Black Friday — which bathroom are you",
    "sku": "CALIX-FLOAT",
    "event": "Black Friday",
-   "post": "G-1127-TT"
+   "post": "X-1127-TT-R01"
   },
   {
    "id": "S-L-2026-11-27",
    "ch": "local",
    "date": "2026-11-27",
    "channel": "tiktok",
-   "format": "Video 9:16 (10s)",
-   "theme": "Mở hộp là dùng",
+   "format": "Video 9:16 (8s)",
+   "theme": "1 chiếc xe, nhiều góc",
    "sku": "VESTRA",
    "event": null,
-   "post": "L-1127-TT"
+   "post": "X-1127-TT-R03"
   },
   {
    "id": "S-G-2026-11-28",
    "ch": "global",
    "date": "2026-11-28",
-   "channel": "pinterest",
-   "format": "Standard pin 2:3",
-   "theme": "Styling ideas",
+   "channel": "tiktok",
+   "format": "Reel 9:16 (8s)",
+   "theme": "One cart, every hour",
    "sku": "VESTRA",
    "event": null,
-   "post": "G-1128-PIN"
+   "post": "X-1128-TT-R02"
   },
   {
    "id": "S-L-2026-11-28",
    "ch": "local",
    "date": "2026-11-28",
-   "channel": "facebook-group",
-   "format": "Bài chia sẻ + ảnh",
-   "theme": "Mẹo sắp xếp bếp nhỏ",
+   "channel": "tiktok",
+   "format": "Video 9:16",
+   "theme": "Góc cà phê ban công",
    "sku": "VESTRA",
-   "event": null,
-   "post": "L-1128-GR"
+   "event": null
   },
   {
    "id": "S-G-2026-11-29",
    "ch": "global",
    "date": "2026-11-29",
-   "channel": "reddit",
-   "format": "Text + 1 image (value-first)",
-   "theme": "Small-space tip",
+   "channel": "pinterest",
+   "format": "Pin 2:3",
+   "theme": "Small bathroom idea",
    "sku": "CALIX",
    "event": null,
-   "post": "G-1129-RD"
+   "post": "X-1129-PIN-B07"
   },
   {
    "id": "S-L-2026-11-29",
    "ch": "local",
    "date": "2026-11-29",
-   "channel": "shopee-video",
-   "format": "Live/Video",
-   "theme": "Kệ cây xanh",
+   "channel": "facebook",
+   "format": "Ảnh 4:5",
+   "theme": "Phòng trọ",
    "sku": "VESTRA",
-   "event": null
+   "event": null,
+   "post": "X-1129-FB-L03"
   },
   {
    "id": "S-G-2026-11-30",
    "ch": "global",
    "date": "2026-11-30",
-   "channel": "reddit",
-   "format": "Text (value-first)",
-   "theme": "Remodel tip — measure before you buy",
+   "channel": "instagram",
+   "format": "Carousel (3)",
+   "theme": "Cyber Monday — moody spa",
    "sku": "PARKWAY",
    "event": "Cyber Monday",
-   "post": "B-1130-RD"
+   "post": "X-1130-IG-B02"
   },
   {
    "id": "S-L-2026-11-30",
    "ch": "local",
    "date": "2026-11-30",
    "channel": "facebook",
-   "format": "Ảnh 1:1",
-   "theme": "Chọn màu",
+   "format": "Ảnh 4:5",
+   "theme": "Kệ mỹ phẩm phòng tắm",
    "sku": "VESTRA",
-   "event": null,
-   "post": "L-1130-FB"
+   "event": null
   },
   {
    "id": "S-G-2026-12-01",
    "ch": "global",
    "date": "2026-12-01",
    "channel": "instagram",
-   "format": "Single image 4:5",
-   "theme": "Holiday hosting",
+   "format": "Single photo 4:5",
+   "theme": "Coffee bar",
    "sku": "VESTRA",
    "event": null,
-   "post": "G-1201-IG"
+   "post": "X-1201-IG-V01"
   },
   {
    "id": "S-L-2026-12-01",
    "ch": "local",
    "date": "2026-12-01",
-   "channel": "tiktok",
-   "format": "Video 9:16",
-   "theme": "Xe đồ ăn vặt / trà",
+   "channel": "facebook",
+   "format": "Ảnh 4:5",
+   "theme": "Ban công cà phê",
    "sku": "VESTRA",
-   "event": null
+   "event": null,
+   "post": "X-1201-FB-L04"
   },
   {
    "id": "S-G-2026-12-02",
    "ch": "global",
    "date": "2026-12-02",
-   "channel": "pinterest",
-   "format": "Standard pin 2:3",
-   "theme": "Hot cocoa bar",
+   "channel": "instagram",
+   "format": "Single photo 4:5",
+   "theme": "Trend — warm minimalism",
    "sku": "CALIX",
    "event": null,
-   "post": "G-1202-PIN"
+   "post": "X-1202-IG-B05"
   },
   {
    "id": "S-L-2026-12-02",
    "ch": "local",
    "date": "2026-12-02",
-   "channel": "shopee-video",
-   "format": "Video 9:16",
-   "theme": "Kích thước",
+   "channel": "facebook-group",
+   "format": "Seeding",
+   "theme": "Hỏi đáp kích thước",
    "sku": "VESTRA",
-   "event": null,
-   "post": "L-1202-SV"
+   "event": null
   },
   {
    "id": "S-G-2026-12-03",
    "ch": "global",
    "date": "2026-12-03",
-   "channel": "wayfair",
-   "format": "Waymore / listing image 2:1",
-   "theme": "Marketplace refresh",
+   "channel": "pinterest",
+   "format": "Pin 2:3",
+   "theme": "Coffee station idea",
    "sku": "VESTRA",
    "event": null,
-   "post": "G-1203-WF"
+   "post": "X-1203-PIN-V01"
   },
   {
    "id": "S-L-2026-12-03",
    "ch": "local",
    "date": "2026-12-03",
-   "channel": "shopee-video",
-   "format": "Shopee Video",
-   "theme": "Chọn màu trắng/xanh",
+   "channel": "facebook-group",
+   "format": "Bài chia sẻ + ảnh",
+   "theme": "Seeding — bếp nhỏ",
    "sku": "VESTRA",
-   "event": null
+   "event": null,
+   "post": "X-1203-GR-L01"
   },
   {
    "id": "S-G-2026-12-04",
    "ch": "global",
    "date": "2026-12-04",
    "channel": "tiktok",
-   "format": "Reel 9:16 — quay thật",
-   "theme": "Unboxing satisfaction",
+   "format": "Reel 9:16 — Veo/Gemini",
+   "theme": "Powder room glow-up",
    "sku": "PARKWAY",
    "event": null,
-   "post": "G-1204-TT"
+   "post": "X-1204-TT-B06"
   },
   {
    "id": "S-L-2026-12-04",
    "ch": "local",
    "date": "2026-12-04",
    "channel": "facebook",
-   "format": "Ảnh 4:5",
-   "theme": "Góc làm việc",
+   "format": "Ảnh/Carousel",
+   "theme": "Feedback khách thật",
    "sku": "VESTRA",
-   "event": null,
-   "post": "L-1204-FB"
+   "event": null
   },
   {
    "id": "S-G-2026-12-05",
    "ch": "global",
    "date": "2026-12-05",
    "channel": "instagram",
-   "format": "Single image 4:5",
-   "theme": "Calix — fluted",
+   "format": "Single photo 4:5",
+   "theme": "Nursery",
    "sku": "VESTRA",
    "event": null,
-   "post": "B-1205-IG"
+   "post": "X-1205-IG-V03"
   },
   {
    "id": "S-L-2026-12-05",
@@ -2649,33 +3014,32 @@
    "ch": "global",
    "date": "2026-12-06",
    "channel": "instagram",
-   "format": "Single image 1:1",
-   "theme": "Plant corner",
+   "format": "Single photo 4:5",
+   "theme": "Japandi",
    "sku": "CALIX-FLOAT",
    "event": null,
-   "post": "G-1206-IG"
+   "post": "X-1206-IG-B04"
   },
   {
    "id": "S-L-2026-12-06",
    "ch": "local",
    "date": "2026-12-06",
-   "channel": "facebook",
-   "format": "Ảnh 1:1",
-   "theme": "Không cần lắp ráp",
+   "channel": "shopee-video",
+   "format": "Live/Video",
+   "theme": "12.12 — Mẹo dọn nhà",
    "sku": "VESTRA",
-   "event": null,
-   "post": "L-1206-FB"
+   "event": null
   },
   {
    "id": "S-G-2026-12-07",
    "ch": "global",
    "date": "2026-12-07",
-   "channel": "tiktok",
-   "format": "Reel 9:16 (12s)",
-   "theme": "Collection reel",
+   "channel": "instagram",
+   "format": "Single photo 4:5",
+   "theme": "Desk setup",
    "sku": "ZENA",
    "event": null,
-   "post": "B-1207-TT"
+   "post": "X-1207-IG-V04"
   },
   {
    "id": "S-L-2026-12-07",
@@ -2691,12 +3055,12 @@
    "id": "S-G-2026-12-08",
    "ch": "global",
    "date": "2026-12-08",
-   "channel": "facebook-group",
-   "format": "Text + image (value-first)",
-   "theme": "Gift guide for small-space friends",
+   "channel": "instagram",
+   "format": "Single photo 4:5",
+   "theme": "Guest bath before the holidays",
    "sku": "VESTRA",
    "event": null,
-   "post": "G-1208-FB"
+   "post": "X-1208-IG-B08"
   },
   {
    "id": "S-L-2026-12-08",
@@ -2712,12 +3076,12 @@
    "id": "S-G-2026-12-09",
    "ch": "global",
    "date": "2026-12-09",
-   "channel": "instagram",
-   "format": "Single image 4:5",
-   "theme": "Small bath — floating",
+   "channel": "pinterest",
+   "format": "Pin 2:3",
+   "theme": "Moody bathroom",
    "sku": "CALIX-FLOAT",
    "event": null,
-   "post": "B-1209-IG"
+   "post": "X-1209-PIN-B02"
   },
   {
    "id": "S-L-2026-12-09",
@@ -2733,12 +3097,12 @@
    "id": "S-G-2026-12-10",
    "ch": "global",
    "date": "2026-12-10",
-   "channel": "instagram",
-   "format": "Single image 4:5",
-   "theme": "Dimensions / fit",
+   "channel": "instagram-story",
+   "format": "Story 9:16",
+   "theme": "Gift idea",
    "sku": "VESTRA",
    "event": null,
-   "post": "G-1210-IG"
+   "post": "X-1210-ST-V02"
   },
   {
    "id": "S-L-2026-12-10",
@@ -2746,21 +3110,21 @@
    "date": "2026-12-10",
    "channel": "facebook",
    "format": "Ảnh 4:5",
-   "theme": "12.12",
+   "theme": "12.12 + Tết",
    "sku": "VESTRA",
    "event": null,
-   "post": "L-1210-FB"
+   "post": "X-1210-FB-L02"
   },
   {
    "id": "S-G-2026-12-11",
    "ch": "global",
    "date": "2026-12-11",
    "channel": "wayfair",
-   "format": "Waymore / listing image 2:1",
-   "theme": "Marketplace refresh — vanities",
+   "format": "Listing / Waymore images",
+   "theme": "Marketplace refresh — photoreal",
    "sku": "ZENA",
    "event": null,
-   "post": "B-1211-WF"
+   "post": "X-1211-WF"
   },
   {
    "id": "S-L-2026-12-11",
@@ -2776,23 +3140,22 @@
    "id": "S-G-2026-12-12",
    "ch": "global",
    "date": "2026-12-12",
-   "channel": "tiktok",
-   "format": "Reel 9:16 — Gemini/Veo",
-   "theme": "Cozy morning coffee bar",
+   "channel": "pinterest",
+   "format": "Pins x2",
+   "theme": "Plant cart",
    "sku": "VESTRA",
-   "event": null,
-   "post": "G-1212-TT"
+   "event": null
   },
   {
    "id": "S-L-2026-12-12",
    "ch": "local",
    "date": "2026-12-12",
-   "channel": "tiktok",
-   "format": "Video 9:16",
-   "theme": "12.12 — trước/sau",
+   "channel": "facebook-story",
+   "format": "Story 9:16",
+   "theme": "12.12",
    "sku": "VESTRA",
    "event": "12.12",
-   "post": "L-1212-TT"
+   "post": "X-1212-ST-L02"
   },
   {
    "id": "S-G-2026-12-13",
@@ -2818,12 +3181,12 @@
    "id": "S-G-2026-12-14",
    "ch": "global",
    "date": "2026-12-14",
-   "channel": "instagram",
-   "format": "Single image 4:5",
-   "theme": "Classic shaker",
+   "channel": "reddit",
+   "format": "Text (value-first)",
+   "theme": "Remodel tip",
    "sku": "CALIX",
    "event": null,
-   "post": "B-1214-IG"
+   "post": "X-1214-RD"
   },
   {
    "id": "S-L-2026-12-14",
@@ -2839,12 +3202,11 @@
    "id": "S-G-2026-12-15",
    "ch": "global",
    "date": "2026-12-15",
-   "channel": "instagram",
-   "format": "Single image 4:5",
-   "theme": "Every room",
+   "channel": "pinterest",
+   "format": "Pins x3 (2:3)",
+   "theme": "Styling 3 ways",
    "sku": "VESTRA",
-   "event": null,
-   "post": "G-1215-IG"
+   "event": null
   },
   {
    "id": "S-L-2026-12-15",
@@ -2861,11 +3223,10 @@
    "ch": "global",
    "date": "2026-12-16",
    "channel": "tiktok",
-   "format": "Reel 9:16 — Gemini/Veo",
-   "theme": "Powder room glow-up",
+   "format": "Reel 9:16",
+   "theme": "Size & fit guide · Parkway",
    "sku": "PARKWAY",
-   "event": null,
-   "post": "B-1216-TT"
+   "event": null
   },
   {
    "id": "S-L-2026-12-16",
@@ -2901,12 +3262,11 @@
    "id": "S-G-2026-12-18",
    "ch": "global",
    "date": "2026-12-18",
-   "channel": "instagram-story",
-   "format": "Story 9:16",
-   "theme": "Last-minute gift",
+   "channel": "instagram",
+   "format": "Carousel",
+   "theme": "Christmas — Material close-up · Calix",
    "sku": "CALIX",
-   "event": null,
-   "post": "G-1218-ST"
+   "event": null
   },
   {
    "id": "S-L-2026-12-18",
@@ -2952,12 +3312,11 @@
    "id": "S-L-2026-12-20",
    "ch": "local",
    "date": "2026-12-20",
-   "channel": "facebook",
-   "format": "Ảnh 4:5",
-   "theme": "Tết",
+   "channel": "shopee-video",
+   "format": "Live/Video",
+   "theme": "Giáng sinh — Mẹo dọn nhà",
    "sku": "VESTRA",
-   "event": null,
-   "post": "L-1220-FB"
+   "event": null
   },
   {
    "id": "S-G-2026-12-21",
@@ -3103,12 +3462,11 @@
    "id": "S-G-2026-12-28",
    "ch": "global",
    "date": "2026-12-28",
-   "channel": "instagram-story",
-   "format": "Story 9:16",
-   "theme": "New year bathroom",
+   "channel": "instagram",
+   "format": "Single image / carousel",
+   "theme": "New Year — Get Organized Month — Spa bathroom at home · Parkway",
    "sku": "PARKWAY",
-   "event": null,
-   "post": "B-1228-ST"
+   "event": null
   },
   {
    "id": "S-L-2026-12-28",

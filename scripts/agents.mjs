@@ -48,7 +48,7 @@ function pickMedia(ch, format, sku) {
   const asp = /2:3|pin/i.test(format) ? '2:3' : /2:1|waymore/i.test(format) ? '2:1' : null;
   const pool = hub.media.filter(m => m.ch === ch && (ch === 'local' || m.sku === sku || (sku !== 'VESTRA' && m.sku === 'VANITY') || (sku === 'VANITY' && m.sku !== 'VESTRA')) && m.kind === want && (!asp || m.aspect === asp) && !/carousel-[2-5]/.test(m.path))
     .concat((state.uploads || []).filter(x => x.ch === ch && x.kind === want).map(x => ({ path: x.path })))
-    .map(m => ({ ...m, n: u[m.path] || 0 })).sort((a, b) => a.n - b.n);
+    .filter(m => !m.raw).map(m => ({ ...m, n: (u[m.path] || 0) + (/^v1/.test(m.source || '') ? 2 : 0) })).sort((a, b) => a.n - b.n);
   return pool.length && pool[0].n < 3 ? pool[0].path : null;
 }
 const recent = ch => hub.posts.filter(p => p.ch === ch).slice(-25).map(p => `- ${p.hook}`).join('\n');
