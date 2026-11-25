@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-25T02:30:22Z",
+  "updated": "2026-11-25T02:36:01Z",
   "version": 1,
   "horizon": "2027-12-31",
   "note": "Nội dung đợt 1 do Claude tạo (vai Strategist, Copywriter, Visual, Director). Từ đợt sau: agent tự chạy bằng GitHub Actions + Gemini API free tier."
@@ -219,16 +219,16 @@
    "poster": "media/v/R01-which-bathroom-are-you-poster.jpg"
   },
   {
-   "id": "VEO-V01-vestra-coffee",
-   "path": "media/gen/VEO-V01-vestra-coffee.mp4",
+   "id": "R04-vestra-coffee-veo",
+   "path": "media/v/R04-vestra-coffee-veo.mp4",
    "kind": "video",
    "aspect": "9:16",
-   "title": "Reel photoreal · ../gen/VEO-V01-vestra-coffee",
+   "title": "Reel photoreal · R04-vestra-coffee-veo",
    "ch": "global",
    "sku": "VESTRA",
    "source": "Gemini + Claude edit",
    "created": "2026-11-25",
-   "poster": null
+   "poster": "media/v/R04-vestra-coffee-veo-poster.jpg"
   },
   {
    "id": "X-V04-story",
@@ -236,6 +236,17 @@
    "kind": "image",
    "aspect": "9:16",
    "title": "Photoreal · X-V04 · story",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-V04-square",
+   "path": "media/x/X-V04-square.jpg",
+   "kind": "image",
+   "aspect": "1:1",
+   "title": "Photoreal · X-V04 · square",
    "ch": "global",
    "sku": "VESTRA",
    "source": "Gemini (Pro) + Claude editorial",
@@ -275,6 +286,17 @@
    "created": "2026-11-25"
   },
   {
+   "id": "X-V03-square",
+   "path": "media/x/X-V03-square.jpg",
+   "kind": "image",
+   "aspect": "1:1",
+   "title": "Photoreal · X-V03 · square",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
    "id": "X-V03-pin",
    "path": "media/x/X-V03-pin.jpg",
    "kind": "image",
@@ -302,6 +324,17 @@
    "kind": "image",
    "aspect": "9:16",
    "title": "Photoreal · X-V02 · story",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-V02-square",
+   "path": "media/x/X-V02-square.jpg",
+   "kind": "image",
+   "aspect": "1:1",
+   "title": "Photoreal · X-V02 · square",
    "ch": "global",
    "sku": "VESTRA",
    "source": "Gemini (Pro) + Claude editorial",
@@ -341,6 +374,17 @@
    "created": "2026-11-25"
   },
   {
+   "id": "X-V01-square",
+   "path": "media/x/X-V01-square.jpg",
+   "kind": "image",
+   "aspect": "1:1",
+   "title": "Photoreal · X-V01 · square",
+   "ch": "global",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
    "id": "X-V01-pin",
    "path": "media/x/X-V01-pin.jpg",
    "kind": "image",
@@ -374,6 +418,17 @@
    "created": "2026-11-25"
   },
   {
+   "id": "X-L04-square",
+   "path": "media/x/X-L04-square.jpg",
+   "kind": "image",
+   "aspect": "1:1",
+   "title": "Photoreal · X-L04 · square",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
    "id": "X-L04-feed",
    "path": "media/x/X-L04-feed.jpg",
    "kind": "image",
@@ -390,6 +445,17 @@
    "kind": "image",
    "aspect": "9:16",
    "title": "Photoreal · X-L03 · story",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-L03-square",
+   "path": "media/x/X-L03-square.jpg",
+   "kind": "image",
+   "aspect": "1:1",
+   "title": "Photoreal · X-L03 · square",
    "ch": "local",
    "sku": "VESTRA",
    "source": "Gemini (Pro) + Claude editorial",
@@ -418,6 +484,17 @@
    "created": "2026-11-25"
   },
   {
+   "id": "X-L02-square",
+   "path": "media/x/X-L02-square.jpg",
+   "kind": "image",
+   "aspect": "1:1",
+   "title": "Photoreal · X-L02 · square",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
    "id": "X-L02-feed",
    "path": "media/x/X-L02-feed.jpg",
    "kind": "image",
@@ -440,6 +517,17 @@
    "created": "2026-11-25"
   },
   {
+   "id": "X-L01-square",
+   "path": "media/x/X-L01-square.jpg",
+   "kind": "image",
+   "aspect": "1:1",
+   "title": "Photoreal · X-L01 · square",
+   "ch": "local",
+   "sku": "VESTRA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
    "id": "X-L01-feed",
    "path": "media/x/X-L01-feed.jpg",
    "kind": "image",
@@ -456,6 +544,17 @@
    "kind": "image",
    "aspect": "9:16",
    "title": "Photoreal · X-B08 · story",
+   "ch": "global",
+   "sku": "PARKWAY",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B08-square",
+   "path": "media/x/X-B08-square.jpg",
+   "kind": "image",
+   "aspect": "1:1",
+   "title": "Photoreal · X-B08 · square",
    "ch": "global",
    "sku": "PARKWAY",
    "source": "Gemini (Pro) + Claude editorial",
@@ -495,6 +594,17 @@
    "created": "2026-11-25"
   },
   {
+   "id": "X-B07-square",
+   "path": "media/x/X-B07-square.jpg",
+   "kind": "image",
+   "aspect": "1:1",
+   "title": "Photoreal · X-B07 · square",
+   "ch": "global",
+   "sku": "CALIX-FLOAT",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
    "id": "X-B07-pin",
    "path": "media/x/X-B07-pin.jpg",
    "kind": "image",
@@ -522,6 +632,17 @@
    "kind": "image",
    "aspect": "9:16",
    "title": "Photoreal · X-B06 · story",
+   "ch": "global",
+   "sku": "CALIX-FLOAT",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B06-square",
+   "path": "media/x/X-B06-square.jpg",
+   "kind": "image",
+   "aspect": "1:1",
+   "title": "Photoreal · X-B06 · square",
    "ch": "global",
    "sku": "CALIX-FLOAT",
    "source": "Gemini (Pro) + Claude editorial",
@@ -561,6 +682,17 @@
    "created": "2026-11-25"
   },
   {
+   "id": "X-B05-square",
+   "path": "media/x/X-B05-square.jpg",
+   "kind": "image",
+   "aspect": "1:1",
+   "title": "Photoreal · X-B05 · square",
+   "ch": "global",
+   "sku": "CALIX",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
    "id": "X-B05-pin",
    "path": "media/x/X-B05-pin.jpg",
    "kind": "image",
@@ -588,6 +720,17 @@
    "kind": "image",
    "aspect": "9:16",
    "title": "Photoreal · X-B04 · story",
+   "ch": "global",
+   "sku": "CALIX",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B04-square",
+   "path": "media/x/X-B04-square.jpg",
+   "kind": "image",
+   "aspect": "1:1",
+   "title": "Photoreal · X-B04 · square",
    "ch": "global",
    "sku": "CALIX",
    "source": "Gemini (Pro) + Claude editorial",
@@ -627,6 +770,17 @@
    "created": "2026-11-25"
   },
   {
+   "id": "X-B02-square",
+   "path": "media/x/X-B02-square.jpg",
+   "kind": "image",
+   "aspect": "1:1",
+   "title": "Photoreal · X-B02 · square",
+   "ch": "global",
+   "sku": "ZENA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
    "id": "X-B02-pin",
    "path": "media/x/X-B02-pin.jpg",
    "kind": "image",
@@ -654,6 +808,17 @@
    "kind": "image",
    "aspect": "9:16",
    "title": "Photoreal · X-B01 · story",
+   "ch": "global",
+   "sku": "ZENA",
+   "source": "Gemini (Pro) + Claude editorial",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "X-B01-square",
+   "path": "media/x/X-B01-square.jpg",
+   "kind": "image",
+   "aspect": "1:1",
+   "title": "Photoreal · X-B01 · square",
    "ch": "global",
    "sku": "ZENA",
    "source": "Gemini (Pro) + Claude editorial",
@@ -1940,7 +2105,7 @@
    "format": "Video 9:16 (10s, Veo)",
    "theme": "ASMR coffee morning",
    "media": [
-    "media/gen/VEO-V01-vestra-coffee.mp4"
+    "media/v/R04-vestra-coffee-veo.mp4"
    ],
    "hook": "The 6:45am coffee bar that lives next to the fridge",
    "caption": "POV: your coffee bar fits in the 12-inch gap next to the fridge ☕️🤍 #coffeebar #morningroutine #smallkitchen #asmr #rollingcart",
