@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-26T05:10:08Z",
+  "updated": "2026-11-27T05:02:22Z",
   "version": 1,
   "horizon": "2027-12-31",
   "note": "Nội dung đợt 1 do Claude tạo (vai Strategist, Copywriter, Visual, Director). Từ đợt sau: agent tự chạy bằng GitHub Actions + Gemini API free tier.",
@@ -17,7 +17,7 @@
    ],
    "at": "2026-11-26"
   },
-  "lastRun": "2026-11-26 · 1 bài mới · gemini-3.8-flash"
+  "lastRun": "2026-11-27 · 0 bài mới · gemini-3.8-flash"
  },
  "products": {
   "global_": {
