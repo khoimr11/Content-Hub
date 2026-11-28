@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-27T05:02:22Z",
+  "updated": "2026-11-28T04:45:43Z",
   "version": 1,
   "horizon": "2027-12-31",
   "note": "Nội dung đợt 1 do Claude tạo (vai Strategist, Copywriter, Visual, Director). Từ đợt sau: agent tự chạy bằng GitHub Actions + Gemini API free tier.",
@@ -17,7 +17,7 @@
    ],
    "at": "2026-11-26"
   },
-  "lastRun": "2026-11-27 · 0 bài mới · gemini-3.8-flash"
+  "lastRun": "2026-11-28 · 1 bài mới · gemini-3.8-flash"
  },
  "products": {
   "global_": {
@@ -3686,6 +3686,49 @@
    "created": "2026-11-26",
    "link": "https://shopee.vn/product/1930028500/57268678004/",
    "link_label": "Xe đẩy 3 tầng · Shopee"
+  },
+  {
+   "id": "L-1211-FAhp",
+   "ch": "local",
+   "date": "2026-12-11",
+   "channel": "facebook",
+   "also": [
+    "instagram",
+    "tiktok"
+   ],
+   "format": "Ảnh/Carousel",
+   "theme": "12.12 — Góc làm việc",
+   "sku": "VESTRA",
+   "media": [
+    "media/x/X-L01-square.jpg"
+   ],
+   "hook": "Mặt bàn nhỏ tí mà đồ công nghệ với sổ sách thì nhiều, đây là cách mình \"cơi nới\" góc làm việc đón 12.12!",
+   "caption": "Mặt bàn nhỏ tí mà đồ công nghệ với sổ sách thì nhiều, đây là cách mình \"cơi nới\" góc làm việc đón 12.12!\n\nBàn làm việc hẹp kê thêm chiếc laptop với màn hình phụ là gần như kín chỗ, để cốc nước cũng sợ đổ mà sổ sách thì chẳng biết nhét đâu. Thay vì đổi một chiếc bàn lớn tốn diện tích, giải pháp gọn gàng nhất chính là tạo một \"ngăn phụ di động\" ngay cạnh bàn.\n\nChiếc xe đẩy 3 tầng khung gỗ của Living Furniture vừa vặn hoàn hảo cho góc setup nhỏ:\n- Kích thước 43 × 30 × 81 cm với chiều cao ngang tầm tay với, ngồi làm việc với tay lấy đồ cực tiện.\n- 3 tầng khay MDF chống trầy tha hồ chia khu vực: tầng trên để sổ tay, ly nước; tầng giữa đựng củ cáp sạc, tai nghe; tầng dưới xếp tài liệu và sách đọc dở (chịu lực ~5 kg/tầng).\n- Khung gỗ tự nhiên vững chãi, có hai tone màu Trắng gỗ và Xanh rêu tinh tế, đặt vào góc nào cũng sáng bừng không gian.\n- Bánh xe xoay 360 độ êm ái, kèm 2 bánh khoá cố định giúp xe đứng yên cạnh bàn không lo trôi xê dịch.\n- Điểm ưng ý nhất: xe được giao đến đã lắp sẵn 100%, bóc hộp là dùng ngay lập tức, không tốn chút sức lực vặn ốc hay loay hoay lắp ráp.\n\nDịp 12.12 này, tự thưởng cho bản thân một góc làm việc ngăn nắp để tăng năng suất và cảm hứng mỗi ngày nhé!\n\n🛒 Mua tại Shopee: https://shopee.vn/product/1930028500/57268678004/",
+   "hashtags": "#LivingFurniture #XeDay3Tang #GocLamViec #DeskSetup #NhaDep #Shopee1212 #DecorPhongNho #NoiThatToiGian",
+   "alt": "Xe đẩy 3 tầng khung gỗ Living Furniture màu trắng gỗ đặt cạnh bàn làm việc nhỏ gọn gàng",
+   "cta": "Ghé gian hàng Shopee của Living Furniture để sắm ngay chiếc xe đẩy lắp sẵn cho góc làm việc nhé!",
+   "brief": "Định dạng Carousel 4 ảnh tập trung vào công năng Desk Setup mở rộng mùa sale 12.12:\n- Ảnh 1 (Ảnh bìa): Toàn cảnh góc làm việc tối giản trong phòng nhỏ. Chiếc xe đẩy 3 tầng (bản Trắng gỗ) đặt sát mép bàn làm việc, tầng trên đựng sổ da, bút và ly nước, tạo cảm giác mở rộng diện tích mặt bàn. Text trên ảnh: 'Bàn nhỏ vẫn gọn: Mở rộng góc làm việc 12.12'.\n- Ảnh 2: Cận cảnh tầng 1 và tầng 2 của xe. Khay gỗ MDF chống trầy xước để tai nghe over-ear, hộp phụ kiện công nghệ, sổ tay ghi chú. Nhấn mạnh chất liệu gỗ tự nhiên ấm cúng.\n- Ảnh 3: Cận cảnh bánh xe xoay 360 độ và chi tiết gạt khoá an toàn giữ xe đứng vững sát bàn làm việc. Text trên ảnh: 'Bánh xe có khoá, đứng vững cạnh bàn'.\n- Ảnh 4: Ảnh xe đẩy được nhấc ra khỏi thùng carton nguyên khối, minh hoạ rõ ưu điểm 'Giao tới lắp sẵn 100% - Không cần vặn ốc'.",
+   "variants": {
+    "instagram": "Mặt bàn chật chội chỉ vừa đặt laptop? Thử mở rộng góc desk setup ngay bên cạnh!\n\nXe đẩy 3 tầng khung gỗ tự nhiên giúp phân loại tài liệu, đồ công nghệ gọn ghẽ.\nChiều cao 81 cm vừa tầm với, có bánh xe khoá cố định cạnh mép bàn.\nNhận hàng nguyên chiếc lắp sẵn 100%, bóc hộp là dùng liền tay.\n\nGhé Shopee của Living Furniture nâng cấp góc làm việc mùa 12.12 này nhé!\n\n#LivingFurniture #GocLamViec #DeskSetup #XeDay3Tang #DecorPhongLamViec #Shopee1212 #NoiThatGo #HomeOfficeVN",
+    "tiktok": "Mở rộng góc làm việc siêu hẹp mùa 12.12 với xe đẩy 3 tầng Living Furniture, lắp sẵn 100% cực tiện! #LivingFurniture #GocLamViec #DeskSetup #Shopee1212"
+   },
+   "status": "review",
+   "review": {
+    "by": "director",
+    "score": 84,
+    "notes": "Strong hook and relatable pain point for urban Vietnamese remote workers and desk setup enthusiasts. Clear product positioning (height alignment, pre-assembled convenience, aesthetic fit). However, for a 12.12 mega-campaign, the conversion push is soft: there is no specific promo mechanic, flash voucher, or limited-quantity urgency tied to the 12.12 event (or clarify the discount offer referenced in the compliance check without violating marketplace advertising rules). Add clear Shopee voucher mechanics/pricing tier to drive immediate checkouts on December 12.",
+    "verdict": "revise"
+   },
+   "guardian": {
+    "pass_": false,
+    "issues": [
+     "mentions a % discount"
+    ]
+   },
+   "by": "Gemini gemini-3.8-flash (agents)",
+   "created": "2026-11-28",
+   "link": "https://shopee.vn/product/1930028500/57268678004/",
+   "link_label": "Xe đẩy 3 tầng · Shopee"
   }
  ],
  "studio": [
@@ -4694,7 +4737,8 @@
    "format": "Ảnh/Carousel",
    "theme": "12.12 — Góc làm việc",
    "sku": "VESTRA",
-   "event": null
+   "event": null,
+   "post": "L-1211-FAhp"
   },
   {
    "id": "S-G-2026-12-12",
